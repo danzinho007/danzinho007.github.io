@@ -1,24 +1,57 @@
+<!-- A maioria das tags tem < abertura e fechamento /> -->
 <!DOCTYPE html>
+    <!--Diz pro navegador que o Documento está no formato HMTL-->
 <html lang="pt-br">
+     <!-- pt-br ta dizendo pro navegador que é português do Brasil -->
 
 <head>
+    <!--E o cabeçalho do documento, é o visual do site-->
     <meta charset="UTF-8">
+    <!--Diz pro Site que ele permite o Conjunto de Caracteres UTF-8 ( Acentuação e Cecidilha ç )-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Indica ao Navegador IE que deve usar a versão mais recente-->
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <!--Vai ocupar 150% ( 0.5) da Tela do PC-->
+    <!--Se fosse 1.0 seria 100% -->
+    <!--Se fosse 1.5 seria 50%-->
     <title>Meu site</title>
+    <!--O que irá aparecer na Aba do Navegador-->
     <style>
-        body{background-color: rgb(169, 228, 178)
+    /* É o design do site */
+        body{
+    /* Alterações no Corpo do site */
+            background-color: rgb(169, 228, 178)
+            /*Está definindo a cor de fundo do site pra rgb(169, 228, 178) */
+            /*A cor pode ser escrita normalmente ( yellow, green, etc ), hexadecimal ( Ex : #a1d3ef ou a1 é a parte vermelha, d3 parte verde e ef parte azul), rgb(35, 137, 195) , rgba (0,0,0,0) onde o último 0 é transparência pode ser 0 até 1, hsl(M, S%, L%) = MatizSaturaçãoLuminosidade*, hsla ( M, S%, L%, A) onde A é Alpha */
+        }
+        @font-face {
+        /*Aqui eu estou declarando uma regra de fonte no arquivo CSS*/
+            font-family: 'aladdin';
+            /*Define a fonte que será usada*/
+            src: url('_fonts/aladdin.ttf');
+            /*Mostra o caminho de onde a fonte está*/
         }
         h1{
-            font-family: Arial;
-            font-size: 30;
+        /*Alterações somente no <h1> : */
+            font-family: 'aladdin';
+            /*Define a fonte do h1 como aladdin que foi especificada onde está antes */
+            /*Se eu quiser posso usar as fontes que já vem no programa */
+            /* Site que recomendo é https://www.dafont.com/pt/ */
+            font-size: 50;
+            /*Define o tamanho sendo 100 */
             color:blue;
+            /*Define a cor para Azul */
             text-shadow: 3px 3px 3px black;
+            /*Define o sombreamento */
         }
         p{
+        /*Alterações em parágrafos <p>*/
             color: black(0,0,0);
+            /*Define a cor do texto para preto*/
             text-align: justify;
-            text-indent: 20;
+            /*Alinhamento justificado = Após o 1° parágrafo o texto irá colocar no lado esquerdo*/
+            text-indent: 20px;
+            /*Define identação = O primeiro parágrafo terá 20 pixels da margem esquerda*/
         }
     </style>
 </head>
@@ -29,14 +62,16 @@
     <h2>Aqui irei postar tudo o que eu faço</h2>
     <h3>Futuramente irei colocar tudo em links</h3>
 
-    <h4>Versões : &#x1F605; </h4> 
-    0.1 Criação do site &#x1F970; : Título e subtítulo <br>
-    0.2 Alfabeto e teste de alguns códigos &#x1F913; <br>
-    0.3 Meu nome em 59 idiomas &#x1F914; e adicionei a fonte como normal 20 Arial <br>
-    0.4 Símbolos Espciais de Planetas , Zodíaco e subtítulo.<br>Avisando que futuramente vai mudar, preciso ver como que da espaço, ta anotado em algum lugar kkkkk <br>
-    0.5 Coloquei pro título : família da fonte, tamanho, cor e sombreamento, pra página uma cor de fundo.<br>Alguns comandos não funcionam e o site ta mto lagado <br>
-    0.6 Adicionei cor para Parágrafos, Alinhamento para Parágros e Título, Identação e Pular linha <br>Eu não sei porque a 0.1 e 0.2 estão com um espaçamento enorme se ambas estão com h3 h4 e h5 &#x1F644; <br> Eu removi o excesso de linhas tb<br>
-    0.7 Adionei Emojis &#x1F603; junto com sua categoria, removi os h que estavam fazendo com que o texto tenha um espaço enorme entre os parágrafos,<br>agora o site abre em 150% pois antes estava muito pequeno e também removi alguns p de parágrafo e adicionei mais br pra pular linha <br>
+    <h4>Histórico de Versões : &#x1F605; </h4> 
+    <strong>15/01</strong> 0.1 Criação do site &#x1F970; : Título e subtítulo <br>
+    <strong>16/01</strong>  0.2 Alfabeto e teste de alguns códigos &#x1F913; <br>
+    <strong>17/01</strong>  0.3 Meu nome em 59 idiomas &#x1F914; e adicionei a fonte como normal 20 Arial <br>
+    <strong>18/01</strong>  0.4 Símbolos Espciais de Planetas , Zodíaco e subtítulo.<br>Avisando que futuramente vai mudar, preciso ver como que da espaço, ta anotado em algum lugar kkkkk <br>
+    <strong>19/01</strong>  0.5 Coloquei pro título : família da fonte, tamanho, cor e sombreamento, pra página uma cor de fundo.<br>Alguns comandos não funcionam e o site ta mto lagado <br>
+    <strong>20/01</strong>  0.6 Adicionei cor para Parágrafos, Alinhamento para Parágros e Título, Identação e Pular linha <br>Eu não sei porque a 0.1 e 0.2 estão com um espaçamento enorme se ambas estão com h3 h4 e h5 &#x1F644; <br> Eu removi o excesso de linhas tb<br>
+    <strong>21/01</strong>  0.7 Adionei Emojis &#x1F603; junto com sua categoria, removi os h que estavam fazendo com que o texto tenha<br> um espaço enorme entre os parágrafos, agora o site abre em 150% pois antes estava muito pequeno e também<br> removi alguns p de parágrafo e adicionei mais br pra pular linha <br>
+    <strong>22/01</strong>  0.8 Adicionei comentários, basta apertar F12 e especificar todos clicando nas tags, <strong>adicionei</strong> também os dias<br> que postei as versões, lembrando que eu atualizo 1 dia antes !!! Adicionei a fonte aladdin.ttf, tive que declarar pro css<br> antes e por enquanto é isso <br>
+    <p>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </p>
     <br>
     Emojis adicionados : <br>
     -&#x1F603; Rosto sorridente com Olhos Grandes <br>
