@@ -14,6 +14,14 @@
     <!--Vai ocupar 150% ( 0.5) da Tela do PC-->
     <!--Se fosse 1.0 seria 100% -->
     <!--Se fosse 1.5 seria 50%-->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     <title>Meu site</title>
     <!--O que irá aparecer na Aba do Navegador-->
     <style>
@@ -26,6 +34,10 @@
         }
         @font-face {
         /*Aqui eu estou declarando uma regra de fonte no arquivo CSS*/
+
+            @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+            font-family:'Aladin', cursive;
+
             font-family: 'aladdin';
             /*Define a fonte que será usada*/
             src: url('_fonts/aladdin.ttf');
@@ -61,6 +73,7 @@
     <h1 align="center">Meu site &#x1F604;</h1>
     <h2>Aqui irei postar tudo o que eu faço</h2>
     <h3>Futuramente irei colocar tudo em links</h3>
+    <br>
 
     <h4>Histórico de Versões : &#x1F605; </h4> 
     <strong>15/01</strong> 0.1 Criação do site &#x1F970; : Título e subtítulo <br>
@@ -71,9 +84,11 @@
     <strong>20/01</strong>  0.6 Adicionei cor para Parágrafos, Alinhamento para Parágros e Título, Identação e Pular linha <br>Eu não sei porque a 0.1 e 0.2 estão com um espaçamento enorme se ambas estão com h3 h4 e h5 &#x1F644; <br> Eu removi o excesso de linhas tb<br>
     <strong>21/01</strong>  0.7 Adionei Emojis &#x1F603; junto com sua categoria, removi os h que estavam fazendo com que o texto tenha<br> um espaço enorme entre os parágrafos, agora o site abre em 150% pois antes estava muito pequeno e também<br> removi alguns p de parágrafo e adicionei mais br pra pular linha <br>
     <strong>22/01</strong>  0.8 Adicionei comentários, basta apertar F12 e especificar todos clicando nas tags, <strong>adicionei</strong> também os dias<br> que postei as versões, lembrando que eu atualizo 1 dia antes !!! Adicionei a fonte aladdin.ttf, tive que declarar pro css<br> antes e por enquanto é isso <br>
+    <strong>23/01</strong> 0.9 A fonte que coloquei não estava funcionando, então quem quiser terá que baixar ela e por na pasta C>Windows>Fonts <li><a href="https://www.dafont.com/pt/aladdin.font">Fonte do Aladdin</a></li>Coloquei os links na parte de cima do site, <strong>Removi</strong> a tabela lá de baixo e coloquei encima
+
     <p>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </p>
     <br>
-    Emojis adicionados : <br>
+    <strong>Emojis adicionados</strong> : <br>
     -&#x1F603; Rosto sorridente com Olhos Grandes <br>
     -&#x1F604; Rosto sorridente com Olhos Sorridentes <br>
     -&#x1F605; Suor Feliz <br>
@@ -81,16 +96,64 @@
     -&#x1F913; Rosto Nerd <br>
     -&#x1F914; Rosto Pensante <br>
     -&#x1F970; Rosto Apaixonado <br>
-    -
+    <br>
 
+    <table>
+        <tr>
+            <th>Alfabeto</th>
+            <th>Planetas</th>
+            <th>Daniel Idiomas</th>
+        </tr>
+        <tr>
+            <td>A = </td>
+            <td>Sol &#9737</td>
+            <td>Row 1, Column 3</td>
+        </tr>
+        <tr>
+            <td>B = </td>
+            <td>Mercúrio &#9791</td>
+            <td>Row 2, Column 3</td>
+        </tr>
+        <tr>
+            <td>C = </td>
+            <td>Vênus &#9792</td>
+            <td>Row 2, Column 3</td>
+        </tr>
+        <tr>
+            <td>D = </td>
+            <td>Terra &#9793</td>
+            <td>Row 2, Column 3</td>
+        </tr>
+        <tr>
+            <td>E = </td>
+            <td>Terra &#9793</td>
+            <td>Row 2, Column 3</td>
+        </tr>
+        <tr>
+            <td>F = </td>
+            <td>Terra &#9793</td>
+            <td>Row 2, Column 3</td>
+        </tr>
+        <tr>
+            <td>G = </td>
+            <td>Terra &#9793</td>
+            <td>Row 2, Column 3</td>
+        </tr>
+        <tr>
+            <td>H = </td>
+            <td>Terra &#9793</td>
+            <td>Row 2, Column 3</td>
+        </tr>
+        <tr>
+            <td>I = </td>
+            <td>Terra &#9793</td>
+            <td>Row 2, Column 3</td>
+        </tr>
+    </table>
     <br>
     <h11>Símbolos Especiais </h11>
     <p>
     Planetas : </p>
-    -Sol	    &#9737</p>
-	-Mercúrio&#9791</p>
-	-Vênus	&#9792</p>
-	Terra	&#9793</p>
 	Marte	&#9794</p>
 	Júpiter	&#9795</p>
 	Saturno	&#9796</p>
@@ -98,151 +161,167 @@
     Netuno	&#9798</p>
     Plutão	&#9799</p>
 
-    Zodíaco: </p>
-    Áries	&#9800</p>
-    Touro	&#9801</p>
-    Gêmeos	&#9802</p>
-	Câncer	&#9803</p>
-	Leão	&#9804</p>
-	Virgem	&#9805</p>
-	Libra	&#9806</p>
-	Escorpião	&#9807</p>
-	Sagitário	&#9808</p>
-	Capricórnio	&#9809</p>
-    Aquário	&#9811</p>
-	Peixes	&#9810</p>
+    <p>Zodíaco: </p>
+    <p>Áries	&#9800</p>
+    <p>Touro	&#9801</p>
+    <p>Gêmeos	&#9802</p>
+	<p>Câncer	&#9803</p>
+	<p>Leão	&#9804</p>
+	<p>Virgem	&#9805</p>
+	<p>Libra	&#9806</p>
+	<p>Escorpião	&#9807</p>
+	<p>Sagitário	&#9808</p>
+	<p>Capricórnio	&#9809</p>
+    <p>Aquário	&#9811</p>
+	<p>Peixes	&#9810</p>
+    <h1 align="center"><strong>Meu nome em vários idiomas</strong></h1>
 
-    <h9>Meu nome em vários idiomas</h9>
-
-    <p>1-Américo : ዳንኤል dani’ēli
-    <p>-Árabe : دانيالdanial
-    <p>-Armênio : Դանիել Daniyel
-    <p>-Bengali : ড্যানিয়েল Ḍyāniẏēla
-    <p>5-Bielorusso : Данііл Daniil
-    <p>-Birmanês : ဒံယေလ danyayl
-    <p>-Búlgaro : Даниел
+    <p>1-Américo : ዳንኤል dani’ēli</p>
+    <p>-Árabe : دانيالdanial</p>
+    <p>-Armênio : Դանիել Daniyel</p>
+    <p>-Bengali : ড্যানিয়েল Ḍyāniẏēla</p>
+    <p>5-Bielorusso : Данііл Daniil</p>
+    <p>-Birmanês : ဒံယေလ danyayl</p>
+    <p>-Búlgaro : Даниел</p>
     <p>-Canarim : ಡೇನಿಯಲ್ Ḍēniyal
-    <p>-Cazaque : Даниэль Danïél
+    <nïél>-Cazaque : Даниэль Danïél
     <p>10-Chinês ( Simples ) : 丹尼尔 Dānní'ěr
     <p>11-Chinês ( tradicional ) : 丹尼爾 Dānní'ěr
-    <p>-Cingalês : ඩැනියෙල් ḍæniyel
-    <p>-Coreano : 다니엘
-    <p>-Croata : Daniele
+    <p>-Cingalês : ඩැනියෙල් ḍæniyel</p>
+    <p>-Coreano : 다니엘</p>
+    <p>-Croata : Daniele</p>
     <p>15-Georgiano : დანიელი Danieli
     <p>-Grego : Ντάνιελ Ntániel
 -   <p>-Guzerate : ડેનિયલ Ḍēniyala
-    <p>-Haitiano : Danyèl
-    <p>-Hauçá : Daniyel
+    <p>-Haitiano : Danyèl</p>
+    <p>-Hauçá : Daniyel</p>
     <p>20-Havaiano : ʻO Daniel
-    <p>21-Hebraico : דניאל
-    <p>-Híndi : डैनियल dainiyal
-    <p>-Lídiche : דניאל dnyal
-    <p>-Iorubá : Dáníẹ́lì
+    <p>21-Hebraico : דניאל</p>
+    <p>-Híndi : डैनियल dainiyal</p>
+    <p>-Lídiche : דניאל dnyal</p>
+    <p>-Iorubá : Dáníẹ́lì</p>
     <p>25-Japonês : ダニエル Danieru
     <p>-Khmer : ដានីយ៉ែល da ni ye l
     <p>-Laosiano : ດານຽນ da nian
-    <p>-Letão : Daniels
-    <p>-Lituano : Danielius
-    <p>30-Macedônio : Даниел
-    31-Malaiala : ഡാനിയേൽ ḍāniyēl <br>
-    -Malgaxe : Daniela<br>
-    -Maori : Raniera<br>
-    -Marati : डॅनियल Ḍĕniyala<br>
-    35-Mongol : Даниел Daniyel<br>
-    -Nepalês : डानियल Ḍāniyala<br>
-    -Oriá = ଦାନିୟେଲ |<br>
-    -Panjabi = ਡੈਨੀਅਲ Ḍainī'ala<br>
-    -Pashto = دانیل<br>
-    40-Persa = دانیل<br>
-    41-Quirguiz = Даниел<br>
-    -Russo = Даниэль<br>
-    -Samoano = Tanielu<br>
-    -Sérvio = Даниел<br>
-    45-Sindi = ڊينئل<br>
-    -Somali = Daanyeel<br>
-    -Tadijique = Дониёл Donijol<br>
-    -Tailandês = แดเนียล Dæ neīy <br>
-    -Tâmil = டேனியல் Ṭēṉiyal<br>
-    50-Tártaro = Данил<br>
-    51-Techo = Danieli<br>
-    -Télugo = డేనియల్ Ḍēniyal<br>
-    -Ucraniano : Даніель<br>
-    -Uigur : دانىيال<br>
-    -Urdu : ڈینیل<br>
-    55-Uzbeque : Doniyor<br>
-    56-Xhosa : UDaniel<br>
-    57-Xona : Dhanieri<br>
-    58-Zulu : UDaniel<br>
+    <p>-Letão : Daniels</p>
+    <p>-Lituano : Danielius</p>
+    <p>30-Macedônio : Даниел</p>
+    <p>31-Malaiala : ഡാനിയേൽ ḍāniyēl <br>
+    <p>-Malgaxe : Daniela<br>
+    <p>-Maori : Raniera<br>
+    <p>57-Xona-Marati : डॅनियल Ḍĕniyala</p>
+    <p>35-Mongol : Даниел Daniyel<br>
+    <p>-Nepalês : डानियल Ḍāniyala<br>
+    <p>-Oriá = ଦାନିୟେଲ |<br>
+    <p>-Panjabi = ਡੈਨੀਅਲ Ḍainī'ala<br>
+    <p>-Pashto = دانیل<br>
+    <p>40-Persa = دانیل<br>
+    <p>41-Quirguiz = Даниел<br>
+    <p>-Russo = Даниэль<br>
+    <p>-Samoano = Tanielu<br>
+    <p>-Sérvio = Даниел<br>
+    <p>45-Sindi = ڊينئل<br>
+    <p>-Somali = Daanyeel<br>
+    <p>-Tadijique = Дониёл Donijol</p>
+    <p>-Tailandês = แดเนียล Dæ neīy</p>
+    <p>-Tâmil = டேனியல் Ṭēṉiyal</p>
+    <p>50-Tártaro = Данил</p>
+    <p>-Techo = Danieli</p>
+    <p>-Télugo = డేనియల్ Ḍēniyal</p>
+    <p>-Ucraniano : Даніель</p>
+    <p>-Uigur : دانىيال</p>
+    <p>-Urdu : ڈینیل</p>
+    <p>55-Uzbeque : Doniyor</p>
+    <p>56-Xhosa : UDaniel</p>
+    57-Xona : Dhanieri</p>
+    58-Zulu : UDaniel</p>
     59 idiomas Pq eu estava traduzindo do Português<br>
 
-    </p>
-    <h10>Alfabeto</h10>
+    <br>
+    <table>
+            <tr>
+                <th>Alfabeto</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td>A, Column 1</td>
+                <td>Row 1, Column 2</td>
+                <td>Row 1, Column 3</td>
+            </tr>
+            <tr>
+                <td>B, Column 1</td>
+                <td>Row 2, Column 2</td>
+                <td>Row 2, Column 3</td>
+            </tr>
+    </table>
+    <h1 align="center"><strong>Alfabeto</strong></h1>
     <p>01 -A - あ (01)</p>
-    <p></p>"02 -B - "
-    <p></p>03 -C -
-    <p></p>04-Chi -　ち (17)
-    <p></p>05 -D -
-    <p></p>06 -E - え (04)
-    <p></p>07 -F -
-    <p></p>08-Fu -　ふ
-    <p></p>09 -G -
-    <p></p>10 -H -
-    <p></p>11-Ha - は
-    <p></p>12-Hi - ひ
-    <p></p>13-He - へ
-    <p></p>14-Ho - ほ
-    <p></p>15-09 -I - い (02)
-    <p></p>16-10 -J -
-    <p></p>17-11 -K -
+    <p>"02 -B - "</p>
+    <p>03 -C -</p>
+    <p>04-Chi -　ち (17)
+    <p>05 -D -</p>
+    <p>06 -E - え (04)
+    <p>07 -F -</p>
+    <p>08-Fu -　ふ</p>
+    <p>09 -G -</p>
+    <p>10 -H -</p>
+    <p>11-Ha - は</p>
+    <p>12-Hi - ひ</p>
+    <p>13-He - へ</p>
+    <p>14-Ho - ほ</p>
+    <p>15-09 -I - い (02)
+    <p>16-10 -J -</p>
+    <p></p>17-11 -K -</p>
     <p></p>18-Ka -　か (06)
     <p></p>19-Ki - き (07)
     <p></p>20-Ku - く (08)
-    21-Ke - け (09)
-    22-KO - こ (10)
-    23--12 -L -
-    24--13 -M -
-    25-Ma -　ま
-    26-Mi - み
-    27-Mu - む
-    <p></p>28-Me - め
-    29-Mo - も
-    30-14 -N -
-    31-Na -　な
-    32-Ni - に
-    33-Nu - ぬ
-    34-Ne - ね
-    <p></p> 35-No - の
-    36-15 -O - お (05)
-    37-16 -P -
-    38-17 -Q -
-    39-18 -R -
-    40-Ra - ら
-    41-Ri - り
-    42-Ru - る
-    43-Re - れ
-    44-Ro -　ろ
-    45-19 -S -
-    46-Sa - さ (11)
-    47-Shi - し (12)
-    48-Su - す (13)
-    49-Se - せ (14)
+    <p></p>21-Ke - け (09)
+    <p></p>22-KO - こ (10)
+    <p></p>23--12 -L -</p>
+    <p>24--13 -M -</p>
+    <p>25-Ma -　ま</p>
+    <p>26-Mi - み</p>
+    <p>27-Mu - む</p>
+    <p>28-Me - め</p>
+    <p>29-Mo - も</p>
+    <p>30-N -</p>
+    <p>31-Na - な</p>
+    <p>32-Ni - に</p>
+    <p>33-Nu - ぬ</p>
+    <p>34-Ne - ね</p>
+    <p>35-No - の</p>
+    <p>36-15 -O - お (05)
+    <p>37-16 -P -</p>
+    <p>38-17 -Q -</p>
+    <p>39-18 -R -</p>
+    <p></p>40-Ra - ら</p>
+    <p></p>41-Ri - り</p>
+    <p></p>42-Ru - る</p>
+    <p></p>43-Re - れ</p>
+    <p></p>44-Ro -　ろ</p>
+    <p></p>45-19 -S -</p>
+    <p></p>46-Sa - さ (11)
+    <p></p>47-Shi - し (12)
+    48-Su - す (13)</p>
+    49-Se - せ (14)</p>
     <p></p>50-So -　そ (15)
-    51-20 -T -
+    51-20 -T -</p>
     52-Ta - た (16)
     53-Tsu - つ (18)
     54-Te - て (19)
     55-To -　と (20)
     56-21 -U - う (03)
-    57-22 -V -
-    58-23 -W -
-    59-Wa - わ
-    60-Wo -　を
-    61-24 -X -
-    62-25 -Y -
+    57-22 -V -</p>
+    58-23 -W -</p>
+    59-Wa - わ</p>
+    60-Wo -　を</p>
+    61-24 -X -</p>
+    62-25 -Y -</p>
     <p></p> 63-Ya - や
-    64-Yu - ゆ
-    65-Yo -　よ
-    66-26 -Z -
+    64-Yu - ゆ</p>
+    65-Yo -　よ</p>
+    66-26 -Z -</p>
     <p>Linha 1</p>
     <p>Linha 2</p>
     <p>Linha 3</p>
@@ -251,16 +330,6 @@
         <li>Item 2</li>
         <li>Item 3</li>
     
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
     <section>
         <img src="image.jpg" alt="image description">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, velit vel pretium bibendum, libero nibh
@@ -274,27 +343,8 @@
             <input type="password" id="password" name="password"><br>
             <input type="submit" value="Submit">
         </form>
-        <table>
-            <tr>
-                <th>Header 1</th>
-                <th>Header 2</th>
-                <th>Header 3</th>
-            </tr>
-            <tr>
-                <td>Row 1, Column 1</td>
-                <td>Row 1, Column 2</td>
-                <td>Row 1, Column 3</td>
-            </tr>
-            <tr>
-                <td>Row 2, Column 1</td>
-                <td>Row 2, Column 2</td>
-                <td>Row 2, Column 3</td>
-            </tr>
-        </table>
     </section>
-    <footer>
-        <p>Copyright ©2022</p>
-    </footer>
+    
 
     <p>Linha 101.258</p>
     <div id="options">
@@ -308,6 +358,9 @@
         <br>
         <a href="#option5">Opção 5</a>
     </div>
+    <footer>
+        <p>Copyright ©2022</p>
+    </footer>
 </body>
 
 </html>
