@@ -1,0 +1,38 @@
+@charset "UTF-8" ;
+/*Isso é pra pegar acentuação e cabeçalho*/
+
+body{
+/* Alterações no Corpo do site */
+    background-color: rgb(169, 228, 178)
+    /*Está definindo a cor de fundo do site pra rgb(169, 228, 178) */
+    /*A cor pode ser escrita normalmente ( yellow, green, etc ), hexadecimal ( Ex : #a1d3ef ou a1 é a parte vermelha, d3 parte verde e ef parte azul), rgb(35, 137, 195) , rgba (0,0,0,0) onde o último 0 é transparência pode ser 0 até 1, hsl(M, S%, L%) = MatizSaturaçãoLuminosidade*, hsla ( M, S%, L%, A) onde A é Alpha */
+}
+@font-face {
+    /*Aqui eu estou declarando uma regra de fonte no arquivo CSS */
+    font-family: 'aladdin';
+        /*Define a fonte que será usada */
+    src: url("_fonts/aladdin.ttf");
+        /* Mostra o caminho de onde a fonte está */
+} 
+h1{
+    /*Alterações somente no <h1> : */
+    font-family: 'aladdin';
+    /*Define a fonte do h1 como aladdin que foi especificada onde está antes */
+     /*Se eu quiser posso usar as fontes que já vem no programa */
+    /* Site que recomendo é https://www.dafont.com/pt/ */
+    font-size: 50;
+    /*Define o tamanho sendo 100 */
+    color:blue;
+    /*Define a cor para Azul */
+    text-shadow: 3px 3px 3px black;
+    /*Define o sombreamento */
+}
+p{
+/*Alterações em parágrafos <p>*/
+    color: black(0,0,0);
+    /*Define a cor do texto para preto*/
+    text-align: justify;
+    /*Alinhamento justificado = Após o 1° parágrafo o texto irá colocar no lado esquerdo*/
+    text-indent: 20px;
+    /*Define identação = O primeiro parágrafo terá 20 pixels da margem esquerda*/
+}
