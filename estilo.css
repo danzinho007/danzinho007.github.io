@@ -8,15 +8,6 @@ body{
     /*A cor pode ser escrita normalmente ( yellow, green, etc ), hexadecimal ( Ex : #a1d3ef ou a1 é a parte vermelha, d3 parte verde e ef parte azul), rgb(35, 137, 195) , rgba (0,0,0,0) onde o último 0 é transparência pode ser 0 até 1, hsl(M, S%, L%) = MatizSaturaçãoLuminosidade*, hsla ( M, S%, L%, A) onde A é Alpha */
 }
 
-.container-1 {
-    display: flex;
-    flex-direction: column-reverse;
-    }
-.container-2 {
-    display: flex;
-    flex-direction: column-reverse;
-    }
-
 @font-face {
     /*Aqui eu estou declarando uma regra de fonte no arquivo CSS */
     font-family: 'aladdin';
