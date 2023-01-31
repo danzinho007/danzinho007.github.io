@@ -1,5 +1,4 @@
 @charset "UTF-8" ;
-/*Isso é pra pegar acentuação e cabeçalho*/
 
 body{
     background-color: rgb(169, 228, 178)
@@ -8,12 +7,11 @@ body{
 @font-face {
     font-family: 'aladdin';
     src: url('aladdin.ttf');
-    /*Mostra o caminho de onde a fonte está */
 }
 div#interface {
     width: 500px;
     background-color: #aaaaaa;
-    margin: -230px 230px 0px 170px;
+    margin: -250px 230px 0px 170px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, -5);
     padding: 10;
 }
@@ -24,11 +22,7 @@ h1{
     text-shadow: 5px 5px 5px black;
 }
 p{
-/*Alterações em parágrafos <p>*/
     color: black(0,0,0);
-    /*Define a cor do texto para preto*/
-    text-align: justify;
-    /*Alinhamento justificado = Após o 1° parágrafo o texto irá colocar no lado esquerdo*/
+    text-align:justify;
     text-indent: 20px;
-    /*Define identação = O primeiro parágrafo terá 20 pixels da margem esquerda*/
 }

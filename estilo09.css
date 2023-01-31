@@ -6,7 +6,7 @@
 @font-face {
     font-family: 'FonteLogo';
     /*Aqui damos um nome pra fonte*/
-    src: url("../_fonts/bubblegum-sans-regular.otf");
+    src: url("bubblegum-sans-regular.otf");
     /* 2 pontos pois voltamos pra pasta principal pra localizar o arquivo da fonte */
 }
 body{
@@ -62,7 +62,7 @@ header#cabecalho {
     /* Parte de baixo : largura da borda, cor da borda, formato da borda*/ 
     height: 150px;
     /* Altura do da linha*/
-    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+    background: url("glass-logo-peq.jpg") no-repeat 0px 80px;
     /* Carregando imagem através do CSS*/
     /* Note que estamos na pasta CSS, por isso usa-se .. pra poder voltar*/
     /* Como a imagem é pequena, ele replicou colocando em tudo*/

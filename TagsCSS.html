@@ -7,13 +7,17 @@
     <title>TagsCSS</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
+<p>
     <ul>
         <li><a href="index.html" rel="prev">Voltar</a></li>
     </ul>
     <h1>Tags CSS</h1>
 
-    <p>01-<strong>background-color: rgb(169, 228, 178)</strong></p>
+    <p><strong>@charset "UTF-8" ;</strong><br>
+    Isso é pra pegar acentuação e cabeçalho<br>
+    Deve ser colado no começo do arquivo.css</p>
+
+    <p>01-<strong>background-color: rgb(169, 228, 178)</strong><br>
     Está definindo a cor de fundo do site pra rgb(169, 228, 178) <br>
     A cor pode ser <strong>escrita</strong> de várias formas :<br>
     yellow, green, etc<br> 
@@ -81,13 +85,12 @@
     </p>
 
     <p>08-<strong>h1 { }</strong><br>
-    Também podemos editar o h1 dentro do arquivo.css, pra fazer isso basta indicar ele no < head>, veja <a href="PaginaHTML.html">PáginaHTML</a> <br>
+    Também podemos editar o h1 dentro do arquivo.css, pra fazer isso basta indicar ele no < head>, veja <a href="PaginaHTML.html">PáginaHTML</a><br>
     Dentro do h1 podemos ter :<br>
     font-family: nomedafonte;<br>
     font-size: XXpx;<br>
     color:blue;<br>
     text-shadow: 5px 5px 5px black;<br>
-    /*Define o sombreamento */
 
     </p>
     <p>04-<strong>margin: Xpx Ypx Wpx Zpx;</strong><br>
@@ -99,15 +102,28 @@
     Recomendo usar o site do <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin" target="_blank">mozila</a> 
     </p>
 
+    <p>06-<strong>p{ }</strong><br>
+    Alterações em parágrafos <br>
+    Dentro de p{} pode ter : <br>
+    color: black(0,0,0);<br>
+    text-align:justify;<br>
+    text-indent: 20px;</p>
+
     <p>05-<strong>padding: XXpx YYpx WWpx ZZpx;</strong><br>
     Distância entre o conteúdo de um elemento e suas bordas<br>
     Antes as palavras grudavam na parede do site, agora não<br>
     Se todos valores forem iguais, pode por só uma vez que funciona <br>
     </p>
 
-    <p>06-<strong>src: url('nomedoarquivo.ttf');</strong></p>
+    <p>06-<strong>src: url('nomedoarquivo.ttf');</strong><br>
     O certo nem é 'nomedoarquivo.ttf', mas sim local onde está localizado a fonte + barra ( / ) nomedafonte.ttf<br>
-    Nesse caso que coloquei acima a fonte está localizada na pasta do projeto, então ficou assim<br>
+    Nesse caso que coloquei acima a fonte está localizada na pasta do projeto, então ficou assim<br></p>
+
+    <p>07-<strong>text-align:justify;</strong><br>
+    Alinhamento justificado = Após o 1° parágrafo o texto irá colocar no lado esquerdo</p>
+
+    <p>08-<strong>text-indent: 20px;</strong><br>
+    Define identação = O primeiro parágrafo terá 20 pixels da margem esquerda</p>
 
     <p>07-<strong>text-shadow: Xpx Ypx Zpx Cor;</strong><br>
     Define o sombreamento<br>
