@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TagsCSS</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="favicon.ico">
 </head>
 <p>
     <ul>
@@ -17,6 +18,17 @@
     Isso é pra pegar acentuação e cabeçalho<br>
     Deve ser colado no começo do arquivo.css</p>
 
+    <p>02-<strong>a { }</strong><br>
+    Indica a cor de todos links<br>
+    Pode colocar dentro :<br> 
+    color:<br>
+    text-decoration:</p>
+
+    <p>03-<strong>a:hover {}</strong><br>
+    Animação pra links<br>
+    Pode colocar dentro :<br>    
+    text-decoration: underline;</p>
+
     <p>01-<strong>background-color: rgb(169, 228, 178)</strong><br>
     Está definindo a cor de fundo do site pra rgb(169, 228, 178) <br>
     A cor pode ser <strong>escrita</strong> de várias formas :<br>
@@ -27,10 +39,16 @@
     hsl(M, S%, L%) = MatizSaturaçãoLuminosidade*<br>
     hsla ( M, S%, L%, A) onde A é Alpha<br>
 
+    <p>02-<strong>background-image: url("NomeDoArquivo.jpg");</strong><br>
+    Serve pra adicionar o fundo sendo o arquivo. Note que o arquivo precisa estar na mesma área do index<br>
+    Pode ser colocado em body {}
+
+    </p>
     <p>02-<strong>body{ }</strong><br>
     Alterações no Corpo do site<br>
     Dentro do body pode ter : <br>
     background-color: 
+    background-image:
     </p>
 
     <p>03-<strong>box-shadow: Xpx Ypx Wpx Zpx rgba(X, Y, W, Z);</strong><br>
@@ -38,18 +56,15 @@
     X é Elemento
     </p>
 
-    <p>04-<strong>background-color: #XXXXXX;</strong><br>
-    Cor de fundo ( são 6 números )
-    </p>
-
     <p>05-<strong>color: cor;</strong><br>
     Serve pra colorir algo<br>
     A cor pode ser escrita em :<br>
     cores em inglês :yellow, blue, red, etc<br>
-    #00ff00<br>
+    hexadecimal : #a1d3ef ( a1 é a parte vermelha, d3 parte verde e ef parte azul)<br>
     rgb(X, Y, Z)<br>
-    hsl(X, Y, Z%)<br>
-    hsla(X, Y, W%, .Z)<br>
+    rgba (0,0,0,0) : Onde o último 0 é transparência pode ser 0 até 1<br>
+    hsl(M, S%, L%) : Matriz, Saturação e Luminosidade<br>
+    hsla(M, S%, L%, .A): Matriz, Saturação, Luminosidade e Alpha <br>
     hwb(Xrad, Y%, W% / Z)<br>
     </p>
 
@@ -84,6 +99,7 @@
     Tamanho da fonte ( letra )<br>
     </p>
 
+    --- H --- 
     <p>08-<strong>h1 { }</strong><br>
     Também podemos editar o h1 dentro do arquivo.css, pra fazer isso basta indicar ele no < head>, veja <a href="PaginaHTML.html">PáginaHTML</a><br>
     Dentro do h1 podemos ter :<br>
@@ -95,6 +111,7 @@
     </p>
     <p>04-<strong>margin: Xpx Ypx Wpx Zpx;</strong><br>
     Margem : Parte externa de algo<br>
+    Parte em volta dos conteúdos<br>
     Margem de cima, direita, baixo e esquerda<br>
     Se colocar -210 em Xpx ( margem de cima ) vai ficar lá encima a margem<br>
     Quanto maior o valor em Ypx ( margem da direita ) mais ela vai encolher pra esquerda<br>
@@ -115,12 +132,23 @@
     Se todos valores forem iguais, pode por só uma vez que funciona <br>
     </p>
 
+    <p>07-<strong>position: absolute;</strong><br>
+    Absoluto = Vai ficar encima<br>
+    Exemplo : ProjetoGoogleGlass, temos a imagem do óculos encima da linha</p>
+
+    --- S --- 
     <p>06-<strong>src: url('nomedoarquivo.ttf');</strong><br>
     O certo nem é 'nomedoarquivo.ttf', mas sim local onde está localizado a fonte + barra ( / ) nomedafonte.ttf<br>
-    Nesse caso que coloquei acima a fonte está localizada na pasta do projeto, então ficou assim<br></p>
+    Nesse caso que coloquei acima a fonte está localizada na pasta do projeto, então ficou assim<br>
+    Caso o arquivo esteja acima, basta colocar .. ( 2 pontos ) pra voltar pra pasta anterior<br>
+    Exemplo: Estamos na pasta css no arquivo estilo.css, quero carregar algo que está na página fontes, eu coloco<br> : ../fontes/nomedoaquivo.extensão<br>
+    No caso de site tipo o Github, não será possível ler pasta, por isso tudo precisa estar na mesma pasta</p>
 
     <p>07-<strong>text-align:justify;</strong><br>
     Alinhamento justificado = Após o 1° parágrafo o texto irá colocar no lado esquerdo</p>
+
+    <p>08-<strong>text-decoration: underline;</strong><br>
+    Quando passar o mouse por cima vai sublinhar</p>
 
     <p>08-<strong>text-indent: 20px;</strong><br>
     Define identação = O primeiro parágrafo terá 20 pixels da margem esquerda</p>

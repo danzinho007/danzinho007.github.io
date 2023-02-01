@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+    <a href="index.html" rel="prev">Voltar</a>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="estilo.css">
+    </a>
+</head>
+
+<body>
+    <h1>Python</h1>
+    <h2>Revisão Python 3</h2>
+    <pre>
+    1-Observações
+    2-Comandos
+    3-Tipos Primitivos
+    4-Operadores Aritméticos
+    5-Ordem de Precedência
+    Observações :
+
+    Número + Número = Soma
+    String + String = Junta
+    String + número = Junta
+    String * número = StringRepetidaXvezes
+
+    <strong>Comandos</strong> :
+
+    I
+    input('Mensagem') = Esse comando vai mostrar uma mensagem que na qual o usuário precisa responder ( Ex : Pergunta )
+
+    m
+    msg = 'Mensagem' = Variável recebe Mensagem, isso guarda a mensagem na variável msg
+
+    p
+    print(msg) = Vai mostrar na tela o conteúdo da variável msg
+
+    print('Mensagem {}, mensagem' .formato(variável))
+    Vai mostrar na tela : mensagem, o conteúdo da variável nome e mensagem
+
+    print('Mensagem {:20}!' .format(variável)) ou
+    print('Mensagem {:<20}!' .format(variável)) Vai escreve Mensagem, a variável e adicionar X espaços em branco a
+    direita dela, onde X=nome - 20 print('Mensagem {:>10}!' .format(variavel))
+    Vai escreve Mensagem, a variável e adicionar X espaços em branco a esquerda dela, onde X = nome - 10
+
+    print('Mensagem {:^20}!' .format(variavel))
+    Vai centrarlizar a imagem em 20 espaços
+
+    print('Mensagem {:=^20}!' .format(variavel))
+    Vai centrarlizar a imagem em 20 espaços e em voltar vai colocar =
+
+    print('Mensagem {} e {} mensagem {}' .format(var1, var2, var3))
+    Vai formatar as variáveis e depois mostrar elas na tela
+
+    print('Mensagem {} e {:.3F} mensagem {}' .format(var1, var2, var3))
+    Vai mostrar na tela : Mensagem var1 e var2(com 3 casas a direita da vírgula) e mensagem var3
+
+    print('Mensagem {}, \n {} e \n{}' . format(var1, var2, var3), end=' ')
+    Vai mostrar a Mensagem + var1, depois vai pular linha e mostrar var2 e pular linhar e mostrar var3, porém a
+    frase de baixo vai continuar após 1 espaço de distância
+
+    print('Mensagem {} e {:.3F}' .format(var1, var2), end = ' >>> ')
+    Vai mostrar na tela : Mensagem var 1 var2 ( com 3 casas após a vírgulos ) e após isso vai colocar >>> e a frase
+    de baixo vai aparecer
+
+    print('Mensagem {0} e {1} mensagem {2}'.format(var1, var2, var3))
+    Vai formatar as variáveis e depois mostrar elas na tela
+
+    print('Mensagem ', variável) = Vai mostrar na tela uma mensagem junto com a variável
+
+    print('Mensagem', variável, 'Mensagem') = Vai mostrar na tela uma mensagem, depois o que está guardado na
+    variável e por fim vai mostrar outra mensagem
+
+    print(type(variável)) = vai mostrar na tela o tipo primitivo da variável
+
+    print('mensagem' * 20 )
+    Vai pegar o conteúdo da variável e repetir 20x
+
+    print( variável + 'Mensagem')
+    Vai pegar o conteúdo da variável e concatenar com a Mensagem
+
+    print( variável * 5 )
+    Vai pegar o conteúdo da variável e repetir 5x
+
+    print(variável.isalnum())
+    Vai mostrar na tela se o conteúdo da variável é um Número ou não, se for é True, senão é False
+    Ex: 0, danzinho,
+
+    print(variável.isalpha())
+    Vai mostrar na tela se o conteúdo da variável é AlfaBético ou não, se for é True, senão é False
+    Ex: Daniel, danzinho,
+
+    print(variável.isnum())
+    Vai mostrar na tela se o conteúdo da variável é AlfaNumérico ou não, se for é True, senão é False
+    Alfanumérico é quando retornar True em alguns desses : isalpha(), isdecimal(), isdigit ou isnumeric()
+    Ex: danzinho, danzinho007,
+
+    print(variável.isupper())
+    Vai mostrar na tela se o conteúdo da variável está em Maiúsculas ou não, se for é True, senão é False
+
+    print(variável.isascii())
+    Vai mostrar na tela se o conteúdo da variável está no Formato ASCII ou não, se for é True, senão é False
+    Ex: Números, danzinho, danzinho007, danzinho 007,
+
+    print(variável.isspace())
+    Vai mostrar na tela se o conteúdo da variável só tem espaços ou não, se for é True, senão é False
+    Ex :
+
+    print(variável.isdecimal())
+    Vai mostrar na tela se o conteúdo da variável é Decimal ou não, se for é True, senão é False
+    Ex: 0,
+
+    print(variável.isprintable())
+    Vai mostrar na tela se o conteúdo da variável é Imprimível ounão, se for é True, senão é False
+    Ex: Números, danzinho, danzinh007,
+
+    print(variável.isidentifier())
+    Vai mostrar na tela se o conteúdo da variável éIdentificadorVálido ou não, se for é True, senão é False
+    Ex: Daniel 007, danzinho, danzinho007,
+
+    print(variável.isdigit())
+    Vai mostrar na tela se o conteúdo da variável é Digíto ou não, se for é True, senão é False
+    Ex: 0, danzinho 007,
+
+    print(variável.islower())
+    Vai mostrar na tela se o conteúdo da variável está em minúsculas ou não, se for é True, senão é False
+    Ex: danzinho, danzinho007, danzinho 007,
+
+    print(variável.istitle())
+    Vai mostrar na tela se o conteúdo da variável está capitalizada ou não, se for é True, senão é False
+
+    v
+    Variável = input('Mensagem')
+    Esse comando vai mostrar uma mensagem que na qual o usuário precisa responder(Ex : Pergunta) e guardar ela na
+    variável
+
+    variável = bool(input('Mensagem'))
+    Esse comando vai mostrar uma mensagem que na qual o usuário precisa responder (Ex : Pergunta), vai guardar na
+    variável e depois converter pra boleano(True ou False)
+
+    variável = float(input('Mensagem'))
+    Esse comando vai mostrar uma mensagem que na qual o usuário precisa responder (Ex : Pergunta), vai guardar na
+    variável e depois converter pra float(número real)
+
+    Variável = int(input(('Mensagem')) = Esse comando vai mostrar uma mensagem que na qual o usuário precisa
+    responder (Ex : Pergunta), vai guardar na variável e depois converter pra int (número inteiro)
+
+    variável = str(input('Mensagem'))
+    Esse comando vai mostrar uma mensagem que na qual o usuário precisa responder (Ex : Pergunta), vai guardar na
+    variável e depois converter pra string(palavra)
+
+    <strong>3-Tipos Primitivos :</strong>
+
+        Int = Números Inteiros ( -4,0,9,etc)
+        Float / Número Flutuante = Números Reais (-3.5, 5.75,etc)
+        Bool = Boela (True ou False)
+        Str = String('Olá', '7', '7.0',etc)
+
+    <strong>4-Operadores Aritméticos :</strong>
+
+        Ex : 5 e 2
+        5 |2
+        1 |2.5
+        10|
+        0|
+
+        Dividendo 5
+        Divisor 2
+        Quociente 2
+        Resto 1
+
+        Adição : + > 5 + 2 == 7
+        Subtração : - > 5 -2 == 5
+        Multiplicação : * > 5 * 2 = 10
+        Divisão : / > 5 / 2 == 2.5
+        Potência : ** > 5 ** 2 = 25
+        Divisão Inteira : // > 5 // 2 = 2
+        Resto da Divisão : % > 5 % 2 = 1
+
+    <strong>5-Ordem de Precedência :</strong>
+
+        1-Parênteses : ()
+        2-Potência : **
+        Quando se usa a função interna "pow(x,y)", onde y é a potência, se perde a ordem de Procedência
+        Pra calcular a raiz de um número basta dividir ele por 1/2
+        Exemplo : 81**(1/2) = Raiz de 81 = V 81
+        Resultado : 9
+        27**(1/3) = Raiz Cúbica de 7
+        3
+        3-O que vier primeiro !!!
+        Multiplicação : *
+        Divisão : /
+        Divisão Inteira : //
+        Resto da Divisão : %
+        4-O que vier primeiro !!!
+        Adição : +
+        Subtração : -
+
+    <strong>6-Funções matemáticas :</strong>
+
+        from math import *função*
+
+        ceil = OK
+        fabs = OK
+        frexp = OK
+        acos = erro
+        acosh = Retorna o inverso da hiperbólica cosseno x
+        asin = erro
+        asinh = Retorna o inverso da hiberbólica seno x
+        atan = Retorna o Arco Tangente ( em radiano ) de x
+        atan2 = Erro
+        atanh = Erro
+        cbrt = Retorna o Cubo Root de x
+        comb = Erro
+        copysign = Erro
+        cos = Retorna o Cosseno de x
+        </pre>
+</body>
+
+</html>

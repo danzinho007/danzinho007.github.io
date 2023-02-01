@@ -5,9 +5,7 @@
 
 @font-face {
     font-family: 'FonteLogo';
-    /*Aqui damos um nome pra fonte*/
     src: url("bubblegum-sans-regular.otf");
-    /* 2 pontos pois voltamos pra pasta principal pra localizar o arquivo da fonte */
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -15,23 +13,13 @@ body{
     color: rgba(0, 0, 0, 1);
 }
 /* Comentário em CSS */
-/*background-color encima está definindo o fundo do site pra verde claro*/
-/*background-image: url("NomeDoArquivo.jpg"); = serve pra adicionar o fundo sendo o arquivo. Note que o arquivo precisa estar na mesma área do index*/
-/*color está defindo a cor da letra pra vermelhor */
-/*A cor pode ser escrita normalmente ( yellow, green, etc ), hexadecimal ( Ex : #a1d3ef ou a1 é a parte vermelha, d3 parte verde e ef parte azul), rgb(35, 137, 195) , rgba (0,0,0,0) onde o último 0 é transparência pode ser 0 até 1, hsl(M, S%, L%) = MatizSaturaçãoLuminosidade*, hsla ( M, S%, L%, A) onde A é Alpha */
 
 div#interface {
     width: 900px;
-    /*Largura da div*/
     background-color: #ffffff;
     margin: -20px auto 0px auto;
-    /*Parte externa da div : Cima Direita Baixo Esquerda*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
-    /*Sombreamento da div*/
     padding: 10px 10px 10px 10px;
-    /*Parte em volta dos conteúdos da div*/
-    /*Antes as palavras grudavam na parede do site, agora não*/
-    /*Se todos valores forem iguais pode por só 1x que o navegador irá entender*/
 }
 
 p{
@@ -47,12 +35,10 @@ a {
 
 a:hover {
     text-decoration: underline;
-    /* Quando passar o mouse por cima vai sublinhar */
 }
 
 header#cabecalho img#icone {
     position: absolute;
-    /* Absoluto pois vai ficar encima*/
     left: 780px;
     top: 70px;
 }
@@ -276,10 +262,10 @@ aside#lateral h1 {
 }
 
 aside#lateral h2 {
-   /* background-color: #802a2a; */
+    /*background-color: #802a2a;*/
     font-size: 13pt;
     color: #493838;
-    padding: 5px */
+    padding: 5px;
 }
 
 footer#rodape {

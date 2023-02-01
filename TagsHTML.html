@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <title>Tags HTML</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="favicon.ico">
 </head>
 
 <body>
@@ -17,9 +18,11 @@
         <p>Por exemplo : < strong>, se eu juntar o <, não irá aparecer o código, por isso estou notificando antes</p>
         <p>obs² = Mensagem / Texto = A pessoa pode escrever qualquer coisa </p><br>
     <p>
-        1¹ <strong>< a href="UrldoSite">Mensagem< /></strong><br>
+        1¹ <strong>< a href="UrldoSite rel="prev">Mensagem< /></strong><br>
         Serve pra abrir um link externo<br>
-        a = Âncora , href = referência 
+        a = Âncora , href = referência<br>
+        rel="prev" = Indica que você está voltando pra página anterior do site<br>
+        rel="next" = Indica que você está indo pra outra página do site<br>
     </p>
 
     <p>
@@ -88,7 +91,13 @@
     </p>
 
     <p>
+        15-<strong>< link rel="alternate" href="atom.xml" type="application/atom+xml" title="Atom"></strong><br>
+        Ainda não sei<br>
+    </p>
+
+    <p>
         14¹ <strong>< link rel="shortcut icon" href="favicon.ico"></strong><br>
+        Escrever "link" depois escolhe "favicon"<br>
         Aqui ele está referindo a shortcut icon ( Icone de Atalho ) chamando arquivo favicon.ico<br>
         Eu estou dizendo pro Navegador usar o arquivo favicon.ico que está na pasta
     </p>
