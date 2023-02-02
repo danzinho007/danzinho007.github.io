@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySQL</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="estilo55.css">
+</head>
+<body>
+    <ol>
+        <li><a href="Algoritmo.html" rel="next">Algoritmo</a></li>
+        <li><a href="Atalhos.html" rel="next">Atalhos</a></li>
+        <li><a href="Curiosidades.html" rel="next">Curiosidades</a></li>
+        <li><a href="Dicas.html">Dicas</a></li>
+        <li><a href="Historico.html" rel="next">Histórico</a></li>
+        <li><a href="MySQL.html">MySQL</a></li>
+        <li><a href="NomeIdiomas.html" rel="next">NomeIdiomas</a></li>
+        <li><a href="PaginaHTML.html" rel="next">PáginaHTML</a></li>
+        <li><a href="ProjetoAlfa.html" rel="next">ProjetoAlfa</a></li>
+        <li><a href="ProjetoGoogleGlass.html">ProjetoGoogleGlass</a></li>
+        <li><a href="Python.html" rel="next">Python</a></li>
+        <li><a href="TagsCSS.html"rel="next">TagsCSS</a></li>
+        <li><a href="TagsHTML.html" rel="next">TagsHTML</a></li>
+        <li><a href="Xadrez.html" rel="next">Xadrez</a></li>
+    </ol>
+    <div id="interface">
+    <h1>MySQL</h1>
+    <h3>OBS¹ : Ignore os espaçamentos que tem</h3>
+    <p>
+    <strong>
+        alter table pessoas<br>
+        add column codigo int first;<br>
+    </strong>
+    Adiciona a coluna codigo sendo a primeira da tabela pessoas
+    </p>
+    <p>
+    <strong>
+        alter table pessoas<br>
+        add column profissao varchar(10);<br>
+    </strong>
+    Adiciona a coluna profissão na última linha da tabela pessoas
+    </p>
+    <p>
+    <strong>
+        alter table pessoas<br>
+        add column profissao varchar(10) after nome;<br>
+    </strong>
+    Adiciona a coluna profissão depois da coluna nome na tabela pessoas 
+    </p>
+    <p>
+    <strong>
+        alter table pessoas<br>
+        change column profissao prof varchar(20) not null default '';;<br>
+    </strong>
+    Renomear a coluna profissao pra prof na tabela pessoas
+    </p>
+    <p>
+    <strong>
+        alter table pessoas<br>
+        drop column profissao;<br>
+    </strong>
+    Elimina a coluna profissão da tabela pessoas
+    </p>
+    <p>
+    <strong>
+        alter table pessoas<br>
+        modify column profissao varchar(20) not null default '';<br>
+    </strong>
+    Redifinir o tipo primitivo / constraints<br>
+    Ao invés de ser not null agora será default
+    </p>
+</div>
+</body>
+</html>
