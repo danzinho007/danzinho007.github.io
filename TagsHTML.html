@@ -28,6 +28,7 @@
         <li><a href="TagsHTML.html" rel="next">TagsHTML</a></li>
         <li><a href="Xadrez.html" rel="next">Xadrez</a></li>
 	</ul>
+    <div id="interface">
     <h1>Tags HTML</h1>
         <p>obs¹ = Isso são tags que precisam estar juntas</p>
         <p>Por exemplo : < strong>, se eu juntar o <, não irá aparecer o código, por isso estou notificando antes</p>
@@ -51,9 +52,35 @@
     </p>
 
     <p>
-        4¹ <strong>< br></strong><br>
-        Serve pra pular linha e continuar na margem esquerda
+        4¹ <strong>< article id="noticia-principal"></strong><br>
+        Artigo de notícia<br>
+        Uma mesma section pode ter vários Artigos<br>
     </p>
+
+    <p>
+        5¹ <strong>< aside>< /aside></strong><br>
+        Conteúdo Lateral do site
+    </p>
+
+    ---<strong> Letra B </strong>---
+
+    <p>
+        4¹ <strong>< br></strong><br>
+        Serve pra pular linha e continuar na margem esquerda<br>
+    </p>
+
+    --------<strong> Letra C </strong>--------
+
+    <p>
+        5¹ <strong>< caption>< /caption></strong><br>
+        Especifica a legenda / título de uma tabela<br>
+    </p>
+
+    <p>
+        6¹ <strong>< class>< /class></strong><br> Identifica vários objetos
+    </p>
+
+    ---<strong> Letra D </strong>---
 
     <p>
         5¹ <strong>< div id="Nome"> < /div></strong><br>
@@ -66,9 +93,16 @@
     </p>
 
     <p>
+        5¹ <strong>< footer id="rodape">< /footer></strong><br>
+        É o rodapé ( parte de baixo ) da página
+    </p>
+
+    <p>
         6¹ <strong>< form action="submit-form.php" method="post"></strong><br>
         Ainda não estudei isso
     </p>
+
+    --------<strong> Letra H </strong>--------
 
     <p>
         7¹ <strong>< h1>< /h1></strong><br>
@@ -81,24 +115,45 @@
     </p>
 
     <p>
-        < img src="html5.png" alt="Logo de HTML5"><br>
+        10² <strong>< id></strong> <br>
+        id é um tipo de elemento<br>
+    </p>
+
+    <p>
+        11¹ <strong>< img src="html5.png" alt="Logo de HTML5"></strong><br>
         Adiciona imagem que ta na mesma pasta, caso esteja em outro basta digitar /nomedapasta/nomedoarquivo<br> 
         ou caso esteja antes colocar ../nomedapasta/nomedoarquivo<br>
         Em alt fica uma explicação da imagem
     </p>
+
+    <p>
+        12¹ <strong>< input type="number" name="txtn1" id="txtn1"></strong><br>
+        Vai pedir pro usuário digitar ou selecionar um número numa caixa<br>
+        <input type="number" name="txtn1" id="txtn1"><br>
+
+    </p>
+
     <p>
         9¹ <strong>< input type="text" id="Nome" name="Nome"></strong><br>
-        Pedindo pro usuário digitar um texto
+        Pedindo pro usuário digitar um texto numa caixa<br>
+        <input type="text" id="Nome" name="Nome">
     </p> 
 
     <p>
         10¹ <strong>< input type="submit" value="Submit"></strong><br>
-        Pedindo pro usuário clicar na caixa criada
+        Pedindo pro usuário clicar na caixa criada pra enviar os dados que foi submetido antes<br>
+        <input type="submit" value="Submit"><br>
     </p>
 
+    ---<strong> Letra L </strong>---
+   
     <p>
         11¹ <strong>< label for="Usuário">Usuário:</></strong><br>
-        Criando uma caixa ( label ) com nome de Usuário com título Usuário
+        Criando uma caixa ( label ) com nome de Usuário com título Usuário<br>
+        Tudo que for digitado na caixa será guardado na variável Usuário<br>
+        Exemplo : A caixa mais o input tipo text<br>
+        <label for="Usuário">Usuário : </label><input type="text" id="Nome" name="Nome">
+
     </p>
 
     <p>
@@ -107,8 +162,9 @@
         Por ser um item da lista, antes a pessoa precisa ter colocado < ol>< /ol> ou < ul> < /ul><br>
     </p>
     <p>
-        13¹ <strong>1¹ < li>< a href="ProjetoAlfa.html">ProjetoAlfa< />< /></strong><br>
-        href : Está dizendo pro navegador onde está o html especificado, por padrão coloquei o nome do link sendo o nome do Título
+        13¹ <strong> < li>< a href="ProjetoAlfa.html">ProjetoAlfa< /a>< /li></strong><br>
+        href : Está dizendo pro navegador onde está o html especificado, por padrão coloquei o nome do link sendo o nome do Título<br>
+        Se a pessoa quiser basta criar o arquivo html assim e depois clicar no link pra ele ser aberto<br> e criado automaticamente
     </p>
 
     <p>
@@ -130,6 +186,8 @@
         Usar no < head></ head> ( Ver <a href="PaginaHTML.html">PáginaHTML</a> ) embaixo de < title>Meu site< /title>
     </p>
 
+    -----<strong> Letra P </strong>-----
+
     <p>
         16¹ <strong>< p>Texto< /p></strong><br>
         Faz do Texto um Parágrafo
@@ -142,14 +200,72 @@
     </p>
 
     <p>
+        18¹ <strong><tr>< td rowspan="2" class="ce">Conectividade< /td>
+        </strong><br>
+        Rowspan diz pra tabela que ela tem 2 linhas<br>
+        Colspan diz pra tabela que ela tem 2 colunas
+    </p>
+
+    ---<strong> Letra S </strong>---
+
+    <p>
+        16¹ <strong>< section id="corpo"></strong><br>
+        Section é Sessão / Área Principal
+    </p>
+
+    <p> 17¹ <strong>< span>< /span></strong><br>
+        Conteiner genérico para palavras<br>
+    </p>
+
+    <p>
+        17¹ <strong>< table id="tabelaspec">< /table></strong><br>
+        Cria uma tabela
+    </p>
+
+    <p>
         18¹ <strong>< strong> Palavra < /strong></strong><br>
         Isso serve pra deixar a Palavra em Negrito--
     </p>
 
+    --- <strong>Letra T</strong> ---
+
+    <p>
+        <strong>< td>< /td> </strong><br>
+        Célula da tabela<br>
+        <strong>< tr>< /tr></strong><br>
+        Linha da tabela<br>
+    </p>
+
+    Exemplo :<br>
+    Obs: 1 é bem no canto esquerdo<br>
+         2 é no meio<br>
+         3 é bem pra direita<br>
+    1-< table><br>
+        2-< tr><br>
+            3-< td>Linha 1, Coluna 1< /td><br>
+            3-< td>Linha 1, Coluna 2< /td><br>
+        2-< /tr><br>
+        2-< tr><br>
+            3-< td>Linha 2, Coluna 1< /td><br>
+            3-< td>Linha 2, Coluna 2< /td><br>
+        2-< /tr><br>
+    1-< /table><br>
+
+    ----- <strong>Letra U</strong> -----
+
     <p>
         19¹ <strong>< ul> < /ul></strong><br>
-        Comando pra lista não ordenada, ou seja não segue uma sequência
-        Como não especifiquei por padrão fica uma bolinha com fundo preto
+        Comando pra lista não ordenada, ou seja não segue uma sequência<br>
+        Como não especifiquei por padrão fica uma bolinha com fundo preto<br>
+        Deve ser usado depois < li>< /li><br>
+        Exemplo :<br>
+        Obs: 1 é bem no canto esquerdo<br>
+         2 é no meio<br>
+         3 é bem pra direita<br>
+        1-< ul><br>
+            2-< li>A< /li><br>
+            2-< li>B< /li><br>
+        1-< /ul><br>
     </p>
     
     <p>
@@ -160,5 +276,12 @@
         circle = bolinha com fundo branco<br>
         square = quadrado com fundo preto<br>
     </p>
+
+    <p>
+        21¹ <strong>< wbr/></strong><br>
+        Esse comando serve pra quebrar a palavra quando a janela for redimensionada<br>
+        Exemplo : Super-humano, pode quebrar depois do super
+    </p>
+    </div>
 </body>
 </html>
