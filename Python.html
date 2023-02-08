@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Python</title>
-    <a href="index.html" rel="prev">Voltar</a>
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo13.css">
     </a>
 </head>
 
@@ -35,6 +34,7 @@
         <li><a href="TagsJavaScript.html">TagsJavaScript</a></li>
         <li><a href="Xadrez.html" rel="next">Xadrez</a></li>
     </ol>
+    <div id="interface">
     <h1>Python</h1>
     <h2>Revisão Python 3</h2>
     <pre>
@@ -53,21 +53,21 @@
     <strong>Comandos</strong> :
 
     I
-    input('Mensagem') = Esse comando vai mostrar uma mensagem que na qual o usuário precisa responder ( Ex : Pergunta )
+    input('Mensagem') = Esse comando vai mostrar uma mensagem que na<br> qual o usuário precisa responder ( Ex : Pergunta )
 
     m
-    msg = 'Mensagem' = Variável recebe Mensagem, isso guarda a mensagem na variável msg
+    msg = 'Mensagem' = Variável recebe Mensagem, isso guarda a<br> mensagem na variável msg
 
     p
     print(msg) = Vai mostrar na tela o conteúdo da variável msg
 
     print('Mensagem {}, mensagem' .formato(variável))
-    Vai mostrar na tela : mensagem, o conteúdo da variável nome e mensagem
+    Vai mostrar na tela : mensagem, o conteúdo da variável nome e<br> mensagem
 
     print('Mensagem {:20}!' .format(variável)) ou
-    print('Mensagem {:<20}!' .format(variável)) Vai escreve Mensagem, a variável e adicionar X espaços em branco a
-    direita dela, onde X=nome - 20 print('Mensagem {:>10}!' .format(variavel))
-    Vai escreve Mensagem, a variável e adicionar X espaços em branco a esquerda dela, onde X = nome - 10
+    print('Mensagem {:<20}!' .format(variável)) Vai escreve Mensagem,<br> a variável e adicionar X espaços em branco a
+    direita dela, onde X=nome - 20 print('Mensagem {:>10}!' .format<br>(variavel))
+    Vai escreve Mensagem, a variável e adicionar X espaços em branco<br> a esquerda dela, onde X = nome - 10
 
     print('Mensagem {:^20}!' .format(variavel))
     Vai centrarlizar a imagem em 20 espaços
@@ -78,26 +78,26 @@
     print('Mensagem {} e {} mensagem {}' .format(var1, var2, var3))
     Vai formatar as variáveis e depois mostrar elas na tela
 
-    print('Mensagem {} e {:.3F} mensagem {}' .format(var1, var2, var3))
-    Vai mostrar na tela : Mensagem var1 e var2(com 3 casas a direita da vírgula) e mensagem var3
+    print('Mensagem {} e {:.3F} mensagem {}' .format(var1, var2, <br>var3))
+    Vai mostrar na tela : Mensagem var1 e var2(com 3 casas a direita<br> da vírgula) e mensagem var3
 
-    print('Mensagem {}, \n {} e \n{}' . format(var1, var2, var3), end=' ')
-    Vai mostrar a Mensagem + var1, depois vai pular linha e mostrar var2 e pular linhar e mostrar var3, porém a
+    print('Mensagem {}, \n {} e \n{}' . format(var1, var2, var3), <br>end=' ')
+    Vai mostrar a Mensagem + var1, depois vai pular linha e mostrar<br> var2 e pular linhar e mostrar var3, porém a
     frase de baixo vai continuar após 1 espaço de distância
 
     print('Mensagem {} e {:.3F}' .format(var1, var2), end = ' >>> ')
-    Vai mostrar na tela : Mensagem var 1 var2 ( com 3 casas após a vírgulos ) e após isso vai colocar >>> e a frase
+    Vai mostrar na tela : Mensagem var 1 var2 ( com 3 casas após a<br> vírgula ) e após isso vai colocar >>> e a frase
     de baixo vai aparecer
 
     print('Mensagem {0} e {1} mensagem {2}'.format(var1, var2, var3))
     Vai formatar as variáveis e depois mostrar elas na tela
 
-    print('Mensagem ', variável) = Vai mostrar na tela uma mensagem junto com a variável
+    print('Mensagem ', variável) = Vai mostrar na tela uma mensagem<br> junto com a variável
 
-    print('Mensagem', variável, 'Mensagem') = Vai mostrar na tela uma mensagem, depois o que está guardado na
+    print('Mensagem', variável, 'Mensagem') = Vai mostrar na tela<br> uma mensagem, depois o que está guardado na
     variável e por fim vai mostrar outra mensagem
 
-    print(type(variável)) = vai mostrar na tela o tipo primitivo da variável
+    print(type(variável)) = vai mostrar na tela o tipo primitivo da<br> variável
 
     print('mensagem' * 20 )
     Vai pegar o conteúdo da variável e repetir 20x
@@ -109,70 +109,70 @@
     Vai pegar o conteúdo da variável e repetir 5x
 
     print(variável.isalnum())
-    Vai mostrar na tela se o conteúdo da variável é um Número ou não, se for é True, senão é False
+    Vai mostrar na tela se o conteúdo da variável é um Número ou não,<br> se for é True, senão é False
     Ex: 0, danzinho,
 
     print(variável.isalpha())
-    Vai mostrar na tela se o conteúdo da variável é AlfaBético ou não, se for é True, senão é False
+    Vai mostrar na tela se o conteúdo da variável é AlfaBético ou<br> não, se for é True, senão é False
     Ex: Daniel, danzinho,
 
     print(variável.isnum())
-    Vai mostrar na tela se o conteúdo da variável é AlfaNumérico ou não, se for é True, senão é False
-    Alfanumérico é quando retornar True em alguns desses : isalpha(), isdecimal(), isdigit ou isnumeric()
+    Vai mostrar na tela se o conteúdo da variável é AlfaNumérico ou<br> não, se for é True, senão é False
+    Alfanumérico é quando retornar True em alguns desses : isalpha(),<br> isdecimal(), isdigit ou isnumeric()
     Ex: danzinho, danzinho007,
 
     print(variável.isupper())
-    Vai mostrar na tela se o conteúdo da variável está em Maiúsculas ou não, se for é True, senão é False
+    Vai mostrar na tela se o conteúdo da variável está em Maiúsculas<br> ou não, se for é True, senão é False
 
     print(variável.isascii())
-    Vai mostrar na tela se o conteúdo da variável está no Formato ASCII ou não, se for é True, senão é False
+    Vai mostrar na tela se o conteúdo da variável está no Formato<br> ASCII ou não, se for é True, senão é False
     Ex: Números, danzinho, danzinho007, danzinho 007,
 
     print(variável.isspace())
-    Vai mostrar na tela se o conteúdo da variável só tem espaços ou não, se for é True, senão é False
+    Vai mostrar na tela se o conteúdo da variável só tem espaços ou<br> não, se for é True, senão é False
     Ex :
 
     print(variável.isdecimal())
-    Vai mostrar na tela se o conteúdo da variável é Decimal ou não, se for é True, senão é False
+    Vai mostrar na tela se o conteúdo da variável é Decimal ou<br> não, se for é True, senão é False
     Ex: 0,
 
     print(variável.isprintable())
-    Vai mostrar na tela se o conteúdo da variável é Imprimível ounão, se for é True, senão é False
+    Vai mostrar na tela se o conteúdo da variável é Imprimível ou<br> não, se for é True, senão é False
     Ex: Números, danzinho, danzinh007,
 
     print(variável.isidentifier())
-    Vai mostrar na tela se o conteúdo da variável éIdentificadorVálido ou não, se for é True, senão é False
+    Vai mostrar na tela se o conteúdo da variável é Identificador<br> Válido ou não, se for é True, senão é False
     Ex: Daniel 007, danzinho, danzinho007,
 
     print(variável.isdigit())
-    Vai mostrar na tela se o conteúdo da variável é Digíto ou não, se for é True, senão é False
+    Vai mostrar na tela se o conteúdo da variável é Digíto ou não,<br> se for é True, senão é False
     Ex: 0, danzinho 007,
 
     print(variável.islower())
-    Vai mostrar na tela se o conteúdo da variável está em minúsculas ou não, se for é True, senão é False
+    Vai mostrar na tela se o conteúdo da variável está em minúsculas<br> ou não, se for é True, senão é False
     Ex: danzinho, danzinho007, danzinho 007,
 
     print(variável.istitle())
-    Vai mostrar na tela se o conteúdo da variável está capitalizada ou não, se for é True, senão é False
+    Vai mostrar na tela se o conteúdo da variável está capitalizada<br> ou não, se for é True, senão é False
 
     v
     Variável = input('Mensagem')
-    Esse comando vai mostrar uma mensagem que na qual o usuário precisa responder(Ex : Pergunta) e guardar ela na
+    Esse comando vai mostrar uma mensagem que na qual o usuário<br> precisa responder(Ex : Pergunta) e guardar ela na
     variável
 
     variável = bool(input('Mensagem'))
-    Esse comando vai mostrar uma mensagem que na qual o usuário precisa responder (Ex : Pergunta), vai guardar na
+    Esse comando vai mostrar uma mensagem que na qual o usuário<br> precisa responder (Ex : Pergunta), vai guardar na
     variável e depois converter pra boleano(True ou False)
 
     variável = float(input('Mensagem'))
-    Esse comando vai mostrar uma mensagem que na qual o usuário precisa responder (Ex : Pergunta), vai guardar na
+    Esse comando vai mostrar uma mensagem que na qual o usuário<br> precisa responder (Ex : Pergunta), vai guardar na
     variável e depois converter pra float(número real)
 
-    Variável = int(input(('Mensagem')) = Esse comando vai mostrar uma mensagem que na qual o usuário precisa
-    responder (Ex : Pergunta), vai guardar na variável e depois converter pra int (número inteiro)
+    Variável = int(input(('Mensagem')) = Esse comando vai mostrar<br> uma mensagem que na qual o usuário precisa
+    responder (Ex : Pergunta), vai guardar na variável e depois<br> converter pra int (número inteiro)
 
     variável = str(input('Mensagem'))
-    Esse comando vai mostrar uma mensagem que na qual o usuário precisa responder (Ex : Pergunta), vai guardar na
+    Esse comando vai mostrar uma mensagem que na qual o usuário<br> precisa responder (Ex : Pergunta), vai guardar na
     variável e depois converter pra string(palavra)
 
     <strong>3-Tipos Primitivos :</strong>
@@ -181,6 +181,56 @@
         Float / Número Flutuante = Números Reais (-3.5, 5.75,etc)
         Bool = Boela (True ou False)
         Str = String('Olá', '7', '7.0',etc)
+
+    <strong>Testando outros tipos :</strong>
+
+        n7 = input('Digite algo para verificação : ')
+        # Digitando 0 para o número
+
+        print('O tipo primitivo do valor ', n7 , 'é', type(n7))
+
+        <strong>print('O número é um número ?', n7.isnumeric())</strong>
+        # 0 é número ? Sim, logo True
+        # Retorna True se todos os caracteres da string forem<br> numéricos e houver pelo menos um caractere . Os caracteres<br> numéricos incluem caracteres de dígitos e todos os caracteres que<br> possuem a propriedade de valor numérico Unicode, por exemplo, <br>U+2155, FRAÇÃO VULGAR UM QUINTO. 
+
+        <strong>print('O número é alfabético ?', n7.isalpha())</strong>
+        # 0 é letra ? Não, logo False
+        # Retorna True se todos os caracteres da string forem<br> alfabéticos e houver pelo menos um caractere. Os caracteres<br> alfabéticos são aqueles definidos no banco de dados de caracteres<br> Unicode como “Letter”
+
+        <strong>print('O número é um alfanumérico ?',n7.isalnum())</strong>
+        # 0 é número ? Sim, logo True
+        # Um caractere é alfa numérico se um dos seguintes retornar<br> True: 
+        # c.isalpha(), c.isdecimal(), c.isdigit() ou c.isnumeric()
+
+        <strong>print('Está em letra maiúscula ?', n7.isupper())</strong>
+        #Retorne True se todos os caracteres 4 em maiúsculas na<br> string forem maiúsculos e houver pelo menos um caractere em maiúsculas
+
+        <strong>print('O conteúdo', n7, 'tem formato ASCII ?', n7.isascii())</strong>
+        # Retorna True se a string estiver vazia ou todos os<br> caracteres na string forem ASCII, Falsecaso contrário. Os caracteres<br> ASCII têm pontos de código no intervalo U+0000-U+007F.
+
+        <strong>print('O conteúdo', n7, 'tem espaço em branco na string e um<br> caractere ?', n7.isspace())</strong>
+        # Retorna True se houver apenas caracteres de espaço em<br> branco na string e houver pelo menos um caractere
+
+        <strong>print('O conteúdo0', n7, 'é decimal ?', n7.isdecimal())</strong>
+        # Retorna True se todos os caracteres da string forem<br> decimais e houver pelo menos um caractere.
+
+        <strong>print('O conteúdo0', n7, 'é imprimível ?', n7.isprintable())</strong>
+        # Retorna True se todos os caracteres na string são<br> imprimíveis ou a string está vazia .
+
+        <strong>print('O conteúdo0', n7, 'é um identificado válido ?', <br>n7.isidentifier())</strong>
+        # Retorna True se a string for um identificador válido de<br> acordo com a definição da linguagem, seção Identificadores e<br> palavras-chave .
+
+        <strong>print('O conteúdo0', n7, 'é um dígito ?', <br>n7.isdigit())</strong>
+        # Retorna True se todos os caracteres da string forem<br> dígitos e houver pelo menos um caractere
+
+        <strong>print('O conteúdo0', n7, 'apresenta 4 caracteres em maiúscula<br> e 1 em minúscula ?', n7.islower())</strong>
+        # Retorna True se todos os caracteres 4 em maiúsculas na<br> string forem minúsculos e houver pelo menos um caractere em<br> maiúsculas
+
+        <strong>print('O conteúdo0', n7, 'é uma string com título em<br> maiúscula e tem pelos menos 1 caractere ?', n7.istitle())</strong>
+        # Retorne True se a string for uma string com título em<br> maiúsculas e houver pelo menos um caractere, por exemplo, caracteres<br> maiúsculos só podem seguir caracteres não maiúsculos e caracteres<br> minúsculos somente os maiúsculos. 
+        
+    # ver aqui 
+    # https://docs.python.org/3/library/stdtypes.html#string-methods
 
     <strong>4-Operadores Aritméticos :</strong>
 
@@ -207,7 +257,7 @@
 
         1-Parênteses : ()
         2-Potência : **
-        Quando se usa a função interna "pow(x,y)", onde y é a potência, se perde a ordem de Procedência
+        Quando se usa a função interna "pow(x,y)", onde y é a<br> potência, se perde a ordem de Procedência
         Pra calcular a raiz de um número basta dividir ele por 1/2
         Exemplo : 81**(1/2) = Raiz de 81 = V 81
         Resultado : 9
@@ -240,7 +290,11 @@
         comb = Erro
         copysign = Erro
         cos = Retorna o Cosseno de x
+
+        
+
         </pre>
+    </div>
 </body>
 
 </html>
