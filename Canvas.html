@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo03.css">
+</head>
+<body>
+    <ul>
+		<li><a href="index.html" rel="prev">Voltar</a></li>
+	</ul>
+	<ol>
+        <li><a href="Algoritmo.html" rel="next">Algoritmo</a></li>
+        <li><a href="Atalhos.html" rel="next">Atalhos</a></li>
+        <li><a href="Curiosidades.html" rel="next">Curiosidades</a></li>
+        <li><a href="Dicas.html">Dicas</a></li>
+        <li><a href="Historico.html" rel="next">Histórico</a></li>
+        <li><a href="Livros.html">Livros</a></li>
+        <li><a href="MySQL.html">MySQL</a></li>
+        <li><a href="NomeIdiomas.html" rel="next">NomeIdiomas</a></li>
+        <li><a href="PaginaHTML.html" rel="next">PáginaHTML</a></li>
+        <li><a href="Passos.html">Passos</a></li>
+        <li><a href="ProjetoAlfa.html" rel="next">ProjetoAlfa</a></li>
+        <li><a href="ProjetoGoogleGlass.html">ProjetoGoogleGlass</a></li>
+        <li><a href="Python.html" rel="next">Python</a></li>
+        <li><a href="TagsCSS.html"rel="next">TagsCSS</a></li>
+        <li><a href="TagsHTML.html" rel="next">TagsHTML</a></li>
+        <li><a href="TagsJavaScript.html">TagsJavaScript</a></li>
+        <li><a href="Xadrez.html" rel="next">Xadrez</a></li>
+    </ol>
+    <div id="interface">
+        <h1>Canvas</h1>
+        <h4>Pra colocar precisa chamar a Biblioteca p5.js no html depois da tag title e criar função no CSS: </h4>
+        <code>
+            < script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js">< /script>
+        </code>
+        <h4>Comando pra chamar no CSS :</h4>
+        <p>function setup() {<br>
+            createCanvas(400, 400);<br>
+        }</p>
+        </>
+        <p> O <strong>canvas</strong> é uma tela virtual onde desenhamos e criamos elementos gráficos com código. É amplamente utilizado em jogos, animações e outros tipos de aplicativos que requerem desenho interativo em tempo real. Ele pode ser criado e manipulado através de APIs de desenho 2D ou 3D, como a API do HTML5 Canvas ou a biblioteca gráfica p5.js. A principal vantagem do canvas é a sua capacidade de criar e manipular elementos gráficos de maneira dinâmica e eficiente, tornando-o uma ferramenta versátil para muitos tipos de projetos interativos.
+        Referência https://p5js.org/reference/</p>
+        <h3>Após chamar basta continuar no CSS</h3>
+        <p><strong>
+            function draw() {<br>
+                background(255, 255, 255);<br>
+                fill(255, 255, 255);<br>
+                rect(100, 50, 300, 300);<br>
+                fill(255, 0, 0);<br>
+                ellipse(250, 200, 100, 100);<br>
+        }</strong></p>
+        <p>
+        A ordem dos desenhos importa<br>
+        Ou seja, para desenhar algo que vai encima de outro, antes precisa colocar o objeto de baixo<br>
+        A razão pela qual a elipse foi criada no meio é porque as coordenadas x e y foram especificadas como o meio da tela (ou seja, o ponto de coordenadas x = largura da tela / 2 e y = altura da tela / 2).<br><br>
+
+        <p><strong>Função ellipse()</strong><br>
+        A função ellipse desenha uma elipse com base nas coordenadas x e y especificadas como seu centro. Então, ao especificar as coordenadas x e y como o meio da tela, a elipse será desenhada no meio da tela.<br>
+        A função ellipse() é uma das funções básicas do p5.js, que é uma biblioteca JavaScript para criar aplicativos interativos com base na linguagem Processing. A função ellipse() é usada para desenhar uma elipse (ou círculo) em um canvas.<br>
+        <strong>Sintaxe ellipse(x, y, w, h)</strong><br>
+        x e y são as coordenadas do centro da elipse no canvas.<br>
+        w é a largura da elipse.<br>
+        h é a altura da elipse.<br><br></p>
+
+        <p><strong>Função fill()</strong><br>
+        A função fill() é uma função da biblioteca P5.js que define a cor de preenchimento de formas geométricas como retângulos, círculos, elipses, polígonos, etc. Essa função é usada antes da chamada da forma geométrica, para que ela possa ser preenchida com a cor desejada.<br><br></p>
+
+        <p><strong>Função rect()</strong><br>
+        A função rect é uma função do p5.js que desenha um retângulo no canvas. Ela é usada para desenhar formas geométricas básicas, como retângulos e quadrados, na tela.<br>
+        <strong>Sintaxe : rect(x, y, width, height)</strong><br>
+        x é a coordenada x do canto superior esquerdo do retângulo.<br>
+        y é a coordenada y do canto superior esquerdo do retângulo.<br>
+        width é a largura do retângulo.<br>
+        height é a altura do retângulo.<br>
+        Além disso, a função rect também pode ter um argumento opcional que especifica a forma dos cantos do retângulo. Por exemplo:<br>
+        <strong>rect(x, y, width, height, r)</strong><br>
+        Onde r especifica o raio dos cantos do retângulo.<br><br></p>
+    </div>
+</body>
+</html>
