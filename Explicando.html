@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicando</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo07.css">
+</head>
+<body>
+<ol>
+    <li><a href="Algoritmo.html" rel="next">Algoritmo</a></li>
+    <li><a href="Atalhos.html" rel="next">Atalhos</a></li>
+    <li><a href="Canvas.html" rel="next">Canvas</a></li>
+    <li><a href="Curiosidades.html" rel="next">Curiosidades</a></li>
+    <li><a href="Dicas.html">Dicas</a></li>
+    <li><a href="Explicando.html">Explicando</a></li>
+    <li><a href="Historico.html" rel="next">Histórico</a></li>
+    <li><a href="JogoCobrinha.html">Jogo Cobrinha</a></li>
+    <li><a href="JogoCobrinhaCell.html">Jogo Cobrinha Celular</a></li>
+    <li><a href="Livros.html">Livros</a></li>
+    <li><a href="MySQL.html">MySQL</a></li>
+    <li><a href="NomeIdiomas.html" rel="next">NomeIdiomas</a></li>
+    <li><a href="PaginaHTML.html" rel="next">PáginaHTML</a></li>
+    <li><a href="Passos.html">Passos</a></li>
+    <li><a href="ProjetoAlfa.html" rel="next">ProjetoAlfa</a></li>
+    <li><a href="ProjetoGoogleGlass.html">ProjetoGoogleGlass</a></li>
+    <li><a href="Python.html" rel="next">Python</a></li>
+    <li><a href="TagsCSS.html"rel="next">TagsCSS</a></li>
+    <li><a href="TagsHTML.html" rel="next">TagsHTML</a></li>
+    <li><a href="TagsJavaScript.html">TagsJavaScript</a></li>
+    <li><a href="Xadrez.html" rel="next">Xadrez</a></li>
+    <li><a href="ZZZ01.html" rel="next">ZZZ01</a></li>
+</ol>
+<div id="interface">
+<h1>Jogo da Cobrinha</h1>
+<code>
+    <pre>
+    < !DOCTYPE html>
+    < html lang="pt-br">
+    < head>
+    < meta charset="UTF-8">
+    < meta name="viewport" content="width=device-width, initial-scale=1.0">
+    < meta http-equiv="X-UA-Compatible" content="ie=edge">
+    < title>Snake Game< /title>
+    < link rel="stylesheet" href="./css/style.css">
+    < script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js">< /script>
+    < /head>
+    < body>
+    < div id="gameArea">
+    < div id="gameBox">< /div>
+        
+    < /body>
+    < /html>
+    </pre>
+</code>
+    <p>Este é um código HTML básico para uma página da web.<br>
+    A tag < !DOCTYPE html> declara que o documento é um documento HTML5.<br>
+    A tag < html> contém informações sobre o idioma da página (português brasileiro) e as tags < head> e < body> definem o cabeçalho e o corpo da página, respectivamente.<br>
+    O cabeçalho contém informações sobre a codificação de caracteres (UTF-8), a largura do dispositivo de exibição e o título da página (Snake Game).<br>
+    Além disso, o arquivo CSS style.css é vinculado à página e o script p5.js é incluído.
+    O corpo da página contém uma div com id "gameArea" e outra div dentro dela com id "gameBox".<br>
+    A div "gameArea" é usada para controlar a área do jogo e a div "gameBox" é usada para exibir o jogo.
+    O link https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js se refere a uma biblioteca JavaScript chamada P5.js.<br>
+    P5.js é uma biblioteca de código aberto que fornece acesso aos recursos do Processing dentro do ambiente JavaScript.<br>
+    É projetado para iniciantes e artistas, permitindo criar aplicativos interativos com facilidade, como jogos, animações e visualizações de dados.<br>
+    A biblioteca é carregada na página HTML incluindo o link do arquivo p5.js em sua página HTML.
+    A função draw é uma das funções nativas do p5.js, um framework JavaScript para desenho e animação.<br>
+    Ela é chamada automaticamente pelo p5.js a uma taxa específica (60 vezes por segundo, por padrão) e contém todo o código de desenho e animação que você deseja exibir na tela. Em outras palavras, o que você escrever dentro da função draw será repetido a uma taxa definida, permitindo que você crie animações e jogue com formas, cores e imagens na tela.
+    A função draw pode conter qualquer comando de desenho que você deseja usar.<br>
+    Por exemplo, você pode desenhar formas, linhas, curvas, imagens, textos e muito mais, basta usar as funções de desenho apropriadas disponíveis no p5.js.<br>
+    Além disso, a função draw pode acessar variáveis e funções definidas em outras partes do seu código, o que significa que você pode usá-la para atualizar as informações na tela de acordo com a lógica e as interações do jogo.</p>
+<h2>--- CSS ---</h2>
+<pre>
+    class Game{
+        constructor(){
+            document.addEventListener("keydown",this.keyEvents.bind(this))
+            this.a_dead = new Audio("https://www.dropbox.com/s/r7o9las1ki6tr0u/fail.wav?dl=1");
+            this.a_eat = new Audio("https://www.dropbox.com/s/qukhjmxog6h3we8/crunch.wav?dl=1");
+            this.a_start = new Audio("https://www.dropbox.com/s/xff36yvnh2zsxzh/start.wav?dl=1");
+            }
+</pre>
+    <p>Esta é uma classe JavaScript que representa um jogo. 
+    <br>Ela tem três propriedades, a_dead, a_eat e a_start, que são objetos de áudio, cada um com um arquivo de som diferente.<br>
+    A classe também tem um construtor que adiciona um ouvinte de evento de teclado ao documento.<br>
+    Quando uma tecla é pressionada, o método keyEvents será ativado.<br>
+    Além disso, o construtor está usando o método bind para vincular o contexto do objeto da classe ao método keyEvents, o que significa que o this dentro do método keyEvents se referirá ao objeto da classe.</p>
+ <pre>
+    // screen size
+    gameWindow(){ 
+        this.winWidth = 400; 
+        this.winHeight = 400;
+        createCanvas(this.winWidth,this.winHeight).parent("gameBox");
+    }
+ </pre> 
+ <p>Esta é uma função da classe que configura a largura e altura da janela do jogo e cria uma tela de desenho.<br>
+    Ele parece estar usando uma biblioteca de gráficos, provavelmente p5.js, para criar a tela de desenho.<br>
+    A função define as propriedades winWidth e winHeight como 400 pixels cada.<br>
+    Em seguida, a função createCanvas é chamada, passando this.winWidth e this.winHeight como argumentos para definir o tamanho da tela de desenho.<br>
+    O método parent é usado para anexar a tela de desenho ao elemento HTML com o ID "gameBox".</p>
+<pre>
+    // draw on screen
+    draw(){
+        background("rgb(73, 95, 105)"); // color of game screen
+        stroke("rgba(255, 255, 255,.5)") // border color of game screen
+        // dots
+
+        this.snake(); // draw the snake
+        this.apple(); // draw the apple
+        this.scoreBoard();
+        this.bestScore();
+    }
+</pre>
+<p>Esta é uma função da classe que desenha a tela do jogo.<br>
+Ela define a cor de fundo da tela de desenho como uma cor RGB específica e a cor do contorno da tela como uma cor RGBA específica.<br>
+Em seguida, a função chama outras três funções da classe: snake(), apple() e scoreBoard(), que provavelmente desenham a cobra, a maçã e o placar, respectivamente.<br>
+Além disso, a função bestScore() é chamada para desenhar o melhor plac</p>
+<pre>
+    update(){
+        this.frame = false;
+        this.draw(); // draw on screen
+    }
+
+    start(){
+        this.positionX = 15; // snake starting point X
+        this.positionY = 10; // snake starting point Y
+        this.appleX = this.appleY = 10; // Apple first location
+        this.trail = []; // The array in which the Coordinates of the Snake are held
+        this.tailSize = 30; // The size of the Sanke
+        this.speedX = this.speedY = 0; // first speed of snake
+        this.gridSize = this.tileCount = 20; // the number of frames of the screen
+        this.fps = 3000/15; // number of imagens per second
+        this.timer = setInterval(this.update.bind(this),this.fps);
+        this.score = 30;
+
+    }
+</pre>
+<p>Esta é uma função da classe que atualiza o jogo.<br>
+A função define a propriedade frame como false.<br>
+Em seguida, a função draw() é chamada para desenhar a tela do jogo.<br>
+A função start é usada para iniciar o jogo.<br>
+Ela define as propriedades positionX e positionY como as posições iniciais da cobra no eixo X e Y, respectivamente.<br>
+A propriedade appleX e appleY são definidas como as posições iniciais da maçã no eixo X e Y, respectivamente. A propriedade trail é definida como um array vazio, que armazenará as coordenadas da cobra.<br>
+A propriedade tailSize é definida como o tamanho da cobra, e as propriedades speedX e speedY são definidas como a velocidade inicial da cobra no eixo X e Y, respectivamente.<br>
+A propriedade gridSize é definida como o tamanho de cada quadrado na grade e a propriedade tileCount é definida como o número de quadrados na grade.<br>
+A propriedade fps é definida como o número de quadros por segundo que serão mostrados, e a propriedade timer é definida como um intervalo de tempo que atualiza o jogo a cada intervalo de tempo especificado em fps.<br>
+O método bind é usado para vincular o contexto do objeto da classe à função update a ser chamada pelo intervalo de tempo.<br>
+A propriedade score é definida como 30.</p>
+<pre>
+    reset(){
+        clearInterval(this.timer); // resets the time
+        this.a_dead.play();
+        this.start(); // restarts the game
+        
+    }
+
+    keyEvents(e){
+        // goes left
+        if(e.keyCode === 37 && this.speedX !== 1){
+            this.a_start.play();
+            this.speedX = -1;
+            this.speedY = 0;
+            this.frame = true;
+        }
+        // goes right
+        if(e.keyCode === 39 && this.speedX !== -1){
+            this.a_start.play();
+            this.speedX = 1;
+            this.speedY = 0;
+            this.frame = true;
+        }
+        // goes down
+        if(e.keyCode === 40 && this.speedY !== -1){
+            this.a_start.play();
+            this.speedX = 0;
+            this.speedY = 1;
+            this.frame = true;
+        }
+        // goes up
+        if(e.keyCode === 38 && this.speedY !== 1){
+            this.a_start.play();
+            this.speedX = 0;
+            this.speedY = -1;
+            this.frame = true;
+        }
+    }
+</pre>
+<p>Este trecho de código parece ser parte de uma classe em JavaScript que representa um jogo.<br>
+A classe contém vários métodos, cada um responsável por uma tarefa específica no jogo.<br>
+O método reset é chamado quando o jogador "morre" no jogo, interrompendo o timer atual e iniciando o jogo novamente.<br>
+O método keyEvents é chamado quando uma tecla é pressionada pelo jogador e altera a direção da cobra de acordo com a tecla pressionada.<br>
+A classe também contém métodos para desenhar a cobra, a maçã, o placar de pontuação e o melhor placar, e para atualizar o estado do jogo.<br>
+Além disso, há sombras sonoras sendo tocadas em diferentes eventos no jogo.</p>
+</div>
+</body>
+</html>
