@@ -1,14 +1,29 @@
 @charset "UTF-8" ;
 
 body{
-    background: rgb(100, 150, 60)
+    background-color: rgb(150, 150, 60)
 }
-#gameBox{
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    box-shadow: 0px 0px 50px #262626;
-    overflow: hidden;
-    border-radius: 10px;
+
+@font-face {
+    font-family: 'aladdin';
+    src: url('aladdin.ttf');
+}
+div#interface {
+    width: 450px;
+    background-color: #cccccc;
+    margin: -450px 230px 0px 170px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, -5);
+    height: 500px;
+    overflow: auto;
+}
+h1{
+    font-family: aladdin;
+    font-size: 50px;
+    color:blue;
+    text-shadow: 5px 5px 5px black;
+}
+p{
+    color: black(0,0,0);
+    text-align:justify;
+    text-indent: 20px;
 }

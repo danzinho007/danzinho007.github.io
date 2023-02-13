@@ -42,7 +42,7 @@ class Game{
         this.fps = 3000/15; // saniyelik görüntü sayısı
         this.timer = setInterval(this.update.bind(this),this.fps);
         this.score = 30;
-
+        this.a_start.volume = 0.2;
     }
 
     reset(){
@@ -54,28 +54,28 @@ class Game{
 
     keyEvents(e){
         // sola gider
-        if(event.touches[0].clientX < window.innerWidth / 2 && this.speedX !== 1){
+        if(e.keyCode === 37 && this.speedX !== 1){
             this.a_start.play();
             this.speedX = -1;
             this.speedY = 0;
             this.frame = true;
         }
         // sağa gider
-        if(event.touches[0].clientX >= window.innerWidth / 2 && this.speedX !== -1){
+        if(e.keyCode === 39 && this.speedX !== -1){
             this.a_start.play();
             this.speedX = 1;
             this.speedY = 0;
             this.frame = true;
         }
         // aşağıya gider
-        if(event.changedTouches[0].clientY > window.innerHeight / 2 && this.speedY !== -1){
+        if(e.keyCode === 40 && this.speedY !== -1){
             this.a_start.play();
             this.speedX = 0;
             this.speedY = 1;
             this.frame = true;
         }
         // yukarıya gider
-        if(event.changedTouches[0].clientY <= window.innerHeight / 2 && this.speedY !== 1){
+        if(e.keyCode === 38 && this.speedY !== 1){
             this.a_start.play();
             this.speedX = 0;
             this.speedY = -1;
@@ -134,8 +134,8 @@ class Game{
         
         if(this.appleX === this.positionX && this.appleY === this.positionY){
 
-            this.tailSize +=4;
-            this.score +=4;
+            this.tailSize +=8;
+            this.score +=8;
             this.appleX =  Math.floor(Math.random()*this.tileCount);
             this.appleY = Math.floor(Math.random()*this.tileCount);
             this.trail.forEach(t => {
