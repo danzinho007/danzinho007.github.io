@@ -9,11 +9,11 @@ body{
     src: url('aladdin.ttf');
 }
 div#interface {
-    width: 450px;
+    width: 500px;
     background-color: #cccccc;
-    margin: -400px 230px 0px 170px;
+    margin: -450px 230px 0px 170px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, -5);
-    height: 500px;
+    height: 600px;
     overflow: auto;
 }
 h1{

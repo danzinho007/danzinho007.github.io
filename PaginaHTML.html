@@ -44,12 +44,18 @@
     --meta
     --title
     --link rel
-    -head
+    --style
+    --/style
+    -/head
 
     -body
     --h1
-    -body
-    -html
+    --h2
+    --p
+    --script
+    --/script
+    -/body
+    -/html
 
     A maioria das tags tem < abertura e fechamento >
 
@@ -71,6 +77,8 @@
     
     4¹- < meta charset="UTF-8">
     Diz pro Site que ele permite o Conjunto de Caracteres UTF-8 ( Acentuação e Cecidilha ç )
+    Meta não tem fechamento, temos 2 opções : Sem a barra no final é
+    padrão html antigo ( xml ) e com a barra no final é padrão novo 
 
     5¹ < meta http-equiv="X-UA-Compatible" content="IE=edge">
     Indica ao Navegador IE que deve usar a versão mais recente
@@ -86,12 +94,33 @@
     < title>Meu site</>
     < link rel="stylesheet" href="estilo.css">
     Aqui eu to falando pro navegador que as folhas de estilo ( stylesheet ) está no arquivo estilo.css
+
     < link rel="shortcut icon" href="favicon.ico">
+    Emoji na aba do navegador
+    
+    < style> < /style>
+    style é uma tag de estilo da página
+    Nesse caso estou usando estilo interno, porém também existe o estilo inline e externo
+    O mais recomendado é o externo
 
     10¹ < body>
     É o corpo do site
 
-    11¹ < section>
+    11¹ < h1> < /h1 >
+    É o Título 
+
+    12¹ < h2> < /h2 > até < h6> < / h6>
+    São Subtítulos 
+    
+    13¹ < p> < /p>
+    São parágrafos
+
+    14¹ < script> < /script>
+    São scripts
+    Existe o script interno e externo, esse é o inteiro
+    O mais recomendado é o externo
+
+    15¹ < section>
     Ainda não estudei isso
     </pre>   
     </div>

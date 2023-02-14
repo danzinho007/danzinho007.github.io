@@ -7,6 +7,35 @@
     <title>Meu site</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="estilo.css">
+    <script>
+        var d = new Date();
+        var dia = d.getDate().toString().padStart(2, '0');
+        var mes = (d.getMonth() + 1).toString().padStart(2, '0');
+        var ano = d.getFullYear();
+        var dataFormatada = dia + "/" + mes + "/" + ano;
+        document.write("Olá Visitante, hoje é dia " + dataFormatada + " " + d.toLocaleDateString('pt-BR', {weekday: 'long'}));
+
+        function passando() {
+            document.getElementById('ibage').innerHTML = "▒░░░░░░░░░░░░░░░░░░░░░░█████████░░░░░░░░\
+            ░░███████░░░░░░░░░░███▒▒▒▒▒▒▒▒███░░░░░░░\
+            ░░█▒▒▒▒▒▒█░░░░░░░███▒▒▒▒▒▒▒▒▒▒▒▒▒███░░░░\
+            ░░░█▒▒▒▒▒▒█░░░░██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██░░\
+            ░░░░█▒▒▒▒▒█░░░██▒▒▒▒▒██▒▒▒▒▒▒██▒▒▒▒▒███░\
+            ░░░░░█▒▒▒█░░░█▒▒▒▒▒▒████▒▒▒▒████▒▒▒▒▒▒██\
+            ░░░█████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██\
+            ░░░█▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒██\
+            ░██▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒██▒▒▒▒▒▒▒▒▒▒██▒▒▒▒██\
+            ██▒▒▒███████████▒▒▒▒▒██▒▒▒▒▒▒▒▒██▒▒▒▒▒██\
+            █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒████████▒▒▒▒▒▒▒██\
+            ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██░\
+            ░█▒▒▒███████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██░░░\
+            ░██▒▒▒▒▒▒▒▒▒▒████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█░░░░░\
+            ░░████████████░░░█████████████████░░░░░░";
+        }
+        function saiu() {
+            document.getElementById('ibage').innerHTML = "Seja Bem-Vindo";
+        }
+    </script>
 
 </head>
 
@@ -42,8 +71,10 @@
    
     <h3>Histórico de Versões : &#x1F605;</h3>
     <strong><p>OBS¹ : Histórico completo agora no menu Histórico acima</p></strong>
+    <div id="ibage" onmousemove="passando()" onmouseout="saiu()">
     <pre>
-    ▂▃▄▅▆▇█▓▒░Seja Bem Vindo/a░▒▓█▇▆▅▄▃▂
+    ▂▃▄▅▆▇█▓▒░<strong>Seja Bem Vindo/a</strong>░▒▓█▇▆▅▄▃▂
+
       ▒░░░░░░░░░░░░░░░░░░░░░░█████████░░░░░░░░
       ░░███████░░░░░░░░░░███▒▒▒▒▒▒▒▒███░░░░░░░
       ░░█▒▒▒▒▒▒█░░░░░░░███▒▒▒▒▒▒▒▒▒▒▒▒▒███░░░░
@@ -60,8 +91,9 @@
       ░██▒▒▒▒▒▒▒▒▒▒████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█░░░░░
       ░░████████████░░░█████████████████░░░░░░
     </pre>
+    </div>
    <footer>
-        <p>Site criado por Daniel Rocha em 2023</p>
+        <p>Site criado por <strong>Daniel Rocha</strong> em 2023</p>
     </footer>
 </div>
 </body>

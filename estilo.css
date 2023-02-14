@@ -9,10 +9,9 @@ body{
     src: url('aladdin.ttf');
 }
 div#interface {
-    width: 500px;
+    width: 480px;
     background-color: #aaaaaa;
-/*  margin: -280px 230px 0px 170px; */
-    margin: -320px 230px 0px 170px;
+    margin: -430px 230px 0px 170px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, -5);
     padding: 10px;
 }
@@ -21,9 +20,18 @@ h1{
     font-size: 50px;
     color:blue;
     text-shadow: 5px 5px 5px black;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+h2{
+    margin-top: auto;
 }
 p{
     color: black(0,0,0);
     text-align:justify;
     text-indent: 20px;
+}
+div#ibage {
+   margin-left: 30px;
 }
