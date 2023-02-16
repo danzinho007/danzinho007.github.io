@@ -1,7 +1,9 @@
+/* Estilo do MySQL */
+
 @charset "UTF-8" ;
 
 body{
-    background-color: rgb(200, 160, 150)
+    background-color: rgb(200, 180, 150)
 }
 
 @font-face {

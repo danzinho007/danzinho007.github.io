@@ -1,7 +1,8 @@
 @charset "UTF-8" ;
+/* Estilo do Menu Histórico */
 
 body{
-    background-color: rgb(150, 150, 60)
+    background-color: rgb(100, 150, 50)
 }
 
 @font-face {
@@ -9,11 +10,11 @@ body{
     src: url('aladdin.ttf');
 }
 div#interface {
-    width: 450px;
-    background-color: #cccccc;
-    margin: -450px 230px 0px 170px;
+    width: 500px;
+    height: 600px;
+    background-color: rgb(100, 100, 70);
+    margin: -500px 230px 0px 180px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, -5);
-    height: 500px;
     overflow: auto;
 }
 h1{
@@ -24,6 +25,6 @@ h1{
 }
 p{
     color: black(0,0,0);
-    text-align:justify;
+    text-align:left;
     text-indent: 20px;
 }

@@ -1,7 +1,8 @@
 @charset "UTF-8" ;
+/* Estilo do Menu Dicas */
 
 body{
-    background-color: rgb(100, 150, 50)
+    background-color: rgb(100, 100, 100)
 }
 
 @font-face {
@@ -11,8 +12,8 @@ body{
 div#interface {
     width: 500px;
     height: 600px;
-    background-color: rgb(100, 100, 70);
-    margin: -450px 230px 0px 170px;
+    background-color: #ffffff;
+    margin: -500px 230px 0px 170px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, -5);
     overflow: auto;
 }
@@ -24,6 +25,6 @@ h1{
 }
 p{
     color: black(0,0,0);
-    text-align:left;
+    text-align:justify;
     text-indent: 20px;
 }
