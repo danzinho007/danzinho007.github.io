@@ -7,6 +7,14 @@
     <title>Histórico</title>
     <link rel="stylesheet" href="Historico.css">
     <link rel="shortcut icon" href="favicon.ico">
+    <script>
+        var d = new Date();
+        var dia = d.getDate().toString().padStart(2, '0');
+        var mes = (d.getMonth() + 1).toString().padStart(2, '0');
+        var ano = d.getFullYear();
+        var dataFormatada = dia + "/" + mes + "/" + ano;
+        document.write("Olá Visitante, hoje é dia " + dataFormatada + " " + d.toLocaleDateString('pt-BR', {weekday: 'long'}));
+    </script>
 </head>
 
 <body>
@@ -43,6 +51,15 @@
     <div id="interface">
     <h1>Histórico de Versões : &#x1F605;</h1> 
     <strong><p>OBS¹ : Clicando em qualquer palavra linkada o site irá abrir numa nova aba</p></strong><br>
+
+    <strong>17/02 Sexta-Feira</strong> 3.2 <br>
+    Agora todas páginas tem seu estilo <br>
+    Coloquei a informação de Data em todas também <br>
+    Criei o menu Entidades, nele coloquei todos códigos pra Símbolos, eu estava tendo problemas com muitos erros na página Tags JavaScript, agora com esses comandos eu posso usar tranquilamente <br>
+    Explicando melhor o problema acima, eu queria adicionar &LTscript>, porém o programa identifica que isso é uma tag, dai transforma no texto, com a Entidade de "Menor que" ( & + L + T = Junte essas 3 letras ) eu posso formar o Simbolo que a tag será ignorada <br>
+    A página ainda está fora do padrão pois são muitos símbolos, tem desde &LT até moeda, seta, letra, etc <br>
+    Adicionei mais 7 perguntas ao JogoPerguntas, meu foco nele será mais na parte do Inglês, seguido de Matemática
+    <br><br>
 
     <strong>16/02 Quinta-Feira</strong> 3.1 <br>
     Adicionei mais 5 perguntas ao JogoPerguntas e também adicionei mais coisas no banco de dados chamado de PerguntasRespostas <br>

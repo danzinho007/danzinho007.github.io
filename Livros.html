@@ -6,7 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Livros</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilo10.css">
+    <link rel="stylesheet" href="livros.css">
+    <script>
+        var d = new Date();
+        var dia = d.getDate().toString().padStart(2, '0');
+        var mes = (d.getMonth() + 1).toString().padStart(2, '0');
+        var ano = d.getFullYear();
+        var dataFormatada = dia + "/" + mes + "/" + ano;
+        document.write("Olá Visitante, hoje é dia " + dataFormatada + " " + d.toLocaleDateString('pt-BR', {weekday: 'long'}));
+    </script>
 </head>
 <body>
     <li><a href="index.html">Voltar</a></li>

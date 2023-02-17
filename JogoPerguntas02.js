@@ -84,4 +84,74 @@ export default [
         { option: "Onde", correct: true },
       ],
     },
+    {
+      question: "Pergunta 11 : Traduza Exactly ( êgZéktli )",
+      answers: [
+        { option: "Examente", correct: false },
+        { option: "Exatamente", correct: true },
+      ],
+    },
+{
+      question: "Pergunta 12 : Traduza Really ( Ríli )",
+      answers: [
+        { option: "Relemente", correct: false },
+        { option: "Realmente ?", correct: true },
+      ],
+    },
+{
+      question: "Pergunta 13 : Traduza Who ( Ru )",
+      answers: [
+        { option: "Quem ?", correct: true },
+        { option: "O que ?", correct: false },
+      ],
+    },
+{
+      question: "Pergunta 14 : Traduza Really ? Absolutely ",
+      answers: [
+        { option: "Realmente ? Com certeza", correct: true },
+        { option: "Realmente ? Absolutamente", correct: false },
+      ],
+    },
+{
+      question: "Pergunta 15 : Traduza Why exactly now ? ",
+      answers: [
+        { option: "Por que exatamente agora ?", correct: true },
+        { option: "Por que agora ?", correct: false },
+      ],
+    },
+    {
+      question: "Pergunta 16 : Quanto é Log de 1000 ? ( Uéâr )",
+      answers: [
+        { option: "10³", correct: false },
+        { option: "3", correct: true },
+      ],
+    },
+{
+      question: "Pergunta 17 : Quanto é Log de 36 na base 6 ? ( Uéâr )",
+      answers: [
+        { option: "6", correct: false },
+        { option: "2", correct: true },
+      ],
+    },
+{
+      question: "Pergunta 18 : Traduza Where ( Uéâr )",
+      answers: [
+        { option: "Enquanto", correct: true },
+        { option: "Onde", correct: false },
+      ],
+    },
+{
+      question: "Pergunta 19 : Traduza Where ( Uéâr )",
+      answers: [
+        { option: "Enquanto", correct: true },
+        { option: "Onde", correct: false },
+      ],
+    },
+{
+      question: "Pergunta 20 : Traduza Where ( Uéâr )",
+      answers: [
+        { option: "Enquanto", correct: true },
+        { option: "Onde", correct: false },
+      ],
+    },
   ];  

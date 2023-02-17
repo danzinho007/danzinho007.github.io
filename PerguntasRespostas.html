@@ -5,28 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perguntas Banco</title>
+    <link rel="stylesheet" href="PerguntasRespostas.css">
+    <script>
+        var d = new Date();
+        var dia = d.getDate().toString().padStart(2, '0');
+        var mes = (d.getMonth() + 1).toString().padStart(2, '0');
+        var ano = d.getFullYear();
+        var dataFormatada = dia + "/" + mes + "/" + ano;
+        document.write("Olá Visitante, hoje é dia " + dataFormatada + " " + d.toLocaleDateString('pt-BR', {weekday: 'long'}));
+    </script>
 </head>
 <body>
     <ul>
 		<li><a href="index.html" rel="prev">Voltar</a></li>
 	</ul>
+    <div id="interface">
     <h1>Banco de Dados das Perguntas</h1>
     <h3>Aqui eu irei colocar as respostas das Perguntas</h3>
     
     <ul>
-        <li>Inglês</li>
-        <ul>
-            <li>Absolutely (ÁbSâLuTLi) = Com certeza</li>
-            <li>Deal ( Diâl ) = Combinado</li>
+    <h2>Inglês</h2>
+        <li>Palavras</li>
+        <ol>
+            <li>Absolutely (ÁbSâLuTLi) = Com certeza ( OK )</li>
+            <li>Deal ( Diâl ) = Combinado ( OK )</li>
+            <li>Exactly ( êgZéktili ) = Exatamente ( Ok )</li>
             <li>Hi ( Rai ) = Oi</li>
-            <li>Hurry ( RãRi ) = Se apresse</li>
+            <li>Hurry ( RãRi ) = Se apresse ( OK )</li>
             <li>Me ( mi ) = Eu </li>
             <li>No ( Nôu ) = Não </li>
-            <li>Sure ( Xâr ) = Claro </li>
+            <li>Now ( nau ) = Agora</li>
+            <li>Really ( Ríli ) = É mesmo ? ( OK )</li>
+            <li>Sorry ( Sóri ) = Desculpa</li>
+            <li>Stop ( stap ) = Pare</li>
+            <li>Sure ( Xâr ) = Claro ( OK )</li>
+            <li>Wait ( ueit ) = Espere</li>
             <li>What ( UAt ) = O que ?</li>
-            <li>Where ( Uéâr ) = Onde ? </li>
+            <li>When ( uen ) Quando ?</li>
+            <li>Where ( Uéâr ) = Onde ? ( OK )</li>
+            <li>Who ( ru ) = Quem ? ( OK )</li>
+            <li>Why ( uai ) = Por que ?</li>
             <li>Yes ( Iés ) = Sim</li>
-        </ul>
+            <li>You ( iú ) = Você</li>
+        </ol> <br>
+        <li>Frases</li>
+        <ol>
+            <li>Really ? Absolutely ( OK )</li>
+            <li>Stop what ?</li>
+            <li>Wait ! Why ?</li>
+            <li>What ? Why ?</li>
+            <li>Why exactly now ? ( Ok )</li>
+            <li>Why now ?</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
     </ul>
     <ul>
         <li>Adição</li>
@@ -69,6 +104,18 @@
                 <li>1¹ = 1 x 1 Que eu já expliquei na Multiplicação</li>
             </ul>
         </ul>
+        <li>Logaritmo</li>
+        <ul>
+            <li>Log de 10 ? 1</li>
+            <li>Devemos encontrar um número que elevado a 10 seja igual a 10, logo 10<sup>x</sup> = 10¹ , x = 1</li>
+            <li>Log<sub>2</sub>4 ? 2</li>
+            <li>Devemos encontrar um número que eleve 2 e dê 4, logo o único é 2, pois 2² = 4 </li>
+            <li>Log<sub>3</sub>27 ?</li>
+            <li>Ou : 3<sup>x</sup> = 27</li>
+            <li>Resulvendo 3<sup>x</sup> = 3³
+            <li>x = 3</li>
+        </ul>
     </ul>
+</div>
 </body>
 </html>
