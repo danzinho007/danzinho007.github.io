@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JogoPerguntas2</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="JogoPerguntas2.css">
-    <script src="JogoPerguntas03.js" type="module"></script>
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perguntas 2</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="JogoPerguntas2.css">
 </head>
 <body>
-      <!-- Main page -->
-      <div class="main">
-        <!-- Number of Question  -->
-        <div class="wrapper" id="pages">
-          <span id="quizNumber">1</span><span>/7</span>
+  <div id="quiz">
+    <div class="container-fluid">
+      <div id="quiz-stats" class="row text-center">
+        <div class="col-xs-3">
+          <i class="fa fa-bar-chart"></i>
         </div>
-
-        <!-- Quiz Question -->
-        <div class="quiz-questions" id="display-area">
-          <p id="question"></p>
-          <ul id="answer">
-          </ul>
-
-          <div id="quiz-results">
-            <button type="button" name="button" class="submit" id="submit">Submit</button>
+        <div class="col-xs-3 col-lg-2">
+          <p>Correct Rate</p>
+          <span id="rate-span" class="animated">0/0</span>
+        </div>
+        <div class="col-xs-3 col-lg-2">
+          <p>Correct Streak</p>
+          <span id="streak-span" class="animated">0</span>
+        </div> 
+        <div class="col-xs-3 col-lg-2">
+          <p><span>Avg. </span>Response Time (s)</p>
+          <span id="response-time-span" class="animated">0</span>
+        </div>      
+      </div>    
+    </div>  
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-10 col-md-offset-1 text-center">
+          <p id="quiz-question" class="animated"></p>
+          <div id="quiz-options">
+  <!--           <button id="quiz-ans-0" class="btn quiz-ans-btn animated">Gale</button>
+            <button id="quiz-ans-1" class="btn quiz-ans-btn animated">Perkins</button>
+            <button id="quiz-ans-2" class="btn quiz-ans-btn animated">Day</button>
+            <button id="quiz-ans-3" class="btn quiz-ans-btn animated">Parker</button>          -->
+          </div>
+          <div id="quiz-play-again">
+            <button id="quiz-play-again-btn" class="btn animated">Jogar denovo</button>
           </div>
         </div>
-
       </div>
-
-      <canvas id="canvas"></canvas>
+    </div>
+  </div>
+  <script src="JogoPerguntas03.js"></script>
 </body>
 </html>

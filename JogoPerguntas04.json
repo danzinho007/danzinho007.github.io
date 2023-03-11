@@ -1,0 +1,59 @@
+{"response_code":0,"results":[{"category":"Matematica","type":"multiple","difficulty":"easy","question":"Quando é 1 + 1 ?","correct_answer":"2","incorrect_answers":["Clark Kent","Barry Allen","Tony Stark"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"O que significa Hi ?","correct_answer":"Oi","incorrect_answers":["Liverpool","Cheslea","Manchester United"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza below ?","correct_answer":"abaixo","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza blaze","correct_answer":"chama","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza brought","correct_answer":"trouxe","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza clutches","correct_answer":"garras","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza drawn","correct_answer":"retirou","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza ensnare","correct_answer":"apanhar","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza feared","correct_answer":"temido","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza flutter","correct_answer":"vibrar","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza foot","correct_answer":"pé","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza glows","correct_answer":"brilha","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Science: Computers","type":"multiple","difficulty":"medium","question":"Traduza blaze","correct_answer":"chama","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Science: Computers","type":"multiple","difficulty":"medium","question":"Traduza blaze","correct_answer":"chama","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Science: Computers","type":"multiple","difficulty":"medium","question":"Traduza blaze","correct_answer":"chama","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"History","type":"multiple","difficulty":"medium","question":"Traduza brought","correct_answer":"trouxe","incorrect_answers":["Apollo 13","Apollo 11","Apollo 15"]},
+
+{"category":"History","type":"boolean","difficulty":"hard","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
+
+{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
+
+{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
+
+{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
+
+{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
+
+{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
+
+{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
+
+{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
+
+{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
+
+{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
+
+{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Traduza clutches","correct_answer":"garras","incorrect_answers":["Rachel Phantomhive","Alexis Leon Midford","Angelina Dalles"]},
+
+{"category":"Entertainment: Television","type":"boolean","difficulty":"medium","question":"Você está estudando Japonês ?","correct_answer":"Sim","incorrect_answers":["Não"]},
+
+{"category":"Geography","type":"multiple","difficulty":"medium","question":"Traduza drawn","correct_answer":"retirou","incorrect_answers":["8","5","2"]},
+
+{"category":"Entertainment: Video Games","type":"multiple","difficulty":"easy","question":"Traduza ensnare","correct_answer":"apanhar","incorrect_answers":["Subject 16","Subject 18","Alta&iuml;r Ibn-La&#039;Ahad"]}]}

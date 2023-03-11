@@ -1,169 +1,118 @@
-/*========================================================
-          Sitewide Styles
-==========================================================*/
-/*multiple selector*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0 auto;
-    font-family: 'Lato', sans-serif;
-    color: #b3b3b3;
-    background-color: #31a2ac;
-    text-align: center;
-    margin-top: 0;
-  }
-  
-  /*========================================================
-            Quiz Section
-  ========================================================*/
-  /*styling quiz area*/
-  .main {
-    background-color: white;
-    margin: 0 auto;
-    width: 60%;
-    margin-top: 30px;
-    padding: 30px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  }
-  
-  /*Editing the number of questions*/
-  span {
-    float: left;
-  }
-  
-  /*Editing the number of questions*/
-  span {
-    float: left;
-  }
-  
-  /*format text*/
-  p {
-    padding: 10px 10px 0;
-  }
-  
-  /*Form area width*/
-  .form-area, ul {
-    margin: 20px auto;
-    max-width: 550px;
-  }
-  
-  /*formatting answers*/
-  li {
-    list-style-type: none;
-    text-align: left;
-    background-color: transparent;
-    margin: 10px 5px;
-    padding: 5px 10px;
-    border: 1px solid lightgray;
-    font-weight: normal;
-  }
-  
-  li:hover {
-    background: #ECEEF0;
-  }
-  
-  /*Change effect of question when the questions is selected*/
-  .selected, .selected:hover {
-    background: #FFDEAD;
-  }
-  
-  /*change correct answer background*/
-  .correct, .correct:hover {
-    background: #9ACD32;
-    color: white;
-  }
-  
-  /*change wrong answer background*/
-  .wrong, .wrong:hover {
-    background: #db3c3c;
-    color: white;
-  }
-  
-  /*========================================================
-          Submit Button
-  ========================================================*/
-  .main button {
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    width: 20%;
-    border: none;
-    padding: 15px;
-    color: #FFFFFF;
-  }
-  
-  .submit:hover, .submit:active, .submit:focus {
-    background: #43A047;
-  }
-  
-  .submit {
-    background: #4CAF50;
-    min-width: 120px;
-  }
-  
-  /*next question button*/
-  .next {
-    background: #fa994a;
-    min-width: 120px;
-  }
-  
-  .next:hover, .next:active, .next:focus {
-    background: #e38a42;
-  }
-  
-  .restart {
-    background-color: blue;
-  }
-  
-  /*========================================================
-          Results
-  ========================================================*/
-  .circle{
-    position: relative;
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
-    background: #bdc3c7;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
-    overflow: hidden;
-  }
-  
-  .fill{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 80%;
-    background: #31a2ac;
-  }
-  
-  h3 {
-    position: absolute;
-    width: 100%;
-    top: 60px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    color: #fff;
-    font-size: 40pt;
-    line-height: 0;
-    font-weight: normal;
-  }
-  
-  .circle p {
-    margin: 400px;
-  }
-  
-  /*========================================================
-          Confeeti Effect
-  ========================================================*/
-  canvas{
-    position:absolute;
-      left:0;
-      top:0;
-      z-index:0;
-      border:0px solid #000;
-  }
+body {
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;  
+  color: #333;
+  background-color: #fff;
+}
+button, button:hover, button:active, button:focus, button:visited, .btn, .btn:hover, .btn:active, .btn:focus, .btn:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+.btn.disabled, .btn[disabled] {
+  cursor: default;
+  opacity: 1;
+}
+#quiz {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: .015em;
+}
+#quiz .container-fluid {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+#quiz-stats {
+  padding: 16px 0 12px 0;
+  margin: 0;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+#quiz-stats .fa-bar-chart {
+  font-size: 56px;
+  color: rgba(0, 0, 0, 0.8);
+}
+#quiz-stats>div>p {
+  padding: 0;
+  margin: 0;
+}
+#quiz-stats>div>span {
+  font-size: 24px;
+}
+#quiz-stats>div>span.fadeIn {
+  animation-duration: 0.375s;
+}
+#quiz-stats>div>span.fadeOut {
+  animation-duration: 0.375s;
+}
+#quiz-question {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 32px 0 26px 0;
+}
+#quiz-options {
+  margin: 26px 0;
+}
+.quiz-ans-btn {
+	font-size: 20px;
+  color: #fff;
+/*   display: block;   */
+  width: 45%;
+  min-height: 75px;
+  padding: 5px;
+  background-color: #669999;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  border-radius: 50px;
+  outline: none;
+  letter-spacing: .05em;
+  transition: all 0.5s;
+  margin: 8px;
+/*   margin:auto; */
+  box-shadow: 0px 1px 4px rgba(0,0,0, 0.10); 
+  white-space: normal; 
+}
+.quiz-ans-btn:hover { color: #fff; background-color: #476b6b; }
+.btn.quiz-ans-btn:active, .btn.quiz-ans-btn:focus { color: #fff; background-color: #334d4d; }
+.quiz-ans-btn.correct {
+  background-color: #29a329;
+}
+.quiz-ans-btn.incorrect {
+  background-color: #e60000;
+}
+#quiz-play-again {
+  overflow-y: hidden;
+  display: none;
+}
+#quiz-play-again-btn {  
+  display: block;
+  font-size: 32px;
+  color: #fff;
+  background-color: #669999;
+	border: 8px double #fff; 
+	border-radius: 14px;
+	padding: 5px 10px;  
+  width: 33%;
+  min-height: 100px;
+  outline: none;
+  letter-spacing: .05em;
+  transition: all 0.5s;
+  margin: 0px auto;
+  white-space: normal;   
+}
+#quiz-play-again-btn:hover { color: #fff; background-color: #476b6b; }
+#quiz-play-again-btn:active, #quiz-play-again-btn:focus { color: #fff; background-color: #334d4d; }
+#quiz-play-again-btn.pulse { 
+  animation-duration: 2s;
+}
+
+@media (max-width: 768px) {
+  #quiz-stats { padding: 12px 0 8px 0; font-size: 10px; }   
+  #quiz-stats>div>span { font-size: 18px; }
+  #quiz-stats>div>p>span { display: none; }
+  #quiz-stats .fa-bar-chart { font-size: 54px; }  
+  #quiz-question { font-size: 16px; margin: 20px 0 14px 0; }  
+  #quiz-options { margin: 14px 0 20px 0; } 
+  .quiz-ans-btn { font-size: 16px; min-height: 65px; }  
+  #quiz-play-again-btn {  font-size: 28px; width: 66%; }
+}
