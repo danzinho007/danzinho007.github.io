@@ -1,59 +1,59 @@
 {"response_code":0,"results":[{"category":"Matematica","type":"multiple","difficulty":"easy","question":"Quando é 1 + 1 ?","correct_answer":"2","incorrect_answers":["Clark Kent","Barry Allen","Tony Stark"]},
 
-{"category":"Ingles","type":"multiple","difficulty":"easy","question":"O que significa Hi ?","correct_answer":"Oi","incorrect_answers":["Liverpool","Cheslea","Manchester United"],"comment": "Testando"},
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza badly","correct_answer":"mal","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza below ?","correct_answer":"abaixo","incorrect_answers":["Mule","Benson","Pony"]},
 
-{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza blaze","correct_answer":"chama","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza bidding ?","correct_answer":"licitação","incorrect_answers":["Mule","Benson","Pony"]},
 
-{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza brought","correct_answer":"trouxe","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza explain ?","correct_answer":"explicar","incorrect_answers":["Mule","Benson","Pony"]},
 
-{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza clutches","correct_answer":"garras","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza fallen ?","correct_answer":"caído","incorrect_answers":["Mule","Benson","Pony"]},
 
-{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza drawn","correct_answer":"retirou","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza mood","correct_answer":"humor","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
-{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza ensnare","correct_answer":"apanhar","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza noise","correct_answer":"ruído","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
-{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza feared","correct_answer":"temido","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza output","correct_answer":"saída","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
-{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza flutter","correct_answer":"vibrar","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza pretty","correct_answer":"bonita","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
-{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza foot","correct_answer":"pé","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza quotes","correct_answer":"aspas","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
-{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza glows","correct_answer":"brilha","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza readable","correct_answer":"legível","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
-{"category":"Science: Computers","type":"multiple","difficulty":"medium","question":"Traduza blaze","correct_answer":"chama","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza robbed","correct_answer":"roubado","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
-{"category":"Science: Computers","type":"multiple","difficulty":"medium","question":"Traduza blaze","correct_answer":"chama","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza shall","correct_answer":"deve","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
-{"category":"Science: Computers","type":"multiple","difficulty":"medium","question":"Traduza blaze","correct_answer":"chama","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza shut","correct_answer":"fechar","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
-{"category":"History","type":"multiple","difficulty":"medium","question":"Traduza brought","correct_answer":"trouxe","incorrect_answers":["Apollo 13","Apollo 11","Apollo 15"]},
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza slashes","correct_answer":"barras","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza slave","correct_answer":"escravo","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza spring","correct_answer":"primavera","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza stepeed","correct_answer":"escalonado","incorrect_answers":["Apollo 13","Apollo 11","Apollo 15"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza stores","correct_answer":"lojas","incorrect_answers":["Rachel Phantomhive","Alexis Leon Midford","Angelina Dalles"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza surrounded","correct_answer":"cercado","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza thousand","correct_answer":"mil","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza thought","correct_answer":"pensamento","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza upset","correct_answer":"chateado","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza whole","correct_answer":"inteiro","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza wounded","correct_answer":"ferido","incorrect_answers":["8","5","2"]},
+
+{"category":"Entertainment: Television","type":"boolean","difficulty":"medium","question":"Você está estudando Japonês ?","correct_answer":"Sim","incorrect_answers":["Não"]},
 
 {"category":"History","type":"boolean","difficulty":"hard","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
 
 {"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
 
-{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
-
-{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
-
-{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
-
-{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
-
-{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
-
-{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
-
-{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
-
-{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Você está estudando Inglês ?","correct_answer":"True","incorrect_answers":["False"]},
-
-{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"Traduza clutches","correct_answer":"garras","incorrect_answers":["Rachel Phantomhive","Alexis Leon Midford","Angelina Dalles"]},
-
-{"category":"Entertainment: Television","type":"boolean","difficulty":"medium","question":"Você está estudando Japonês ?","correct_answer":"Sim","incorrect_answers":["Não"]},
-
-{"category":"Geography","type":"multiple","difficulty":"medium","question":"Traduza drawn","correct_answer":"retirou","incorrect_answers":["8","5","2"]},
-
-{"category":"Entertainment: Video Games","type":"multiple","difficulty":"easy","question":"Traduza ensnare","correct_answer":"apanhar","incorrect_answers":["Subject 16","Subject 18","Alta&iuml;r Ibn-La&#039;Ahad"]}]}
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Final das Perguntas, gostou ?","correct_answer":"Sim","incorrect_answers":["Não","Não sei","Talvez"]}]}
