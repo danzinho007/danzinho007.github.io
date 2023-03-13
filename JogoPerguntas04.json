@@ -10,11 +10,25 @@
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza fallen ?","correct_answer":"caído","incorrect_answers":["Mule","Benson","Pony"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza foe ?","correct_answer":"inimigo","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza grip ?","correct_answer":"pegada","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza had ?","correct_answer":"tive","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza lack ?","correct_answer":"falta","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza matter","correct_answer":"matéria","incorrect_answers":["Mule","Benson","Pony"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza mood","correct_answer":"humor","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza noise","correct_answer":"ruído","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza outgrowing","correct_answer":"superando","incorrect_answers":["Mule","Benson","Pony"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza output","correct_answer":"saída","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza plateau","correct_answer":"platô","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza pretty","correct_answer":"bonita","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
@@ -22,9 +36,17 @@
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza readable","correct_answer":"legível","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza reckless","correct_answer":"irresponsável","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza roasts","correct_answer":"assados","incorrect_answers":["Mule","Benson","Pony"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza robbed","correct_answer":"roubado","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza shall","correct_answer":"deve","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza smell","correct_answer":"cheiro","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza soarwing","correct_answer":"voando alto","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza shut","correct_answer":"fechar","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
@@ -44,11 +66,33 @@
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza thought","correct_answer":"pensamento","incorrect_answers":["8","5","2"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza torch","correct_answer":"tocha","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza unleashes","correct_answer":"desencadeia","incorrect_answers":["Mule","Benson","Pony"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza upset","correct_answer":"chateado","incorrect_answers":["8","5","2"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza whole","correct_answer":"inteiro","incorrect_answers":["8","5","2"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza widely","correct_answer":"largamente","incorrect_answers":["Mule","Benson","Pony"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza wounded","correct_answer":"ferido","incorrect_answers":["8","5","2"]},
+
+{"category":"Japones","type":"multiple","difficulty":"medium","question":"Traduza うち","correct_answer":"House","incorrect_answers":["8","5","2"]},
+
+{"category":"Japones","type":"multiple","difficulty":"medium","question":"Traduza すみません","correct_answer":"Please","incorrect_answers":["8","5","2"]},
+
+{"category":"Japones","type":"multiple","difficulty":"medium","question":"Traduza ありがとうございます","correct_answer":"Thank You","incorrect_answers":["8","5","2"]},
+
+{"category":"Japones","type":"multiple","difficulty":"medium","question":"Traduza ぼくたち","correct_answer":"We","incorrect_answers":["8","5","2"]},
+
+{"category":"Japones","type":"multiple","difficulty":"medium","question":"Traduza どこ","correct_answer":"Where","incorrect_answers":["8","5","2"]},
+
+{"category":"Japones","type":"multiple","difficulty":"medium","question":"Traduza はい","correct_answer":"Yes","incorrect_answers":["8","5","2"]},
+
+{"category":"Japones","type":"multiple","difficulty":"medium","question":"Traduza wounded","correct_answer":"ferido","incorrect_answers":["8","5","2"]},
+
+{"category":"Japones","type":"multiple","difficulty":"medium","question":"Traduza wounded","correct_answer":"ferido","incorrect_answers":["8","5","2"]},
 
 {"category":"Entertainment: Television","type":"boolean","difficulty":"medium","question":"Você está estudando Japonês ?","correct_answer":"Sim","incorrect_answers":["Não"]},
 
