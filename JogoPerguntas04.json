@@ -1,18 +1,30 @@
 {"response_code":0,"results":[{"category":"Matematica","type":"multiple","difficulty":"easy","question":"Quando é 1 + 1 ?","correct_answer":"2","incorrect_answers":["Clark Kent","Barry Allen","Tony Stark"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza aftermath","correct_answer":"resultado","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
 {"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza badly","correct_answer":"mal","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
-{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza below ?","correct_answer":"abaixo","incorrect_answers":["Mule","Benson","Pony"]},
+{"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza below","correct_answer":"abaixo","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza besides","correct_answer":"além de","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza beyond ?","correct_answer":"além","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza bidding ?","correct_answer":"licitação","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza blows","correct_answer":"golpes","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza blunt","correct_answer":"contundente","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza bothered ?","correct_answer":"incomodado","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza branble ?","correct_answer":"branquela","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza charting ?","correct_answer":"gráficos","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza cheering","correct_answer":"torcendo","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza cleanse","correct_answer":"limpar","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza climbed ?","correct_answer":"subiu","incorrect_answers":["Mule","Benson","Pony"]},
 
@@ -22,15 +34,27 @@
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza crusty","correct_answer":"crocante","incorrect_answers":["Mule","Benson","Pony"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza dandy","correct_answer":"elegante","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza delay ?","correct_answer":"atraso","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza delayed ?","correct_answer":"atrasado","incorrect_answers":["Mule","Benson","Pony"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza despite","correct_answer":"apesar","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza doubt","correct_answer":"dúvida","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza dragged ?","correct_answer":"arrastado","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza drawers","correct_answer":"gavetas","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza dry","correct_answer":"seco","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza earthen","correct_answer":"terroso","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza efforts","correct_answer":"esforços","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza elders","correct_answer":"anciaõs","incorrect_answers":["8","5","2"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza explain ?","correct_answer":"explicar","incorrect_answers":["Mule","Benson","Pony"]},
 
@@ -48,11 +72,17 @@
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza felled","correct_answer":"derrubado","incorrect_answers":["Mule","Benson","Pony"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza fledgling","correct_answer":"calouro","incorrect_answers":["8","5","2"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza foe ?","correct_answer":"inimigo","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza foreshadow","correct_answer":"prenúncio","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza getting","correct_answer":"obtendo","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza Golden Sun","correct_answer":"Sol Dourado","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza gotten","correct_answer":"obtido","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza grip ?","correct_answer":"pegada","incorrect_answers":["Mule","Benson","Pony"]},
 
@@ -60,11 +90,19 @@
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza had ?","correct_answer":"tive","incorrect_answers":["Mule","Benson","Pony"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza handsome","correct_answer":"bonito","incorrect_answers":["8","5","2"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza hatching","correct_answer":"eclosão","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza head","correct_answer":"cabeça","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza hear","correct_answer":"ouvir","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza heat","correct_answer":"calor","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza Highlands","correct_answer":"Terras altas","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza hope","correct_answer":"esperança","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza huddled","correct_answer":"amontado","incorrect_answers":["Mule","Benson","Pony"]},
 
@@ -72,17 +110,29 @@
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza lack","correct_answer":"falta","incorrect_answers":["Mule","Benson","Pony"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza leaf","correct_answer":"folha","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza lifeblood","correct_answer":"sangue vital","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza lowlands","correct_answer":"terras baixas","incorrect_answers":["8","5","2"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza lumberjack","correct_answer":"lenhador","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza matter","correct_answer":"matéria","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza mean","correct_answer":"média","incorrect_answers":["Mule","Benson","Pony"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza mess","correct_answer":"bagunça","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza might","correct_answer":"pode","incorrect_answers":["8","5","2"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza mighty","correct_answer":"poderoso","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza mood","correct_answer":"humor","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza mustn't","correct_answer":"não deve","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza nag","correct_answer":"chato","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza noise","correct_answer":"ruído","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
@@ -106,6 +156,8 @@
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza quotes","correct_answer":"aspas","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza ranges","correct_answer":"intervalos","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza reach","correct_answer":"alcance","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza readable","correct_answer":"legível","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
@@ -115,6 +167,8 @@
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza reckless","correct_answer":"irresponsável","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza refugees","correct_answer":"refugiados","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza reshaped","correct_answer":"reformulado","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza rested","correct_answer":"descansado","incorrect_answers":["Mule","Benson","Pony"]},
 
@@ -127,6 +181,10 @@
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza sake","correct_answer":"saqueê","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza sap","correct_answer":"seiva","incorrect_answers":["Mule","Benson","Pony"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza scorched","correct_answer":"queimado","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza setbacks","correct_answer":"contratempos","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza settled","correct_answer":"resolvido","incorrect_answers":["Mule","Benson","Pony"]},
 
@@ -150,6 +208,8 @@
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza soarwing","correct_answer":"voando alto","incorrect_answers":["Mule","Benson","Pony"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza soften","correct_answer":"suavizar","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza spring","correct_answer":"primavera","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza standby","correct_answer":"espera","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
@@ -160,11 +220,19 @@
 
 {"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza stores","correct_answer":"lojas","incorrect_answers":["Rachel Phantomhive","Alexis Leon Midford","Angelina Dalles"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza stubborn","correct_answer":"teimoso","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza sun","correct_answer":"sol","incorrect_answers":["8","5","2"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza surrounded","correct_answer":"cercado","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza tame","correct_answer":"manso","incorrect_answers":["8","5","2"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza thankful","correct_answer":"grato","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza their","correct_answer":"seus","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza there","correct_answer":"ai","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza thousand","correct_answer":"mil","incorrect_answers":["8","5","2"]},
 
@@ -176,11 +244,27 @@
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza trip","correct_answer":"viagem","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza trouble","correct_answer":"problema","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza troublemaker","correct_answer":"encrenqueiro","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza under","correct_answer":"sob","incorrect_answers":["8","5","2"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza unleashes","correct_answer":"desencadeia","incorrect_answers":["Mule","Benson","Pony"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza upset","correct_answer":"chateado","incorrect_answers":["8","5","2"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza wall-like","correct_answer":"tipo parede","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza wanderers","correct_answer":"andarilhos","incorrect_answers":["8","5","2"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza waste","correct_answer":"lixo","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza weary","correct_answer":"cansado","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza went","correct_answer":"foi","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza weren't","correct_answer":"não eram","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza who","correct_answer":"quem","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
@@ -188,9 +272,21 @@
 
 {"category":"Ingles","type":"multiple","difficulty":"hard","question":"Traduza widely","correct_answer":"largamente","incorrect_answers":["Mule","Benson","Pony"]},
 
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza widespread","correct_answer":"generalizado","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza wits","correct_answer":"sagacidade","incorrect_answers":["8","5","2"]},
+
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza worried","correct_answer":"preocupado","incorrect_answers":["December 17, 1996","November 12, 1990","November 24, 1995"]},
 
 {"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza wounded","correct_answer":"ferido","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"easy","question":"Traduza wounds","correct_answer":"feridas","incorrect_answers":["bem","bom","triste"],"comment": "Testando"},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza wraps","correct_answer":"envolve","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza Most people in Weyard have no idead that Vale was sacrificed for the sake of the world","correct_answer":"ferido","incorrect_answers":["8","5","2"]},
+
+{"category":"Ingles","type":"multiple","difficulty":"medium","question":"Traduza : Meet him there","correct_answer":"ferido","incorrect_answers":["8","5","2"]},
 
 {"category":"Japones","type":"multiple","difficulty":"medium","question":"Traduza うち","correct_answer":"House","incorrect_answers":["8","5","2"]},
 
