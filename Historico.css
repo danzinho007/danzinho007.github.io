@@ -10,7 +10,7 @@ body{
     src: url('aladdin.ttf');
 }
 div#interface {
-    width: 500px;
+    width: 600px;
     height: 600px;
     background-color: rgb(100, 100, 70);
     margin: -500px 230px 0px 180px;
