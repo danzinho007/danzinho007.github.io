@@ -1,8 +1,8 @@
 @charset "UTF-8" ;
-/* Estilo do Menu Algoritmo */
+/* Estilo do Menu Atalhos  */
 
 body{
-    background-color: rgb(200, 150, 150)
+    background-color: rgb(150, 150, 150)
 }
 
 @font-face {
@@ -12,7 +12,6 @@ body{
 div#interface {
     width: 500px;
     height: 600px;
-    background-color: #bbbbbb;
     margin: -500px 230px 0px 170px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, -5);
     overflow: auto;
