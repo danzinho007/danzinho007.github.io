@@ -11,7 +11,7 @@ body{
 div#interface {
     width: 480px;
     background-color: #aaaaaa;
-    margin: -570px 230px 0px 180px;
+    margin: -650px 230px 0px 180px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, -5);
     padding: 10px;
 }
@@ -34,4 +34,9 @@ p{
 }
 div#ibage {
    margin-left: 30px;
+}
+.coluna {
+    position: relative;
+    left: 670px;
+    top: -600px;
 }

@@ -11,9 +11,9 @@ body{
 div#interface {
     width: 500px;
     background-color: #cccccc;
-    margin: -600px 230px 0px 170px;
+    margin: -690px 230px 0px 170px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, -5);
-    height: 600px;
+    height: 700px;
     overflow: auto;
 }
 h1{
