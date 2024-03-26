@@ -13,7 +13,7 @@ div#interface {
     background-color: #cccccc;
     margin: -690px 230px 0px 170px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, -5);
-    height: 700px;
+    height: 1000px;
     overflow: auto;
 }
 h1{
@@ -26,5 +26,5 @@ p{
     color: black(0,0,0);
     text-align: justify;
     text-indent: 10px;
-    line-height: 0.5;
+    line-height: 1.0;
 }

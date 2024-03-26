@@ -4,31 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atalhos</title>
-    <link rel="stylesheet" href="estilo01.css">
+    <title>Teste JavaScript 2</title>
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="estilo01.css">
     <style>
-		body { background-color: #bbbbbb; }
+        body { background-color: aqua;}
         .coluna {
             position: relative;
             left: 670px;
             top: -600px;
         }
-	</style>
+    </style>
     <script>
-        var d = new Date();
-        var dia = d.getDate().toString().padStart(2, '0');
-        var mes = (d.getMonth() + 1).toString().padStart(2, '0');
-        var ano = d.getFullYear();
-        var dataFormatada = dia + "/" + mes + "/" + ano;
-        document.write("Olá Visitante, hoje é dia " + dataFormatada + " " + d.toLocaleDateString('pt-BR', {weekday: 'long'}));
+        function acendeLampada () {
+            alert ("Lâmpada Acendeu");
+        }
+        function passando () {
+            alert ("Lâmpada queimada")
+        }
+        function acesaLampada () {
+            document.getElementById("luz").src = "../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-acesa.jpg";
+        }
+        function acesaLampada1 () {
+            document.getElementById("luz1").src = "../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-acesa.jpg";
+        }
+        function apagaLampada1 () {
+            document.getElementById("luz1").src = "../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-apagada.jpg";
+        }
+        function quebraLampada1 () {
+            document.getElementById("luz1").src = "../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-quebrada.jpg";
+        }
     </script>
+
 </head>
+
 <body>
     <ul>
-		<li><a href="index.html" rel="prev">Voltar</a></li>
-	</ul>
-	<ol>
+        <li><a href="index.html" rel="prev">Voltar</a></li>
+    </ul>
+    <ol>
         <li><a href="Algoritmo.html" rel="next">Algoritmo</a></li>
         <li><a href="Atalhos.html" rel="next">Atalhos</a></li>
         <li><a href="Canvas.html" rel="next">Canvas</a></li>
@@ -69,70 +83,15 @@
             <li><a href="Projeto01.html">Lâmpada</a></li>
         </ul>
     </div>
-    <div id ="interface">
-    <h1>Atalhos PC</h1>
-    CTRL + F5 = Limpa os dados salvos do navegador<br>
-    CTRL + &lt; = Voltar a página anterior<br>
-    CTRL + A = Selecionar tudo <br>
-    CTRL + C = Copiar <br>
-    CTRL + V = Colar  <br>
-    CTRL + X = Recortar
-    
-    <h1>Atalhos Visual Studio Code</h1>
-    
-    <p>Alt + Número<br>
-    Navegar entre abas</p>
-
-    <p>Alt \/ ( seta pra baixo )<br>
-    Mover linha pra baixo</p>
-
-    <p>Alt + Shift + F <br>
-    Identação </p>
-
-    <p>Alt + Z<br>
-    Trás a linha pra esquerda
-    Pra colocar na direita é : selecionar o texto e apertar TAB
-    </p>
-    
-    <p>CTRL + Alt + Enter = Substituir arquivos</p>
-
-    <p>CTRL Click<br>
-    Escolha uma palavra e segure CTRL e depois clique nela com o botão esquerdo do mouse, isso irá seguir<br>
-    Caso não esteja criado o arquivo, vai perguntar se deseja fazer isso</p>
-
-    <p>CTRL Espaço<br>
-    Seleciona algo na pasta<br></p>
-    
-    <strong><p>CTRL + Shift + P</p></strong>
-    Selecione algo e aperte essas teclas, escolha Envolver com abreviação e depois selecione sua tag <br>
-    Ex : Esqueci de por negrito em <strong>Atalhos</strong>, dai eu faço isso e escolho a tag strong e aperto Enter
-
-    <p><strong>CTRL +</strong></p>
-    CTRL + = Comentar código ou Remover comentário<br>
-    CTRL + Enter = Inserir linha abaixo <br>
-    CTRL + PageUP/PageDown = Navega entre Abas<br>
-    CTRL + B = Ativa/Desativa Barra Lateral<br>
-    CTRL + C = Copiar linha <br>
-    CTRL + F = Pesquisar <br>
-    CTRL + G = Acessar linha/coluna<br>
-    CTRL + H = Substituir<br>
-    CTRL + L = Selecionar linha<br>
-    CTRL + N = Cria um arquivo<br>
-    CTRL + O = Abre arquivo<br>
-    CTRL + S = Salvar arquivo<br>
-    CTRL + T = Mostrar todos símbolos <br>
-    CTRL + Z = Desfaz ação
-    
-    <p><strong>CTRL Duplo</strong></p>
-    CTRL K + CTRL + O = Abre um diretório de arquivos <br>
-    CTRL + Alt + Enter = Substituir arquivos <br>
-    Shift + Alt + \/ = Duplicar linha
-
-    <p><strong>Shift + Tab</strong></p>
-    Seleciona o texto e aperta esses 2 pro texto ir pra esquerda
-
-    <p><strong>Tab</strong></p>
-    Seleciona o texto e aperte Tab pra ele ir pra direita
+    <div id="interface">
+    <h1>Acenda a Lâmpada</h1>
+    <img src="../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-apagada.jpg" onclick="acendeLampada()"/>
+    <br>
+    <img src="../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-apagada.jpg" onmousemove="passando()"/>
+    <br>
+    <img src="../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-apagada.jpg" id="luz" onmousemove="acesaLampada()"/>
+    <br>
+    <img src="../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-apagada.jpg" id="luz1" onmousemove="acesaLampada1()" onmouseout="apagaLampada1()" onclick="quebraLampada1()"/>
     </div>
 </body>
 </html>

@@ -7,6 +7,14 @@
     <title>TagsJavaScript</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo01.css">
+    <style>
+        body { background-color: aliceblue;}
+        .coluna {
+            position: relative;
+            left: 670px;
+            top: -600px
+        }
+    </style>
     <script>
         var d = new Date();
         var dia = d.getDate().toString().padStart(2, '0');
@@ -18,7 +26,9 @@
 </head>
 
 <body>
-    <li><a href="index.html">Voltar</a></li>
+    <ul>
+        <li><a href="index.html" rel="prev">Voltar</a></li>
+    </ul>
     <ol>
         <li><a href="Algoritmo.html" rel="next">Algoritmo</a></li>
         <li><a href="Atalhos.html" rel="next">Atalhos</a></li>
@@ -57,13 +67,12 @@
     <div class="coluna">
         <ul>
             <li><a href="Eu.html">Quem sou eu</a></li>
+            <li><a href="Projeto01.html">Lâmpada</a></li>
         </ul>
-
     </div>
-    
     <div id="interface">
     <h1>TagsJavaScript</h1>
-    <h3>Obs¹ : Essas tags precisam ser colocadas dentro da tag<br> < script>< /script></h3>
+    <h3>Obs¹ : Essas tags precisam ser colocadas dentro da tag<br> &lt; script> &lt;/script></h3>
     <h3>Obs² : A posições dos comandos altera o funcionamento, ou seja, se colocar o script antes do body, ele será executado primeiro</h3>
 
     <strong>alert("Olá, Mundo!");</strong> <br>
@@ -77,95 +86,82 @@
     Tudo que estiver dentro de () ´são Parâmetros <br>
     Tudo que estider dentro de {} são Códigos <br>
     <br>
-    -------- <strong>Letra N</strong> --------
+    <p><strong>Letra N</strong></p>
 
-    <p><strong>var n0 = window.prompt('Digite o número: ')</strong><br>
+    <strong>var n0 = window.prompt('Digite o número: ')</strong>
     Isso mostra uma janela e guarda o valor digitado na var n0
-    </p>
-    <p>
-    <strong>var n1 = window.prompt('Digite o 1° número: ')</strong> <br>
-    <strong>var n2 = window.prompt('Digite o 2° número: ')</strong><br>
-    <strong>var s1 = n1 + n2</strong><br>
-    <strong>window.alert('String + String junta, logo ' + n1 + ' + ' + n2 + ' é ' + s1)</strong><br>
-    Vai mostrar na tela : String + String junta, logo n1 + n2 é n1n2<br>
-    Isso irá juntar os 2 valores, pois o comando window.prompt só lê string<br>
-    </p>
-    <p><strong>var n3 = Number.parseInt(window.prompt('Digite o 3° número : '))</strong><br>
-        Aqui estamos convertendo a string window.prompt em Número Inteiro, caso<br> a pessoa digite número real, vai contar somente a parte inteira.<br>
-        Exemplo 4.50 , parte inteira é 4<br>
-        </p>
+    <p><strong>var n1 = window.prompt('Digite o 1° número: ')</strong></p>
+    <p><strong>var n2 = window.prompt('Digite o 2° número: ')</strong></p>
+    <p><strong>var s1 = n1 + n2</strong></p>
+    <strong>window.alert('String + String junta, logo ' + n1 + ' + ' + n2 + ' é ' + s1)</strong>
+    Vai mostrar na tela : String + String junta, logo n1 + n2 é n1n2
+    Isso irá juntar os 2 valores, pois o comando window.prompt só lê string
+    <p><strong>var n3 = Number.parseInt(window.prompt('Digite o 3° número : '))</strong></p>
+    Aqui estamos convertendo a string window.prompt em Número Inteiro, caso a pessoa digite número real, vai contar somente a parte inteira.
+    Exemplo 4.50 , parte inteira é 4
+    <strong>var n4 = parseInt(window.prompt('Digite o 4° número : '))</strong>
+    
+    Outra forma de converter a string em um Número Inteiro
+    <strong><p>var n5 = window.prompt('Digite o 5° número: ')</p>
+    <p>var n6 = Number.parseInt(window.prompt('Digite o 6° número: '))</p>
+    <p>var s3 = n5 + n6</p>
+    <p>window.alert('String + Numero é junta, logo '+ s3)</p>
+    </strong>
+    Isso irá juntar os 2 valores, pois o comando window.prompt lê string
+    String + Número = Junção
 
-        <p>
-        <strong>var n4 = parseInt(window.prompt('Digite o 4° número : '))</strong><br>
-        Outra forma de converter a string em um Número Inteiro<br>
-        </p>
+    <strong><p>var n7 = Number.parseFloat(window.prompt('Digite o 7° número : '))</p></strong>
+    Aqui estamos convertendo a string window.prompt em número real
+    Ex 7 é inteiro, 7.0 é real
 
-        <p>
-        <strong>var n5 = window.prompt('Digite o 5° número: ')<br>
-        var n6 = Number.parseInt(window.prompt('Digite o 6° número: '))<br>
-        var s3 = n5 + n6<br>
-        window.alert('String + Numero é junta, logo '+ s3)<br>
-        </strong>
-        Isso irá juntar os 2 valores, pois o comando window.prompt lê string<br>
-        String + Número = Junção<br>
-        </p>
+    <strong>
+        <p>var n8 = parseFloat(window.prompt('Digite o 8° número: '))</p>
+    </strong>
+    Outra forma de converter a string em um Número Real
+    var s4 = n7 + n8
 
-        <p>
-        <strong>var n7 = Number.parseFloat(window.prompt('Digite o 7° número : '))</strong><br>
-        Aqui estamos convertendo a string window.prompt em número real<br>
-        Ex 7 é inteiro, 7.0 é real<br>
-        <strong>var n8 = parseFloat(window.prompt('Digite o 8° número: '))</strong><br>
-        Outra forma de converter a string em um Número Real<br>
-        var s4 = n7 + n8<br>
-        <strong>window.alert('A soma de ' + n7 + ' e ' + n8 + ' é: ' + s4)</strong><br>
-        Irá mostrar a soma de 2 números reais<br>
-        Se a pessoa colocar 7 e 7.7, a resposta será 14.7, pois<br> convertemos os 2 númeres antes em reais / flutuantes<br>
-        </p>
-
-        <p><strong>Letra O</strong></p>
-
-        <p><strong>onclick</strong></p>
-        Quando o usário clicar vai acontecer algo.<br>
-        Exemplo : onlick ="quebraLampada"<br>
-        Quando o usuário clicar vai chamar a função quebraLampada<br><br>
-
-        <p><strong>onmousemove</strong></p>
-        Quando o usuário passar o mouse sobre o objeto, vai disparar algo <br>
-        Exemplo : onmousemove = "acendeLampada"<br>
-        Quando o usário passar o mouse vai chamar a função acendeLampada <br>
-
-        <p><strong>onmouseout</strong></p>
-        Quando o usuário tirar o mouse do objeto, vai acontecer algo <br>
-        Exemplo : onmouseout = "lampada-apagada" <br>
-        Quando o usuário tirar o mouse vai chamar a função lampada-apagada <br>
-
-        <p><strong>Letra V</strong></p>
-        
-        <p>
-        <strong>var nome = window.prompt</strong>("Qual é o seu nome ?") <br>
-        O comando window.prompt só lê string<br>
-        Vai mostrar uma janela quando o usuário entrar no site e perguntar o nome<br>
-        Ao invés de usar widow.prompt pode usar let nome ou const nome <br>
-        </p>
-
-        --- <strong>Letra W</strong> ---
-
-        <p>
-        <strong>window.alert('É um grande prazer em te conhecer, '+ nome + '!')</strong> <br>
-        Esse comando mostra uma janela dizendo a mensagem mais o que  ta<br> guardado na variável nome<br>
-        Sinal de "+" é de Concatenação = Junção<br>
-        </p>
-
-        <p>
-        window.alert('String + String junta, logo ' + n1 + ' + ' + n2 + ' é ' + s1)<br>
-        Isso irá juntar os 2 valores, pois o comando window.prompt só lê string<br>
-        Pra fazer a soma basta converter usando parseInt <br>
-        </p>
-
-        <p>
-        <strong>window.prompt("Olá Mundo")</strong><br>
-        Esse comando mostra uma janela escrita Olá Mundo<br>
-        </p>
+    <strong>
+        <p>window.alert('A soma de ' + n7 + ' e ' + n8 + ' é: ' + s4)</p>
+    </strong>
+    Irá mostrar a soma de 2 números reais
+    Se a pessoa colocar 7 e 7.7, a resposta será 14.7, pois convertemos os 2 númeres antes em reais / flutuantes
+    
+    <strong>Letra O</strong>
+    
+    <p><strong>onclick</strong></p>
+    Quando o usário clicar vai acontecer algo.
+    Exemplo : onlick ="quebraLampada"
+    Quando o usuário clicar vai chamar a função quebraLampada
+    
+    <p><strong>onmousemove</strong></p>
+    Quando o usuário passar o mouse sobre o objeto, vai disparar algo
+    Exemplo : onmousemove = "acendeLampada"<br>
+    Quando o usário passar o mouse vai chamar a função acendeLampada <br>
+    
+    <p><strong>onmouseout</strong></p>
+    Quando o usuário tirar o mouse do objeto, vai acontecer algo <br>
+    Exemplo : onmouseout = "lampada-apagada" <br>
+    Quando o usuário tirar o mouse vai chamar a função lampada-apagada <br>
+    
+    <p><strong>Letra V</strong></p>
+    
+    <p><strong>var nome = window.prompt</strong>("Qual é o seu nome ?")</p>
+    O comando window.prompt só lê string
+    Vai mostrar uma janela quando o usuário entrar no site e perguntar o nome
+    Ao invés de usar widow.prompt pode usar let nome ou const nome 
+    
+    <p><strong>Letra W</strong></p>
+    
+    <p><strong>window.alert('É um grande prazer em te conhecer, '+ nome + '!')</strong></p>
+    Esse comando mostra uma janela dizendo a mensagem mais o que  ta guardado na variável nome
+    Sinal de "+" é de Concatenação = Junção
+    
+    <strong><p>window.alert('String + String junta, logo ' + n1 + ' + ' + n2 + ' é ' + s1)</p></strong>
+    Isso irá juntar os 2 valores, pois o comando window.prompt só lê string
+    Pra fazer a soma basta converter usando parseInt
+    
+    window.prompt("Olá Mundo")
+    Esse comando mostra uma janela escrita Olá Mundo
     </div>
 </body>
 </html>
