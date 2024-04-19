@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>Tags HTML</title>
+    <link rel="stylesheet" href="./css/estilo01.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script>
+        var d = new Date();
+        var dia = d.getDate().toString().padStart(2, '0');
+        var mes = (d.getMonth() + 1).toString().padStart(2, '0');
+        var ano = d.getFullYear();
+        var dataFormatada = dia + "/" + mes + "/" + ano;
+        document.write("Olá Visitante, hoje é dia " + dataFormatada + " " + d.toLocaleDateString('pt-BR', {weekday: 'long'}));
+    </script>
+</head>
+
+<body>
+    <ul>
+		<li><a href="index.html" rel="prev">Voltar</a></li>
+	</ul>
+	<ol>
+        <li><a href="Algoritmo.html" rel="next">Algoritmo</a></li>
+        <li><a href="Atalhos.html" rel="next">Atalhos</a></li>
+        <li><a href="Canvas.html" rel="next">Canvas</a></li>
+        <li><a href="Code.html" rel="next">Code</a></li>
+        <li><a href="Curiosidades.html" rel="next">Curiosidades</a></li>
+        <li><a href="Dicas.html" rel="next">Dicas</a></li>
+        <li><a href="Entidades.html" rel="next">Entidades</a></li>
+        <li><a href="EntidadesHTML.html" rel="next">EntidadesHTML<a></li>
+        <li><a href="Explicando.html" rel="next">Explicando</a></li>
+        <li><a href="Extensoes.html" rel="next">Extensões</a></li>
+        <li><a href="Historico.html" rel="next">Histórico</a></li>
+        <li><a href="Japonês.html" rel="next">Japonês</a></li>
+        <li><a href="JogoCobrinha.html" rel="next">JogoCobrinha</a></li>
+        <li><a href="JogoCobrinhax2.html" rel="next">JogoCobrinhax2</a></li>
+        <li><a href="JogoPerguntas.html" rel="next">JogoPerguntas</a></li>
+        <li><a href="JogoPerguntas2.html" rel="next">JogoPerguntas2</a></li>
+        <li><a href="PerguntasRespostas.html" rel="next">PerguntasRespostas</a></li>
+        <li><a href="Livros.html" rel="next">Livros</a></li>
+        <li><a href="MySQL.html" rel="next">MySQL</a></li>
+        <li><a href="NomeIdiomas.html" rel="next">NomeIdiomas</a></li>
+        <li><a href="PaginaHTML.html" rel="next">PáginaHTML</a></li>
+        <li><a href="Passos.html" rel="next">Passos</a></li>
+        <li><a href="Projetos.html" rel="next">Projetos</a></li>
+        <li><a href="ProjetoAlfa.html" rel="next">ProjetoAlfa</a></li>
+        <li><a href="ProjetoGoogleGlass.html">ProjetoGoogleGlass</a></li>
+        <li><a href="Python.html" rel="next">Python</a></li>
+        <li><a href="TagsCSS.html"rel="next">TagsCSS</a></li>
+        <li><a href="TagsHTML.html" rel="next">TagsHTML</a></li>
+        <li><a href="TagsJava.html" rel="next">TagsJava</a></li>
+        <li><a href="TagsJavaScript.html">TagsJavaScript</a></li>
+        <li><a href="Termos.html" rel="next">Termos</a></li>
+        <li><a href="Xadrez.html" rel="next">Xadrez</a></li>
+        <li><a href="ZZZ01.html" rel="next">ZZZ01</a></li>
+    </ol>
+    <div class="coluna">
+        <ul>
+            <li><a href="Eu.html">Quem sou eu</a></li>
+        </ul>
+
+    </div>
+    
+    <div id="interface">
+    <h1>Tags HTML</h1>
+    <p>HMTL foca em Semântica / Significado <br> Tag vermelha = obsoleto</p>
+    <p>obs¹ = Isso são tags que precisam estar juntas</p>
+    <p>Por exemplo : < strong>, se eu juntar o <, não irá aparecer o código, por isso estou notificando antes</p>
+    <p>obs² = Mensagem / Texto = A pessoa pode escrever qualquer coisa </p><br>
+    <p>
+        1¹ <strong>< a href="UrldoSite rel="prev">Mensagem< /></strong><br>
+        Serve pra abrir um link externo<br>
+        a = Âncora , href = referência<br>
+        rel="prev" = Indica que você está voltando pra página anterior do site<br>
+        rel="next" = Indica que você está indo pra outra página do site<br>
+    </p>
+
+    <p>
+        2¹ <strong>< a href="UrldoSite" target="_blank">Mensagem< /></strong><br>
+        Serve pra abrir um link externo numa nova aba do navegador
+    </p>
+    
+    <p>
+        3¹ <strong>< a href="UrldoSite" target="_self">Mensagem< /></strong><br>
+        Serve pra abrir um link externo na mesma aba do site, isso pode omitir ou colocar-->
+    </p>
+
+    <p>
+        4¹ <strong>< article id="noticia-principal"></strong><br>
+        Artigo de notícia<br>
+        Uma mesma section pode ter vários Artigos<br>
+    </p>
+
+    <p>
+        5¹ <strong>< aside>< /aside></strong><br>
+        Conteúdo Lateral do site
+    </p>
+
+    ---<strong> Letra B </strong>---
+
+    <p>
+        4¹ <strong>< br></strong><br>
+        Serve pra pular linha e continuar na margem esquerda<br>
+    </p>
+
+    --------<strong> Letra C </strong>--------
+
+    <p>
+        5¹ <strong>< caption>< /caption></strong><br>
+        Especifica a legenda / título de uma tabela<br>
+    </p>
+
+    <p>
+        6¹ <strong>< class>< /class></strong><br> Identifica vários objetos
+    </p>
+
+    <p>
+        <strong>< code>< /code></strong><br>
+        Esse comando é pra colocar código de outras linguagens dentro do HTML <br>
+    </p>
+    ---<strong> Letra D </strong>---
+
+    <p>
+        5¹ <strong>< div id="Nome"> < /div></strong><br>
+        Div = É um container que serve pra agrupar elementos para fins de estilo usando class ou id<br>
+        class = Identificar um conjunto de elementos HTML que compartilham uma classe comum <br>
+        Ex: Imagem, Tabela
+        id = Identificar um elemento HTML específico.<br>
+        Ex: Interface, Parágrafo <br>
+
+    </p>
+
+    <p>
+        5¹ <strong>< footer id="rodape">< /footer></strong><br>
+        É o rodapé ( parte de baixo ) da página
+    </p>
+
+    <p>
+        6¹ <strong>< form action="submit-form.php" method="post"></strong><br>
+        Ainda não estudei isso
+    </p>
+
+    --------<strong> Letra H </strong>--------
+
+    <p>
+        7¹ <strong>< h1>< /h1></strong><br>
+        Nível 1 de Título, assim como h2 é subnível, etc até h6-->
+    </p>
+
+    <p>
+        8¹ <strong>< h1 align="center"></strong><br>
+        align="center" = Alinhamento ao centro, está em vermelho o código pois não está em uso
+    </p>
+
+    <p>
+        10² <strong>< id></strong> <br>
+        id é um tipo de elemento<br>
+    </p>
+
+    <p>
+        11¹ <strong>< img src="html5.png" alt="Logo de HTML5"></strong><br>
+        Adiciona imagem que ta na mesma pasta, caso esteja em outro basta digitar /nomedapasta/nomedoarquivo<br> 
+        caso esteja antes colocar ../nomedapasta/nomedoarquivo<br>
+        caso esteja em algum endereço é só colar o link <br>
+        Em alt fica uma explicação da imagem <br>
+        CNTRL + Espaço = seleciona o arquivo-
+    </p>
+
+    <p>
+        12¹ <strong>< input type="number" name="txtn1" id="txtn1"></strong><br>
+        Vai pedir pro usuário digitar ou selecionar um número numa caixa<br>
+        <input type="number" name="txtn1" id="txtn1"><br>
+
+    </p>
+
+    <p>
+        9¹ <strong>< input type="text" id="Nome" name="Nome"></strong><br>
+        Pedindo pro usuário digitar um texto numa caixa<br>
+        <input type="text" id="Nome" name="Nome">
+    </p> 
+
+    <p>
+        10¹ <strong>< input type="submit" value="Submit"></strong><br>
+        Pedindo pro usuário clicar na caixa criada pra enviar os dados que foi submetido antes<br>
+        <input type="submit" value="Submit"><br>
+    </p>
+
+    ---<strong> Letra L </strong>---
+   
+    <p>
+        11¹ <strong>< label for="Usuário">Usuário:</></strong><br>
+        Criando uma caixa ( label ) com nome de Usuário com título Usuário<br>
+        Tudo que for digitado na caixa será guardado na variável Usuário<br>
+        Exemplo : A caixa mais o input tipo text<br>
+        <label for="Usuário">Usuário : </label><input type="text" id="Nome" name="Nome">
+
+    </p>
+
+    <p>
+        12¹ <strong>< li>< /li></strong><br>
+        É um item de uma lista.<br>
+        Por ser um item da lista, antes a pessoa precisa ter colocado < ol>< /ol> ou < ul> < /ul><br>
+        A partir da versão 5 do HMTL, o li no final ficou sendo opcional <br>
+    </p>
+    <p>
+        13² <strong>lorem + Enter</strong><br>
+        Escreve um texto aleatório <br>
+    </p>
+    <p>
+        13¹ <strong> < li>< a href="ProjetoAlfa.html">ProjetoAlfa< /a>< /li></strong><br>
+        href : Está dizendo pro navegador onde está o html especificado, por padrão coloquei o nome do link sendo o nome do Título<br>
+        Se a pessoa quiser basta criar o arquivo html assim e depois clicar no link pra ele ser aberto<br> e criado automaticamente
+    </p>
+
+    <p>
+        15-<strong>< link rel="alternate" href="atom.xml" type="application/atom+xml" title="Atom"></strong><br>
+        Ainda não sei<br>
+    </p>
+
+    <p>
+        14¹ <strong>< link rel="shortcut icon" href="favicon.ico"></strong><br>
+        Escrever "link" depois escolhe "favicon"<br>
+        Aqui ele está referindo a shortcut icon ( Icone de Atalho ) chamando arquivo favicon.ico<br>
+        Eu estou dizendo pro Navegador usar o arquivo favicon.ico que está na pasta
+    </p>
+
+    <p>
+        15¹ <strong>< link rel="stylesheet" href="estilo.css"></strong><br>
+        Aqui ele está referindo a stylesheet ( Folhas de Estilo ) chamando arquivo estilo.css<br>
+        Eu estou dizendo pro Navegador usar o estilo do arquivo estilo.css que está na pasta<br>
+        Usar no < head></ head> ( Ver <a href="PaginaHTML.html">PáginaHTML</a> ) embaixo de < title>Meu site< /title>
+    </p>
+
+    ----- <strong> Letra O </strong> -----
+
+    <p> < ol>< /ol> <br>
+    ol = Lista ordenada <br>
+    Em type nós temos 5 tipos : <br>
+    1 = padrão, número em 1, 2, 3, etc<br>
+    A = ordem alfabética Maiúscula : A, B, C, etc<br>
+    a = ordem alfabética minúscula : a, b, c, etc<br>
+    I = números romanos Maiúscula : I, II, III, etc<br>
+    i = números romanos minúscula : i, ii, iii, etc<br> <br>
+    
+    < ol type="i" start="3"> < /ol><br>
+    Se eu quiser começar com o 3° elemento, coloco star ="3"<br>
+    Isso irá aparecer : iii Acordar depois iv Ligar para o João<br>
+    </p>
+
+    -----<strong> Letra P </strong>-----
+
+    <p>
+        16¹ <strong>< p>Texto< /p></strong><br>
+        Faz do Texto um Parágrafo
+    </p>
+
+    <p>
+        17¹ <strong>< picture>< /picture></strong><br>
+        O comando abaixo precisa ser colocado dentro do comando acima<br>
+        <strong>< source media="(max-witdh:750px)" srcset="nomedoarquivo.png" type="image/png"></strong><br>
+        Esse comando é pra colocar uma imagem do tamanho pequena<br>
+        <strong>< source media="(max-witdh:1050px)" srcset="nomedoarquivo.png" type="image/png"></strong><br>
+        Imagem tamanho médio<br>
+        <strong>< img src="grande.png" alt="Imagem Flexível"></strong><br>
+        Imagem tamanho grande<br>
+    </p>
+
+    <p>
+        17¹ <strong>< pre> Texto < /pre></strong><br>
+        Tudo que está no Texto vai respeitar a sua formatação.<br>
+        Se pular linha, vai pular linha, não será necessário usar outras tags<br>
+    </p>
+
+    <p>
+        18¹ <strong><tr>< td rowspan="2" class="ce">Conectividade< /td>
+        </strong><br>
+        Rowspan diz pra tabela que ela tem 2 linhas<br>
+        Colspan diz pra tabela que ela tem 2 colunas
+    </p>
+
+    ---<strong> Letra S </strong>---
+
+    <p>
+        16¹ <strong>< section id="corpo"></strong><br>
+        Section é Sessão / Área Principal
+    </p>
+
+    <p> 17¹ <strong>< span>< /span></strong><br>
+        Conteiner genérico para palavras<br>
+    </p>
+
+    <p>
+        17¹ <strong>< table id="tabelaspec">< /table></strong><br>
+        Cria uma tabela
+    </p>
+
+    <p>
+        18¹ <strong>< strong> Palavra < /strong></strong><br>
+        Isso serve pra deixar a Palavra em Negrito--
+    </p>
+
+    --- <strong>Letra T</strong> ---
+
+    <p>
+        <strong>< td>< /td> </strong><br>
+        Célula da tabela<br>
+        <strong>< tr>< /tr></strong><br>
+        Linha da tabela<br>
+    </p>
+
+    Exemplo :<br>
+    Obs: 1 é bem no canto esquerdo<br>
+         2 é no meio<br>
+         3 é bem pra direita<br>
+    1-< table><br>
+        2-< tr><br>
+            3-< td>Linha 1, Coluna 1< /td><br>
+            3-< td>Linha 1, Coluna 2< /td><br>
+        2-< /tr><br>
+        2-< tr><br>
+            3-< td>Linha 2, Coluna 1< /td><br>
+            3-< td>Linha 2, Coluna 2< /td><br>
+        2-< /tr><br>
+    1-< /table><br>
+
+    ----- <strong>Letra U</strong> -----
+
+    <p>
+        19¹ <strong>< ul> < /ul></strong><br>
+        Comando pra lista não ordenada, ou seja não segue uma sequência<br>
+        Como não especifiquei por padrão fica uma bolinha com fundo preto<br>
+        Deve ser usado depois < li>< /li><br>
+        Exemplo :<br>
+        Obs: 1 é bem no canto esquerdo<br>
+         2 é no meio<br>
+         3 é bem pra direita<br>
+        1-< ul><br>
+            2-< li>A< /li><br>
+            2-< li>B< /li><br>
+        1-< /ul><br>
+    </p>
+    
+    <p>
+        20¹ <strong>< ul type:"Tipo"></strong><br>
+        Podemos definitir o tipo usando isso<br>
+        Tipos :<br>
+        disc = Padrão, bolinha com fundo preto<br>
+        circle = bolinha com fundo branco<br>
+        square = quadrado com fundo preto<br>
+    </p>
+
+    <p>
+        21¹ <strong>< wbr/></strong><br>
+        Esse comando serve pra quebrar a palavra quando a janela for redimensionada<br>
+        Exemplo : Super-humano, pode quebrar depois do super
+    </p>
+    </div>
+</body>
+</html>

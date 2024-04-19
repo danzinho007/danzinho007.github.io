@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="estilo01.css">
+    <script>
+        var d = new Date();
+        var dia = d.getDate().toString().padStart(2, '0');
+        var mes = (d.getMonth() + 1).toString().padStart(2, '0');
+        var ano = d.getFullYear();
+        var dataFormatada = dia + "/" + mes + "/" + ano;
+        document.write("Olá Visitante, hoje é dia " + dataFormatada + " " + d.toLocaleDateString('pt-BR', {weekday: 'long'}));
+    </script>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html" rel="prev">Voltar</a></li>
+    </ul>
+    <ol>
+        <li><a href="Algoritmo.html" rel="next">Algoritmo</a></li>
+        <li><a href="Atalhos.html" rel="next">Atalhos</a></li>
+        <li><a href="Canvas.html" rel="next">Canvas</a></li>
+        <li><a href="Code.html" rel="next">Code</a></li>
+        <li><a href="Curiosidades.html" rel="next">Curiosidades</a></li>
+        <li><a href="Dicas.html" rel="next">Dicas</a></li>
+        <li><a href="Entidades.html" rel="next">Entidades</a></li>
+        <li><a href="EntidadesHTML.html" rel="next">EntidadesHTML<a></li>
+        <li><a href="Explicando.html" rel="next">Explicando</a></li>
+        <li><a href="Extensoes.html" rel="next">Extensões</a></li>
+        <li><a href="Historico.html" rel="next">Histórico</a></li>
+        <li><a href="Japonês.html" rel="next">Japonês</a></li>
+        <li><a href="JogoCobrinha.html" rel="next">JogoCobrinha</a></li>
+        <li><a href="JogoCobrinhax2.html" rel="next">JogoCobrinhax2</a></li>
+        <li><a href="JogoPerguntas.html" rel="next">JogoPerguntas</a></li>
+        <li><a href="JogoPerguntas2.html" rel="next">JogoPerguntas2</a></li>
+        <li><a href="PerguntasRespostas.html" rel="next">PerguntasRespostas</a></li>
+        <li><a href="Livros.html" rel="next">Livros</a></li>
+        <li><a href="MySQL.html" rel="next">MySQL</a></li>
+        <li><a href="NomeIdiomas.html" rel="next">NomeIdiomas</a></li>
+        <li><a href="PaginaHTML.html" rel="next">PáginaHTML</a></li>
+        <li><a href="Passos.html" rel="next">Passos</a></li>
+        <li><a href="Projetos.html" rel="next">Projetos</a></li>
+        <li><a href="ProjetoAlfa.html" rel="next">ProjetoAlfa</a></li>
+        <li><a href="ProjetoGoogleGlass.html">ProjetoGoogleGlass</a></li>
+        <li><a href="Python.html" rel="next">Python</a></li>
+        <li><a href="TagsCSS.html"rel="next">TagsCSS</a></li>
+        <li><a href="TagsHTML.html" rel="next">TagsHTML</a></li>
+        <li><a href="TagsJava.html" rel="next">TagsJava</a></li>
+        <li><a href="TagsJavaScript.html">TagsJavaScript</a></li>
+        <li><a href="Termos.html" rel="next">Termos</a></li>
+        <li><a href="Xadrez.html" rel="next">Xadrez</a></li>
+        <li><a href="ZZZ01.html" rel="next">ZZZ01</a></li>
+    </ol>
+    <div class="coluna">
+        <ul>
+            <li><a href="Eu.html">Quem sou eu</a></li>
+        </ul>
+
+    </div>
+    
+    <div id="interface">
+        <h1>Python</h1>
+        <h2>Revisão Python 3</h2>
+        <pre>
+    1-Observações
+    2-Comandos
+    3-Tipos Primitivos
+    4-Operadores Aritméticos
+    5-Ordem de Precedência
+    Observações :
+
+    Número + Número = Soma
+    String + String = Junta
+    String + número = Junta
+    String * número = StringRepetidaXvezes
+
+    <strong>Comandos</strong> :
+
+    I
+    input('Mensagem') = Esse comando vai mostrar uma mensagem que na<br> qual o usuário precisa responder ( Ex : Pergunta )
+
+    m
+    msg = 'Mensagem' = Variável recebe Mensagem, isso guarda a<br> mensagem na variável msg
+
+    p
+    print(msg) = Vai mostrar na tela o conteúdo da variável msg
+
+    print('Mensagem {}, mensagem' .formato(variável))
+    Vai mostrar na tela : mensagem, o conteúdo da variável nome e<br> mensagem
+
+    print('Mensagem {:20}!' .format(variável)) ou
+    print('Mensagem {:<20}!' .format(variável)) Vai escreve Mensagem,<br> a variável e adicionar X espaços em branco a
+    direita dela, onde X=nome - 20 print('Mensagem {:>10}!' .format<br>(variavel))
+    Vai escreve Mensagem, a variável e adicionar X espaços em branco<br> a esquerda dela, onde X = nome - 10
+
+    print('Mensagem {:^20}!' .format(variavel))
+    Vai centrarlizar a imagem em 20 espaços
+
+    print('Mensagem {:=^20}!' .format(variavel))
+    Vai centrarlizar a imagem em 20 espaços e em voltar vai colocar =
+
+    print('Mensagem {} e {} mensagem {}' .format(var1, var2, var3))
+    Vai formatar as variáveis e depois mostrar elas na tela
+
+    print('Mensagem {} e {:.3F} mensagem {}' .format(var1, var2, <br>var3))
+    Vai mostrar na tela : Mensagem var1 e var2(com 3 casas a direita<br> da vírgula) e mensagem var3
+
+    print('Mensagem {}, \n {} e \n{}' . format(var1, var2, var3), <br>end=' ')
+    Vai mostrar a Mensagem + var1, depois vai pular linha e mostrar<br> var2 e pular linhar e mostrar var3, porém a
+    frase de baixo vai continuar após 1 espaço de distância
+
+    print('Mensagem {} e {:.3F}' .format(var1, var2), end = ' >>> ')
+    Vai mostrar na tela : Mensagem var 1 var2 ( com 3 casas após a<br> vírgula ) e após isso vai colocar >>> e a frase
+    de baixo vai aparecer
+
+    print('Mensagem {0} e {1} mensagem {2}'.format(var1, var2, var3))
+    Vai formatar as variáveis e depois mostrar elas na tela
+
+    print('Mensagem ', variável) = Vai mostrar na tela uma mensagem<br> junto com a variável
+
+    print('Mensagem', variável, 'Mensagem') = Vai mostrar na tela<br> uma mensagem, depois o que está guardado na
+    variável e por fim vai mostrar outra mensagem
+
+    print(type(variável)) = vai mostrar na tela o tipo primitivo da<br> variável
+
+    print('mensagem' * 20 )
+    Vai pegar o conteúdo da variável e repetir 20x
+
+    print( variável + 'Mensagem')
+    Vai pegar o conteúdo da variável e concatenar com a Mensagem
+
+    print( variável * 5 )
+    Vai pegar o conteúdo da variável e repetir 5x
+
+    print(variável.isalnum())
+    Vai mostrar na tela se o conteúdo da variável é um Número ou não,<br> se for é True, senão é False
+    Ex: 0, danzinho,
+
+    print(variável.isalpha())
+    Vai mostrar na tela se o conteúdo da variável é AlfaBético ou<br> não, se for é True, senão é False
+    Ex: Daniel, danzinho,
+
+    print(variável.isnum())
+    Vai mostrar na tela se o conteúdo da variável é AlfaNumérico ou<br> não, se for é True, senão é False
+    Alfanumérico é quando retornar True em alguns desses : isalpha(),<br> isdecimal(), isdigit ou isnumeric()
+    Ex: danzinho, danzinho007,
+
+    print(variável.isupper())
+    Vai mostrar na tela se o conteúdo da variável está em Maiúsculas<br> ou não, se for é True, senão é False
+
+    print(variável.isascii())
+    Vai mostrar na tela se o conteúdo da variável está no Formato<br> ASCII ou não, se for é True, senão é False
+    Ex: Números, danzinho, danzinho007, danzinho 007,
+
+    print(variável.isspace())
+    Vai mostrar na tela se o conteúdo da variável só tem espaços ou<br> não, se for é True, senão é False
+    Ex :
+
+    print(variável.isdecimal())
+    Vai mostrar na tela se o conteúdo da variável é Decimal ou<br> não, se for é True, senão é False
+    Ex: 0,
+
+    print(variável.isprintable())
+    Vai mostrar na tela se o conteúdo da variável é Imprimível ou<br> não, se for é True, senão é False
+    Ex: Números, danzinho, danzinh007,
+
+    print(variável.isidentifier())
+    Vai mostrar na tela se o conteúdo da variável é Identificador<br> Válido ou não, se for é True, senão é False
+    Ex: Daniel 007, danzinho, danzinho007,
+
+    print(variável.isdigit())
+    Vai mostrar na tela se o conteúdo da variável é Digíto ou não,<br> se for é True, senão é False
+    Ex: 0, danzinho 007,
+
+    print(variável.islower())
+    Vai mostrar na tela se o conteúdo da variável está em minúsculas<br> ou não, se for é True, senão é False
+    Ex: danzinho, danzinho007, danzinho 007,
+
+    print(variável.istitle())
+    Vai mostrar na tela se o conteúdo da variável está capitalizada<br> ou não, se for é True, senão é False
+
+    v
+    Variável = input('Mensagem')
+    Esse comando vai mostrar uma mensagem que na qual o usuário<br> precisa responder(Ex : Pergunta) e guardar ela na
+    variável
+
+    variável = bool(input('Mensagem'))
+    Esse comando vai mostrar uma mensagem que na qual o usuário<br> precisa responder (Ex : Pergunta), vai guardar na
+    variável e depois converter pra boleano(True ou False)
+
+    variável = float(input('Mensagem'))
+    Esse comando vai mostrar uma mensagem que na qual o usuário<br> precisa responder (Ex : Pergunta), vai guardar na
+    variável e depois converter pra float(número real)
+
+    Variável = int(input(('Mensagem')) = Esse comando vai mostrar<br> uma mensagem que na qual o usuário precisa
+    responder (Ex : Pergunta), vai guardar na variável e depois<br> converter pra int (número inteiro)
+
+    variável = str(input('Mensagem'))
+    Esse comando vai mostrar uma mensagem que na qual o usuário<br> precisa responder (Ex : Pergunta), vai guardar na
+    variável e depois converter pra string(palavra)
+
+    <strong>3-Tipos Primitivos :</strong>
+
+        Int = Números Inteiros ( -4,0,9,etc)
+        Float / Número Flutuante = Números Reais (-3.5, 5.75,etc)
+        Bool = Boela (True ou False)
+        Str = String('Olá', '7', '7.0',etc)
+
+    <strong>Testando outros tipos :</strong>
+
+        n7 = input('Digite algo para verificação : ')
+        # Digitando 0 para o número
+
+        print('O tipo primitivo do valor ', n7 , 'é', type(n7))
+
+        <strong>print('O número é um número ?', n7.isnumeric())</strong>
+        # 0 é número ? Sim, logo True
+        # Retorna True se todos os caracteres da string forem<br> numéricos e houver pelo menos um caractere . Os caracteres<br> numéricos incluem caracteres de dígitos e todos os caracteres que<br> possuem a propriedade de valor numérico Unicode, por exemplo, <br>U+2155, FRAÇÃO VULGAR UM QUINTO. 
+
+        <strong>print('O número é alfabético ?', n7.isalpha())</strong>
+        # 0 é letra ? Não, logo False
+        # Retorna True se todos os caracteres da string forem<br> alfabéticos e houver pelo menos um caractere. Os caracteres<br> alfabéticos são aqueles definidos no banco de dados de caracteres<br> Unicode como “Letter”
+
+        <strong>print('O número é um alfanumérico ?',n7.isalnum())</strong>
+        # 0 é número ? Sim, logo True
+        # Um caractere é alfa numérico se um dos seguintes retornar<br> True: 
+        # c.isalpha(), c.isdecimal(), c.isdigit() ou c.isnumeric()
+
+        <strong>print('Está em letra maiúscula ?', n7.isupper())</strong>
+        #Retorne True se todos os caracteres 4 em maiúsculas na<br> string forem maiúsculos e houver pelo menos um caractere em maiúsculas
+
+        <strong>print('O conteúdo', n7, 'tem formato ASCII ?', n7.isascii())</strong>
+        # Retorna True se a string estiver vazia ou todos os<br> caracteres na string forem ASCII, Falsecaso contrário. Os caracteres<br> ASCII têm pontos de código no intervalo U+0000-U+007F.
+
+        <strong>print('O conteúdo', n7, 'tem espaço em branco na string e um<br> caractere ?', n7.isspace())</strong>
+        # Retorna True se houver apenas caracteres de espaço em<br> branco na string e houver pelo menos um caractere
+
+        <strong>print('O conteúdo0', n7, 'é decimal ?', n7.isdecimal())</strong>
+        # Retorna True se todos os caracteres da string forem<br> decimais e houver pelo menos um caractere.
+
+        <strong>print('O conteúdo0', n7, 'é imprimível ?', n7.isprintable())</strong>
+        # Retorna True se todos os caracteres na string são<br> imprimíveis ou a string está vazia .
+
+        <strong>print('O conteúdo0', n7, 'é um identificado válido ?', <br>n7.isidentifier())</strong>
+        # Retorna True se a string for um identificador válido de<br> acordo com a definição da linguagem, seção Identificadores e<br> palavras-chave .
+
+        <strong>print('O conteúdo0', n7, 'é um dígito ?', <br>n7.isdigit())</strong>
+        # Retorna True se todos os caracteres da string forem<br> dígitos e houver pelo menos um caractere
+
+        <strong>print('O conteúdo0', n7, 'apresenta 4 caracteres em maiúscula<br> e 1 em minúscula ?', n7.islower())</strong>
+        # Retorna True se todos os caracteres 4 em maiúsculas na<br> string forem minúsculos e houver pelo menos um caractere em<br> maiúsculas
+
+        <strong>print('O conteúdo0', n7, 'é uma string com título em<br> maiúscula e tem pelos menos 1 caractere ?', n7.istitle())</strong>
+        # Retorne True se a string for uma string com título em<br> maiúsculas e houver pelo menos um caractere, por exemplo, caracteres<br> maiúsculos só podem seguir caracteres não maiúsculos e caracteres<br> minúsculos somente os maiúsculos. 
+        
+    # ver aqui 
+    # https://docs.python.org/3/library/stdtypes.html#string-methods
+
+    <strong>4-Operadores Aritméticos :</strong>
+
+        Ex : 5 e 2
+        5 |2
+        1 |2.5
+        10|
+        0|
+
+        Dividendo 5
+        Divisor 2
+        Quociente 2
+        Resto 1
+
+        Adição : + > 5 + 2 == 7
+        Subtração : - > 5 -2 == 5
+        Multiplicação : * > 5 * 2 = 10
+        Divisão : / > 5 / 2 == 2.5
+        Potência : ** > 5 ** 2 = 25
+        Divisão Inteira : // > 5 // 2 = 2
+        Resto da Divisão : % > 5 % 2 = 1
+
+    <strong>5-Ordem de Precedência :</strong>
+
+        1-Parênteses : ()
+        2-Potência : **
+        Quando se usa a função interna "pow(x,y)", onde y é a<br> potência, se perde a ordem de Procedência
+        Pra calcular a raiz de um número basta dividir ele por 1/2
+        Exemplo : 81**(1/2) = Raiz de 81 = V 81
+        Resultado : 9
+        27**(1/3) = Raiz Cúbica de 7
+        3
+        3-O que vier primeiro !!!
+        Multiplicação : *
+        Divisão : /
+        Divisão Inteira : //
+        Resto da Divisão : %
+        4-O que vier primeiro !!!
+        Adição : +
+        Subtração : -
+
+    <strong>6-Funções matemáticas :</strong>
+
+        from math import *função*
+
+        ceil = OK
+        fabs = OK
+        frexp = OK
+        acos = erro
+        acosh = Retorna o inverso da hiperbólica cosseno x
+        asin = erro
+        asinh = Retorna o inverso da hiberbólica seno x
+        atan = Retorna o Arco Tangente ( em radiano ) de x
+        atan2 = Erro
+        atanh = Erro
+        cbrt = Retorna o Cubo Root de x
+        comb = Erro
+        copysign = Erro
+        cos = Retorna o Cosseno de x
+
+        import math
+        print("Digite um número e irei informar a sua parte inteira")
+        n1 = float(input('Digite um númer : '))
+
+        teste1 = math.ceil(n1)
+        #ceil vai retornar o valor inteiro, caso tenha virgula ele<br> irá somar +1
+        print('O valor ceil é {}' .format(teste1))
+
+        teste2 = math.fabs(n1)
+        #fabs vai retornar o valor absoluto, ou seja vai deixar<br> positivo o número caso ele seja negativo
+        print('O valor fabs é {}' .format(teste2))
+
+        teste3 = math.frexp(n1)
+        #frexp vai retornar a mantissa ( parte decimal de um<br> logaritmo ) e o expoente de como par
+        #Mantissa é a parte decimal de um número, é um número entre<br> 0,5 e 1
+        # A mantissa é um número entre 0,5 e 1 (inclusive) que<br> representa a parte fracionária do número original, enquanto o<br> expoente é o deslocamento do ponto decimal para a direita ou para<br> a esquerda que é necessário para obter o número original a partir<br> da mantissa.
+        # Por exemplo, math.frexp(10) retornaria (0.625, 4), <br>indicando que 10 é equivalente a 0.625 * 2^4 > 0.625 * 16 > 10
+        #Outro exemplo : frexp de 100 é ( 0,78125, 7 ), ou seja 2 elevado a 7
+        #   2 x 2 = 4 ( 2 )
+        #       4 x 2 = 8 ( 3 )
+        #           8 x 2 = 16 ( 4 )
+        #               16 x 2 = 32 ( 5 )
+        #                   32 x 2 = 64 ( 6)
+        #                       64 x 2 = 128 ( 7 )
+        # 0,78125 * 128 = 100
+        print('O valor frexp é {}' .format(teste3))
+        # https://docs.python.org/pt-br/3/library/math.html#number-theoretic-and-representation-functions
+        # https://www.w3schools.com/python/ref_math_frexp.asp
+        # https://acervolima.com/python-funcao-frexp/
+        # https://www.youtube.com/watch?v=PYftCrnrSOg
+        # https://www.youtube.com/watch?v=QRJUac1ZfWs
+
+        #teste4 = math.acos(n1)
+        #Retorna o arco cosseno de x, em radianos. O resultado está entre 0 e pi.
+        #Pra funcionar precisa estar entre -1 e 1
+        #print('O valor é {}' .format(teste4))
+
+        #teste5 = math.acosh(n1)
+        #Retorna o cosseno hiperbólico inverso de x.
+        #Pra funcionar precisa >= 1
+        #print('O valor acosh é {}' .format(teste5))
+
+        #teste6 = math.asin(n1)
+        #Retorna o arco seno de x, em radianos. O resultado está entre -pi/2 e pi/2.
+        #Pra funcionar precisa estar entre -1 e 1
+        # print('O valor é {}' .format(n1))
+
+        teste7 = math.asinh(n1)
+        #Retorna o seno hiperbólico inverso de x.
+        #A função seno hiperbólico inverso (asinh) é uma função matemática que retorna o seno hiperbólico inverso de um número. Ela é definida como a função logarítmica com base no logaritmo natural (ln), de tal forma que: asinh (x) = ln (x + sqrt (x^2 + 1))
+        print('O valor asinh é {}' .format(teste7))
+
+        teste8 = math.atan(n1)
+        #Retorna o arco tangente de x, em radianos. O resultado está entre -pi/2 e pi/2.
+        print('O valor atan é {}' .format(teste8))
+
+        #teste9 = math.atan2(n1)
+        #Retorna atan(y / x), em radianos. O resultado está entre -pi e pi. O vetor no plano da origem ao ponto (x, y) faz este ângulo com o eixo X positivo. O ponto de atan2() é que os sinais de ambas as entradas são conhecidos por ele, então ele pode calcular o quadrante correto para o ângulo. Por exemplo, atan(1) e atan2(1, 1) são ambos pi/4, mas atan2(-1, -1) é -3*pi/4.
+        # 27 = Retorna erro
+        #print('O valor é {}' .format(teste9))
+
+        # teste10 = math.atanh(n1)
+        #Retorna a tangente hiperbólica inversa de x.
+        # 27 = Retorna erro
+        # print('O valor é {}' .format(teste10))
+
+        teste11 = math.cbrt(n1)
+        #Retorna a raiz cúbica de x.
+        print('O valor cbrt é {}' .format(teste11))
+
+        #teste12 = math.comb(n1)
+        #comb(n, k)
+        #Retorna o número de maneiras de escolher k itens de n itens sem repetição e sem ordem.
+        #print('O valor é {}' .format(teste12))
+
+        #teste13 = math.copysign(n1)
+        #copysign(x, y)
+        #Retorna um ponto flutuante com a magnitude (valor absoluto) de x, mas o sinal de y. Em plataformas que suportam zeros sem sinal, copysign(1.0, -0.0) retorna -1.0.
+        #print('O valor é {}' .format(teste13))
+
+        teste14 = math.cos(n1)
+        #Retorna o cosseno de x radianos.
+        print('O valor de cos é {:.2f}' .format(teste14))
+
+        #teste16 = math.factorial(n1)
+        #Retorna o fatorial de n como um inteiro. Levanta ValueError se n não for um inteiro ou for negativo.
+        # 27 = Retorna Erro
+        #print('O valor é {}' .format(teste16))
+
+        teste17 = math.floor(n1)
+        #Retorna o limite mínimo de x, o maior inteiro menor ou igual a x. Se x não é um ponto flutuante, delega para x.__floor__, cujo qual deve retornar um valpr dp tipo Integral
+        print('O valor floor / parte inteira é {}' .format(teste17))
+
+        #teste18 = math.fsum(n1)
+        #fsum(iterable)
+        #Retorna uma soma de valores de ponto flutuante precisa no iterável. Evita perda de precisão rastreando várias somas parciais intermediárias:
+        #print('O valor é {}' .format(teste18))
+
+        #teste19= math.gcd(n1)
+        #gcd(*integers)
+        #Retorna o maior divisor comum dos argumentos inteiros especificados. Se algum dos argumentos for diferente de zero, o valor retornado será o maior inteiro positivo que é um divisor de todos os argumentos. Se todos os argumentos forem zero, o valor retornado será 0. gcd() sem argumentos retorna 0.
+        #print('O valor é {}' .format(teste19))
+
+        #teste20 = math.infinite(n1)
+        #Retorna True se x não for um infinito nem um NaN, e False caso contrário. (Observe que 0.0 é considerado finito.)
+        #print('O valor é {}' .format(teste20))
+
+        teste21 = math.isinf(n1)
+        #Retorna True se x for um infinito positivo ou negativo, e False caso contrário.
+        print('O valor isinf é {}' .format(teste21))
+
+        # teste23 = math.isqrt(n1)
+        #Retorna a raiz quadrada inteira do inteiro não negativo n. Este é o piso da raiz quadrada exata de n, ou equivalentemente o maior inteiro a tal que a² ≤ n.
+        # Não está funcionando, pois o número n1 está sendo convertido como flutuante
+        # print('O valor é {}' .format(teste23))
+
+        teste24 = math.modf(n1)
+        #Retorna as partes fracionárias e inteiras de x. Ambos os resultados carregam o sinal de x e são pontos flutuantes.
+        print('O valor modf é {}' .format(teste24))
+
+        teste25 = math.trunc(n1)
+        #Retorna x com a parte fracionária removida, deixando a parte inteira. Isso arredonda para 0: trunc() é equivalente a floor() para x positivos, e equivalentes a ceil() para x negativos. Se x não é um ponto flutuante, então delega para x.__trunc__, cujo qual deve retornar um valor do tipo Integral.
+        print('O valor trunc é {}' .format(teste25))
+
+        teste26 = math.ulp(n1)
+        #Retorna o valor do bit menos significativo do ponto flutuante x:
+        #Se x for um NaN (não um número), retorna x.
+        #Se x for negativo, retorna ulp(-x).
+        #Se x for um infinito positivo, retorna x.
+        #Se x for igual a zero, retorna o menor valor flutuante positivo desnormalizado representável (menor que o ponto flutuante de valor mínimo positivo normalizado, sys.float_info.min).
+        #Se x for igual ao maior ponto flutuante positivo representável, retorna o valor do bit menos significativo de x, tal que o primeiro ponto flutuante menor que x seja x - ulp(x).
+        #Caso contrário (x é um número finito positivo), retorna o valor do bit menos significativo de x, de modo que o primeiro ponto flutuante maior que x seja x + ulp(x).
+        print('O valor ulp é {}' .format(teste26))
+
+        teste28 = math.exp(n1)
+        #Retorna e elevado à potência x, onde e = 2.718281… é a base dos logaritmos naturais. Isso geralmente é mais preciso do que math.e ** x ou pow(math.e, x).
+        print('O valor exp é {}' .format(teste28))
+
+        teste29 = math.exp2(n1)
+        #Retorna 2 elevado a x
+        print('O valor exp 2 / 2 elevado ao número é igual a {}' .format(teste29))
+
+        teste30 = math.expm1(n1)
+        #Retorna e elevado à potência x, menos 1. Aqui e é a base dos logaritmos naturais. Para pequenos pontos flutuantes x, a subtração em exp(x) - 1 pode resultar em uma perda significativa de precisão; a função expm1() fornece uma maneira de calcular essa quantidade com precisão total:
+        print('O valor expm1 é {}' .format(teste30))
+
+        #teste31 = math.log1p(n1)
+        #Retorna o logaritmo natural de 1+x (base e). O resultado é calculado de forma precisa para x próximo a zero.
+        #Quando x <= -1, o argumento da função log1p é negativo, o que resulta em uma exceção "math domain error". Portanto, é importante garantir que o valor de x seja maior que -1 antes de aplicar a função log1p.
+        #print('O valor é {}' .format(teste31))
+
+        #teste32 = math.log2(n1)
+        #Retorna o logaritmo de base 2 de x. Isso geralmente é mais preciso do que log(x, 2).
+        ##Quando x <= -1, o argumento da função log1p é negativo, o que resulta em uma exceção "math domain error". Portanto, é importante garantir que o valor de x seja maior que -1 antes de aplicar a função log1p.
+        #print('O valor é {}' .format(teste32))
+
+        #teste33 = math.log10(n1)
+        #Retorna o logaritmo de base 10 de x. Isso geralmente é mais preciso do que log(x, 10).
+        ##Quando x <= -1, o argumento da função log1p é negativo, o que resulta em uma exceção "math domain error". Portanto, é importante garantir que o valor de x seja maior que -1 antes de aplicar a função log1p.
+        #print('O valor é {}' .format(teste33))
+
+        #teste34 = math.sqrt(n1)
+        #Retorna a raiz quadrada de x.
+        ##Quando x <= -1, o argumento da função log1p é negativo, o que resulta em uma exceção "math domain error". Portanto, é importante garantir que o valor de x seja maior que -1 antes de aplicar a função log1p.
+        #print('O valor é {}' .format(teste34))
+
+        #teste35 = math.acos(n1)
+        #Retorna o arco cosseno de x, em radianos. O resultado está entre 0 e pi.
+        # 27 = Retorna erro
+        #print('O valor é {}' .format(teste35))
+
+        #teste36 = math.asin(n1)
+        #Retorna o arco seno de x, em radianos. O resultado está entre -pi/2 e pi/2.
+        #print('O valor é {}' .format(teste36))
+
+        teste39 = math.sin(n1)
+        #Retorna o seno de x radianos.
+        print('O valor é {}' .format(teste39))
+
+        teste40 = math.tan(n1)
+        #Retorna o tangente de x radianos.
+        print('O valor da tangente em radianos é {}' .format(teste40))
+
+        teste41 = math.degrees(n1)
+        #Converte o ângulo x de radianos para graus.
+        print('O valor é {}' .format(teste41))
+
+        teste42 = math.radians(n1)
+        #Converte o ângulo x de graus para radianos.
+        print('O valor é {}' .format(teste42))
+
+        #teste43 = math.acosh(n1)
+        #A função cosseno hiperbólico inverso (acosh) é uma função matemática que retorna o arco cosseno hiperbólico inverso de um número. É definida como: acosh(x) = ln(x + sqrt(x^2 - 1)), onde sqrt é a raiz quadrada.
+        #Note que o argumento da função acosh deve ser maior ou igual a 1, caso contrário a função não está definida para esse valor.
+        #print('O valor é {}' .format(teste43))
+
+        teste44 = math.asinh(n1)
+        #A função seno hiperbólico inverso (asinh) é uma função matemática que retorna o arco seno hiperbólico inverso de um número. É definida como: asinh(x) = ln(x + sqrt(x^2 + 1)), onde sqrt é a raiz quadrada. A função asinh é útil em muitas aplicações, incluindo geometria, física e cálculo. O intervalo de valores para x na função asinh é todo o conjunto de números reais. Portanto, x pode ser qualquer número real, positivo ou negativo, incluindo 0.
+        print('O valor é {}' .format(teste44))
+
+        #teste45 = math.atanh(n1)
+        #Retorna a tangente hiperbólica inversa de x.
+        # Pra funcionar precisa ser um valor entre -1 e 1 
+        # Exemplo : 0.5 , -0.5
+        #print('O valor é {}' .format(teste45))
+
+        teste47 = math.sinh(n1)
+        #Retorna o seno hiperbólico de x.
+        print('O valor seno é {:.2f}' .format(teste47))
+
+        teste48 = math.tanh(n1)
+        #Retorna a tangente hiperbólica de x.
+        print('O valor é {}' .format(teste48))
+
+        teste49 = math.erf(n1)
+        #Retorna a função erro em x.
+        print('O valor é {}' .format(teste49))
+
+        teste50 = math.erfc(n1)
+        #Retorna a função erro complementar em x. A função erro complementar é definida como 1.0 - erf(x). É usado para grandes valores de x onde uma subtração de um causaria uma perda de significância.
+        print('O valor é {}' .format(teste50))
+
+        #teste51 = math.gamma(n1)
+        #A função gama (γ) é uma função matemática que representa a função gama completa. Ela é utilizada em muitas áreas, incluindo probabilidade, estatística e cálculo numérico. A função gama é definida como: Γ(x) = (x-1)! para x inteiro positivo, onde ! representa o fatorial. Para valores de x que não são inteiros positivos, a função gama é definida como a solução para a integral de t^(x-1)e^-t dt de 0 a infinito. O intervalo de valores para x na função gama é todo o conjunto de números reais positivos.
+        #Retorna a função gama em x.
+        #print('O valor é {}' .format(teste51))
+
+        #teste52 = math.lgamma(n1)
+        #Retorna o logaritmo natural do valor absoluto da função gama em x.
+        #A função logaritmo gama (lgamma) é uma função matemática que retorna o logaritmo natural (ln) da função gama (γ). É definido como: lgamma(x) = ln(Γ(x)). A função lgamma é útil em muitas aplicações, incluindo probabilidade, estatística e cálculo numérico, pois evita problemas de precisão numérica que podem ocorrer ao calcular diretamente o logaritmo de números muito grandes. O intervalo de valores para x na função lgamma é todo o conjunto de números reais positivos.
+        #print('O valor é {}' .format(teste52))
+        
+
+        </pre>
+    </div>
+</body>
+
+</html>

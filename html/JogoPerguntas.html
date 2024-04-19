@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="JogoPerguntas.css">
+    <script>
+        var d = new Date();
+        var dia = d.getDate().toString().padStart(2, '0');
+        var mes = (d.getMonth() + 1).toString().padStart(2, '0');
+        var ano = d.getFullYear();
+        var dataFormatada = dia + "/" + mes + "/" + ano;
+        document.write("Olá Visitante, hoje é dia " + dataFormatada + " " + d.toLocaleDateString('pt-BR', {weekday: 'long'}));
+    </script>
+</head>
+
+<body>
+    <ul>
+		<li><a href="index.html" rel="prev">Voltar</a></li>
+	</ul>
+    <h2>Perguntas</h2>
+    <main>
+        <div class="content">
+            <span class="spnQtd"></span>
+            <span class="question"></span>
+            <div class="answers"></div>
+        </div>
+        <div class="finish">
+        <span></span>
+        <button>Reiniciar</button>
+        </div>
+    </main>
+    <script src="JogoPerguntas01.js" type="module"></script>
+</body>
+</html>
