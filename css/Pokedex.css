@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+/* */
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  min-height: 100vh;
+}
+
+main {
+  display: inline-block; /* Fundo fica apenas na imagem */
+  margin-top: 2%;
+  padding: 15px; /* Pra não ficar colado nos lados */
+  position: relative; /* Os elementos absolutos respeitam as margens do main */
+}
+
+.pokedex {
+  width: 100%; /* 100% da tela */
+  max-width: 425px; /* Fixando a altura da pokedex */
+  margin-top: 30px;
+  display: flex;
+}
+
+.pokemon__image {
+  position: absolute;
+  bottom: 55%; /* Usando valores certo, 55% da altura da main */
+  left: 50%; /* Usando valores, 50% da larga da main */
+  transform: translate(-63%, 20%); /* Modificando a posição da imagem, -63% puxa pra esquerda e 0 puxa pra baixo */
+  height: 18%; /* Usando valores certos, definindo altura fixa */
+}
+
+.pokemon__data {
+  position: absolute;
+  font-weight: 600;
+  color: #aaa;
+  top: 54.5%;
+  right: 27%;
+  font-size: clamp(8px, 5vw, 25px);
+}
+
+.pokemon__name {
+  color: #3a444d;
+  text-transform: capitalize;
+}
+
+.form {
+  position: absolute;
+  width: 65%;
+  top: 65%;
+  left: 13.5%;
+}
+
+.input__search {
+  position: absolute;
+  width: 100%;
+  padding: 4%;
+  outline: none;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #3a444d;
+  font-size: clamp(8px, 5vw, 1rem);
+  box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
+  left: 0px;
+  top: 30px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  width: 65%;
+  transform: translate(-57%, 0);
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  width: 50%;
+  padding: 4%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  color: white;
+  background-color: #444;
+  box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+
+.button:active {
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 0.9rem;
+}
+
+.gif-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* Aumenta a margem superior para mover a div mais para baixo */
+}

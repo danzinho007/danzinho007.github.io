@@ -1,0 +1,20 @@
+@charset "UTF-8" ;
+
+body{
+    background: rgb(0, 0, 0)
+}
+#gameBox{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 50px #262626;
+    overflow: hidden;
+    border-radius: 10px;
+}
+h1 {
+    color: red;
+}
+p {
+    color: red;
+}
