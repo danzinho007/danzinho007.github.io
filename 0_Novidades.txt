@@ -2,4 +2,5 @@ MeuSite_Novidades
 
 1-Criado arquiv Novidades
 2-Futuramente irei atualizar
-3-
+3-Atualizando aos poucos
+4-
